@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BloodDonor</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
+
     <style>
         *{
             margin: 0;
@@ -17,6 +7,8 @@
         .navbar{
             background:#c91f1f !important;
             height: 100px;
+            z-index: 1000;
+            
         }
 
         .navbar-brand{
@@ -50,9 +42,9 @@
             cursor: pointer;
         }
     </style>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="#">
                 <img src="bloodlogo.png" width="50" class="me-2">
@@ -129,5 +121,4 @@
     </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+

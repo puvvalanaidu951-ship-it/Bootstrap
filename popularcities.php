@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
+
     <style>
         .card button {
             font-size: 0.7rem;
@@ -28,8 +18,7 @@
             color: rgb(188, 5, 5);
         }
     </style>
-</head>
-<body>
+
     <div class="d-flex flex-column align-items-center" >
         <h1><b>Popular Cities</b></h1>
         <p>Find blood donors in major cities across India</p>
@@ -169,5 +158,3 @@
             <i class="fa-solid fa-arrow-right-long"></i>
         </button>
     </div>
-</body>
-</html>

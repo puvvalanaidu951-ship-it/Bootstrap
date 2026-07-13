@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>working</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
     <style>
        .one{
         width: 80px;
@@ -23,8 +12,7 @@
        }
     
     </style>
-</head>
-<body>
+
     <div class="d-flex flex-column align-items-center mt-5" >
         <h1><b>How It Works</b></h1>
         <p>Simple steps to donate blood or find donors</p>
@@ -66,5 +54,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>
