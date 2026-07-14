@@ -22,13 +22,12 @@
             
         }
         body{
-           
             overflow-x: hidden;
         }
     </style>
 
 </head>
-<body>
+<body class="bg-danger">
     <?php include "nav.php"; ?>
     <?php include "hero.php"; ?>
     <?php include "popularcities.php"; ?>

@@ -1,10 +1,10 @@
 
     <style>
         body{
-            background-color: rgb(230, 238, 253);
+            background-color: rgb(25, 92, 217);
         }
-        span{
-            color:rgb(131, 133, 133); 
+        .heroo{
+            color:rgb(133, 132, 131); 
         }
         body{
         background-color: #991b1b;
@@ -95,7 +95,7 @@
             <div class="col-lg-6">
                 <div class="hero-content">
                     <h1 class="hero-title text-white mb-4">
-                        Be a <span class="text-warning">Hero</span><br>
+                        Be a <span class="text-warning heroo">Hero</span><br>
                         <span style="color: #ffcdd2;">Donate Blood</span><br>
                         Save Lives
                     </h1>

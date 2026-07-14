@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
+     <style>
+        body{
+            background:#f5f5f5;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .story-card{
+            border-radius:20px;
+            padding:20px;
+            box-shadow:0 3px 12px rgba(0,0,0,.08);
+            transition:.1s;
+            height:100%;
+        }
+        .story-card:hover{
+            transform:translateY(-5px);
+            box-shadow:0 8px 20px rgba(0,0,0,.15);
+        }
+        .avatar{
+            width:60px;
+            height:60px;
+            border-radius:50%;
+            background:#e91e24;
+            color:#fff;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:24px;
+            font-weight:bold;
+        }
+        .name{
+            font-size:1.35rem;
+            font-weight:600;
+            color:#203864;
+            margin-bottom:2px;
+        }
+        .location{
+            color:#666;
+            font-size:16px;
+        }
+        .blood-group{
+            display:inline-block;
+            background:#e63946;
+            color:#fff;
+            font-size:12px;
+            padding:2px 8px;
+            border-radius:5px;
+            font-weight:600;
+        }
+        .review{
+            font-size:18px;
+            color:#2b2b2b;
+            line-height:1.8;
+            margin:25px 0;
+        }
+        .stars{
+            color:#d5f313;
+            font-size:24px;
+        }
+        
+
+.cta-section{
+    background:#dc3545;
+    color:#fff;
+    padding:60px 0;
+}
+
+.cta-title{
+    font-size:48px;
+    font-weight:700;
+}
+
+.cta-text{
+    font-size:24px;
+    margin-top:15px;
+    line-height:1.6;
+}
+
+.btn-donor{
+    background:#ffc107;
+    color:#000;
+    font-weight:600;
+    border-radius:50px;
+    padding:18px 40px;
+    font-size:24px;
+}
+
+.btn-donor:hover{
+    background:#ffca2c;
+}
+
+.btn-request{
+    border:2px solid #fff;
+    color:#fff;
+    border-radius:50px;
+    padding:18px 40px;
+    font-size:24px;
+    font-weight:600;
+}
+
+.btn-request:hover{
+    background:#fff;
+    color:#dc3545;
+}
+
+.bottom-bar{
+    background:#ffc107;
+    padding:35px 0;
+}
+
+.phone-icon{
+    color:#dc3545;
+    font-size:60px;
+}
+
+.emergency-title{
+    font-size:36px;
+    font-weight:700;
+}
+
+.emergency-text{
+    font-size:24px;
+}
+
+.call-btn{
+    background:#dc3545;
+    color:#fff;
+    border-radius:50px;
+    padding:18px 40px;
+    font-size:24px;
+    font-weight:600;
+}
+
+.call-btn:hover{
+    background:#bb2d3b;
+    color:#fff;
+}
+
+@media(max-width:768px){
+
+    .cta-title{
+        font-size:34px;
+    }
+
+    .cta-text{
+        font-size:18px;
+    }
+
+    .btn-donor,
+    .btn-request,
+    .call-btn{
+        width:100%;
+        margin-bottom:15px;
+        font-size:20px;
+    }
+
+    .emergency-title{
+        font-size:28px;
+    }
+
+    .emergency-text{
+        font-size:18px;
+    }
+
+    .phone-icon{
+        font-size:45px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="flex justify-center">
+        <h1 class="text-center">Success story</h1>
+
+    <div class="container py-5">
+
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+            <div class="card story-card">
+                <div class="d-flex align-items-center">
+                    <div class="avatar">P</div>
+                    <div class="ms-3">
+                        <div class="name">yajnesh</div>
+                        <div class="location">bobbili<span class="blood-group">B+</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="review">
+                    "Found a donor within 2 hours for my father's emergency surgery.BloodDonor.in saved his life!"
+                </p>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card story-card">
+                <div class="d-flex align-items-center">
+                    <div class="avatar">R</div>
+                    <div class="ms-3">
+                        <div class="name">ajay kumar</div>
+                        <div class="location">srikakulam<span class="blood-group">O-</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="review">
+                    "Being a regular donor through this platform gives me immense satisfaction. Easy to use and very reliable."
+                </p>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card story-card">
+                <div class="d-flex align-items-center">
+                    <div class="avatar">D</div>
+                    <div class="ms-3">
+                        <div class="name">lokesh</div>
+                        <div class="location">tekkali<span class="blood-group">A+</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="review">
+                    "As a doctor, I recommend BloodDonor.in to all my patients.The verification process ensures safety."
+                </p>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="cta-section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-8">
+                <h1 class="cta-title">Ready to Save Lives?</h1>
+
+                <p class="cta-text">
+                    Join thousands of donors who are making a difference every day.
+                    Your donation can save up to three lives!
+                </p>
+            </div>
+
+            <div class="col-lg-4 text-center text-lg-end mt-4 mt-lg-0">
+
+                <a href="#" class="btn btn-donor mb-3">
+                    <i class="bi bi-heart"></i>
+                    Become a Donor
+                </a>
+
+                <br>
+
+                <a href="#" class="btn btn-request">
+                    <i class="bi bi-plus-circle"></i>
+                    Request Blood
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="bottom-bar">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 d-flex align-items-center">
+                <i class="bi bi-telephone-fill phone-icon me-4"></i>
+                <div>
+                    <h2 class="emergency-title">Emergency Blood Needed?</h2>
+                    <p class="emergency-text mb-0">Call our 24/7 helpline for immediate assistance </p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end mt-4 mt-lg-0">
+                <a href="tel:+911234567890" class="btn call-btn">
+                    <i class="bi bi-telephone"></i> Call Now: +91 12345 67890 </a>
+            </div>
+        </div>
+    </div>
+</section>

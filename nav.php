@@ -41,6 +41,7 @@
         i{
             cursor: pointer;
         }
+        
     </style>
 
 
