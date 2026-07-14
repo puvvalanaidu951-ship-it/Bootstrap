@@ -89,7 +89,7 @@
 }
     </style>
     
-<section class="hero-section position-relative">
+    <section class="hero-section position-relative">
     <div class="container">
         <div class="row align-items-center min-vh-75">
             <div class="col-lg-6">
