@@ -39,9 +39,8 @@
             margin-top: -10px;
         }
     </style>
-</head>
-<body>
-    <div class="bg-danger lgnn">
+<?php include "nav.php"; ?>
+    <div class="bg-danger lgnn" style="margin-top:100px;">
         <div class="container  ">
             <div class=" row row-gap-3 pt-5 pb-5">
                 <div class=" col-6 bg-danger d-flex flex-column justify-content-center align-items-start gap-3">
@@ -143,5 +142,4 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+<?php include "footer.php"; ?>

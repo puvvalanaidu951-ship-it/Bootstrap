@@ -27,8 +27,8 @@
             color: rgb(207, 23, 23);
         }
 </style>
-</head>
-<body>
+
+     <?php include "nav.php"; ?>
     <div class="row w-100 " style="margin-top: 80px;background-color: rgb(208, 31, 31);">
         <div class="col-sm-2   w-50 text-white" style="padding: 80px; ">
            <div class="row p-1">
@@ -142,6 +142,4 @@
     </div>
 
    </div>
-    
-</body>
-</html>
+    <?php include "footer.php"; ?>
