@@ -11,6 +11,7 @@
     <style>
         .aboutcont{
             background-color: rgb(195, 13, 13) !important;
+            margin-top: 100px;
         }
         .abh1{
             font-size: 3.2rem;
@@ -134,7 +135,8 @@
 </style>
 </head>
 <body>
-    <div class="aboutcont">
+    <?php include "nav.php"; ?>
+    <div class="aboutcont " >
         <div class="container pt-5 pb-5">
             <div class="d-flex flex-row ">
                 <div class="col-6 d-flex flex-column justify-content-center align-items-start">
@@ -311,6 +313,7 @@
         <h1>Meet Our Team</h1>
         <p>Passionate professionals dedicated to saving lives</p>
     </div>
+    <?php include "footer.php"; ?>
 </body>
 </html>
 

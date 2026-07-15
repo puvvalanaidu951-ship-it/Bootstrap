@@ -9,6 +9,7 @@
     <title>Emergency Page</title>
 </head>
 <body>
+    <?php include "nav.php"; ?>
     <div class="container-fluid bg-dark text-white py-3 px-3 ">
         <div class="d-flex justify-content-evenly align-items-center">
             <span>
@@ -202,5 +203,6 @@
 
         </div>
        </div>
+       <?php include "footer.php"; ?>
 </body>
 </html>
