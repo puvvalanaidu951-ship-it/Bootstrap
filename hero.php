@@ -1,15 +1,15 @@
 
     <style>
-        body{
+        /* body{
             background-color: rgb(25, 92, 217);
-        }
+        } */
         .heroo{
             color:rgb(133, 132, 131); 
         }
-        body{
+        /* body{
         background-color: #991b1b;
          background: url('https://blooddonor.in/assets/images/hero-blood-donation.svg') no-repeat center center;
-       }
+       } */
     .hero-section {
     
     background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
@@ -35,7 +35,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    pointer-events: none;
+    pointer-events: none; 
     overflow: hidden;
 }
 
@@ -89,7 +89,7 @@
 }
     </style>
     
-<section class="hero-section position-relative">
+    <section class="hero-section position-relative">
     <div class="container">
         <div class="row align-items-center min-vh-75">
             <div class="col-lg-6">

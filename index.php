@@ -23,14 +23,18 @@
         }
         body{
             overflow-x: hidden;
+            
+            
         }
     </style>
 
 </head>
-<body class="bg-danger">
+<body class="">
     <?php include "nav.php"; ?>
     <?php include "hero.php"; ?>
     <?php include "popularcities.php"; ?>
     <?php include "howitworks.php"; ?>
+    <?php include "story.php"; ?>
+    <?php include "footer.php"; ?>
 
-</body>
+</body> 

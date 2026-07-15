@@ -57,8 +57,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto align-items-center">
                     <li class="nav-item menu-item active-menu d-flex flex-column text-danger align-items-start">
+                        <a href="index.php" class="nav-link">
                         <i class="fa-regular fa-house text-white"></i>
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="index.php" class="nav-link">Home</a>
+                        </a>
                     </li>
                     <li class="nav-item text-warning p-1 rounded-2 d-flex flex-column">
                         <div>
@@ -106,10 +108,10 @@
                         Emergency
                     </a>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Login</a>
+                        <a class="nav-link text-white" href="login.php">Login</a>
                     </li>
 
-                    <a href="#" class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
+                    <a href="Register.php" class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
                         <i class="fa-regular fa-heart"></i>
                         <span><strong>Join</strong></span><br>
                         <strong>Now</strong>

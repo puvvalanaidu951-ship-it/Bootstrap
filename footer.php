@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <title>Footer blood doner</title>
     <style>
         footer{
             background:#1f2937;
@@ -38,8 +30,7 @@
             margin-right:12px;
         }
     </style>
-</head>
-<body>
+
 <footer class="pt-5">
     <div class="container">
         <div class="row gy-4">
@@ -50,28 +41,28 @@
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Quick Links</h4>
-                <a href="#">Home</a>
-                <a href="#">Find Donors</a>
-                <a href="#">States</a>
-                <a href="#">Cities</a>
-                <a href="#">Register</a>
-                <a href="#">Login</a>
+                <a href="index.php">Home</a>
+                <a href="index.php">Find Donors</a>
+                <a href="index.php">States</a>
+                <a href="index.php">Cities</a>
+                <a href="Register.php">Register</a>
+                <a href="login.php">Login</a>
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Blood Groups</h4>
-                <a href="#">A+</a>
-                <a href="#">B+</a>
-                <a href="#">O+</a>
-                <a href="#">AB+</a>
+                <a href="index.php">A+</a>
+                <a href="index.php">B+</a>
+                <a href="index.php">O+</a>
+                <a href="index.php">AB+</a>
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Support</h4>
-                <a href="#">About Us</a>
-                <a href="#">Blog</a>
-                <a href="#">Guides</a>
-                <a href="#">Contact</a>
-                <a href="#">Help</a>
-                <a href="#">Privacy</a>
+                <a href="index.php">About Us</a>
+                <a href="index.php">Blog</a>
+                <a href="index.php">Guides</a>
+                <a href="index.php">Contact</a>
+                <a href="index.php">Help</a>
+                <a href="index.php">Privacy</a>
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Connect</h4>
@@ -87,5 +78,3 @@
         <p class="text-center text-light py-2 mb-0 fs-5"> &copy; 2026 BloodDonor.in. All rights reserved.</p>
     </div>
 </footer>
-</body>
-</html>
