@@ -65,9 +65,9 @@
                     <li class="nav-item text-warning p-1 rounded-2 d-flex flex-column">
                         <div>
                             <i class="fa-solid fa-magnifying-glass"></i>
-                            <a href="" class="text-white text-decoration-none"><span>Find</span></a>
+                            <a href="findblood.php" class="text-white text-decoration-none"><span>Find</span></a>
                         </div>
-                        <a class="nav-link text-white" href="#" >Donors</a>
+                        <a class="nav-link text-white" href="findblood.php" >Donors</a>
                     </li>
                     <li class="nav-item  text-warning p-1 d-flex flex-column">
                         <div>
