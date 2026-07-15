@@ -41,11 +41,13 @@
         i{
             cursor: pointer;
         }
-        
+        .navv{
+            box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);   
+        }
     </style>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top navv">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="#">
                 <img src="bloodlogo.png" width="50" class="me-2">
