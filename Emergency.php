@@ -10,13 +10,9 @@
     <title>Emergency Page</title>
 </head>
 <body>
-<<<<<<< HEAD
          <?php include "nav.php"; ?>
 
-=======
-    <?php include "nav.php"; ?>
->>>>>>> 19cb43ad0fff0df439de4057606509cd6214d06d
-    <div class="container-fluid bg-dark text-white py-3 px-3 ">
+    <div class="container-fluid bg-dark text-white py-3 px-3">
         <div class="d-flex justify-content-evenly align-items-center">
             <span>
                 <i class="fa-solid fa-triangle-exclamation fs-5 "></i>
