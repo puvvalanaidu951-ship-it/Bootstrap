@@ -1,4 +1,13 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
      <style>
         /* body{
             background:#f5f5f5;
@@ -57,118 +66,116 @@
             font-size:24px;
         }
         
-
-.cta-section{
-    background:#dc3545;
-    color:#fff;
-    padding:60px 0;
-}
-
-.cta-title{
-    font-size:48px;
-    font-weight:700;
-}
-
-.cta-text{
-    font-size:24px;
-    margin-top:15px;
-    line-height:1.6;
-}
-
-.btn-donor{
-    background:#ffc107;
-    color:#000;
-    font-weight:600;
-    border-radius:50px;
-    padding:18px 40px;
-    font-size:24px;
-}
-
-.btn-donor:hover{
-    background:#ffca2c;
-}
-
-.btn-request{
-    border:2px solid #fff;
-    color:#fff;
-    border-radius:50px;
-    padding:18px 40px;
-    font-size:24px;
-    font-weight:600;
-}
-
-.btn-request:hover{
-    background:#fff;
-    color:#dc3545;
-}
-
-.bottom-bar{
-    background:#ffc107;
-    padding:35px 0;
-}
-
-.phone-icon{
-    color:#dc3545;
-    font-size:60px;
-}
-
-.emergency-title{
-    font-size:36px;
-    font-weight:700;
-}
-
-.emergency-text{
-    font-size:24px;
-}
-
-.call-btn{
-    background:#dc3545;
-    color:#fff;
-    border-radius:50px;
-    padding:18px 40px;
-    font-size:24px;
-    font-weight:600;
-}
-
-.call-btn:hover{
-    background:#bb2d3b;
-    color:#fff;
-}
-
-@media(max-width:768px){
+    .cta-section{
+        background:#dc3545;
+        color:#fff;
+        padding:60px 0;
+    }
 
     .cta-title{
-        font-size:34px;
+        font-size:48px;
+        font-weight:700;
     }
 
     .cta-text{
-        font-size:18px;
+        font-size:24px;
+        margin-top:15px;
+        line-height:1.6;
     }
 
-    .btn-donor,
-    .btn-request,
-    .call-btn{
-        width:100%;
-        margin-bottom:15px;
-        font-size:20px;
+    .btn-donor{
+        background:#ffc107;
+        color:#000;
+        font-weight:600;
+        border-radius:50px;
+        padding:18px 40px;
+        font-size:24px;
     }
 
-    .emergency-title{
-        font-size:28px;
+    .btn-donor:hover{
+        background:#ffca2c;
     }
 
-    .emergency-text{
-        font-size:18px;
+    .btn-request{
+        border:2px solid #fff;
+        color:#fff;
+        border-radius:50px;
+        padding:18px 40px;
+        font-size:24px;
+        font-weight:600;
+    }
+
+    .btn-request:hover{
+        background:#fff;
+        color:#dc3545;
+    }
+
+    .bottom-bar{
+        background:#ffc107;
+        padding:35px 0;
     }
 
     .phone-icon{
-        font-size:45px;
+        color:#dc3545;
+        font-size:60px;
     }
-}
 
+    .emergency-title{
+        font-size:36px;
+        font-weight:700;
+    }
+
+    .emergency-text{
+        font-size:24px;
+    }
+
+    .call-btn{
+        background:#dc3545;
+        color:#fff;
+        border-radius:50px;
+        padding:18px 40px;
+        font-size:24px;
+        font-weight:600;
+    }
+
+    .call-btn:hover{
+        background:#bb2d3b;
+        color:#fff;
+    }
+
+    @media(max-width:768px){
+
+        .cta-title{
+            font-size:34px;
+        }
+
+        .cta-text{
+            font-size:18px;
+        }
+
+        .btn-donor,
+        .btn-request,
+        .call-btn{
+            width:100%;
+            margin-bottom:15px;
+            font-size:20px;
+        }
+
+        .emergency-title{
+            font-size:28px;
+        }
+
+        .emergency-text{
+            font-size:18px;
+        }
+
+        .phone-icon{
+            font-size:45px;
+        }
+    }
     </style>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-5">
         <h1 class="text-center">Success story</h1>
 
     <div class="container py-5">
@@ -185,8 +192,7 @@
                     </div>
                 </div>
                 <p class="review">
-                    "Found a donor within 2 hours for my father's emergency surgery.BloodDonor.in saved his life!"
-                </p>
+                    "Found a donor within 2 hours for my father's emergency surgery.BloodDonor.in saved his life!"</p>
                 <div class="stars">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
