@@ -50,19 +50,19 @@
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Blood Groups</h4>
-                <a href="index.phindex.php">A+</a>
-                <a href="index.phindex.php">B+</a>
-                <a href="index.phindex.php">O+</a>
-                <a href="index.phindex.php">AB+</a>
+                <a href="index.php">A+</a>
+                <a href="index.php">B+</a>
+                <a href="index.php">O+</a>
+                <a href="index.php">AB+</a>
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Support</h4>
                 <a href="index.php">About Us</a>
                 <a href="index.php">Blog</a>
-                <a href="index.phindex.phindex.php">Guides</a>
-                <a href="index.phindex.phindex.php">Contact</a>
-                <a href="index.phindex.phindex.php">Help</a>
-                <a href="index.phindex.phindex.php">Privacy</a>
+                <a href="index.php">Guides</a>
+                <a href="index.php">Contact</a>
+                <a href="index.php">Help</a>
+                <a href="index.php">Privacy</a>
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Connect</h4>
