@@ -10,12 +10,6 @@
     <title>Emergency Page</title>
 </head>
 <body>
-<<<<<<< HEAD
-         <?php include "nav.php"; ?>
-
-=======
-    <?php include "nav.php"; ?>
->>>>>>> 19cb43ad0fff0df439de4057606509cd6214d06d
     <div class="container-fluid bg-dark text-white py-3 px-3 ">
         <div class="d-flex justify-content-evenly align-items-center">
             <span>
@@ -35,7 +29,6 @@
                             <div class="col fw-bold fs-4">0%</div>
                             <div class="col fw-bold fs-4">0</div>
                             <div class="col fw-bold fs-4">15</div>
-                            
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
@@ -44,7 +37,7 @@
                     </div>
             </div>
         </div>
-      
+
        <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-10">
