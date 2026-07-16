@@ -3,9 +3,7 @@
         .card button {
             font-size: 0.7rem;
         }
-        a{
-            text-decoration: none;
-        }
+        
         .card{
             transition: all 0.5s;
         }
@@ -17,6 +15,9 @@
         .card i{
             color: rgb(188, 5, 5);
         }
+        .aa{
+            text-decoration:none;
+        }
     </style>
 
     <div class="d-flex flex-column align-items-center" >
@@ -26,7 +27,7 @@
     <div class="container mt-5 mb-5">
         <div class="row row-gap-3">
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Delhi</strong>
@@ -36,7 +37,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Bengaluru</strong>
@@ -46,7 +47,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Hyderabad</strong>
@@ -56,7 +57,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Coimbatore</strong>
@@ -66,7 +67,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Chennai</strong>
@@ -76,7 +77,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>New Delhi</strong>
@@ -86,7 +87,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Villupuram</strong>
@@ -96,7 +97,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Lucknow</strong>
@@ -106,7 +107,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Malur</strong>
@@ -116,7 +117,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>ATTILI</strong>
@@ -126,7 +127,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Hshs</strong>
@@ -136,7 +137,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="">
+                <a href="" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Dausa</strong>

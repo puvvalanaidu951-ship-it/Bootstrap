@@ -7,6 +7,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
 
 <title>Get in Touch</title>
 
@@ -72,8 +74,9 @@
 
 </head>
 <body>
+    <?php include "nav.php"; ?>
 
-<section class="get-touch text-white">
+<section class="get-touch text-white mt-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
@@ -538,7 +541,7 @@ Send Message
 
 </section>
 
-
+<?php include "footer.php"; ?>
 
 
 

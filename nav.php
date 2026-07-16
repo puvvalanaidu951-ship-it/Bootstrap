@@ -41,11 +41,13 @@
         i{
             cursor: pointer;
         }
-        
+        .navv{
+            box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);   
+        }
     </style>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top navv">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="#">
                 <img src="bloodlogo.png" width="50" class="me-2">
@@ -93,17 +95,17 @@
                         More
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">About us</a></li>
+                        <li><a class="dropdown-item" href="about.php">About us</a></li>
                         <li><a class="dropdown-item" href="#">Blood Compatibility</a></li>
                         <li><a class="dropdown-item" href="#">Donation Centers</a></li>
                         <li><a class="dropdown-item" href="#">Browse by State</a></li>
                         <li><a class="dropdown-item" href="#">Popular Cities</a></li>
                         <li><a class="dropdown-item" href="#">Help & FAQ</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                        <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
                     </ul>
                     </li>
-                    <a href="#" class="btn btn-warning rounded-pill px-4 py-3 mx-3">
+                    <a href="Emergency.php" class="btn btn-warning rounded-pill px-4 py-3 mx-3">
                         <i class="fa-solid fa-triangle-exclamation"></i><br>
                         Emergency
                     </a>

@@ -175,7 +175,7 @@
     }
     </style>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center mt-5">
         <h1 class="text-center">Success story</h1>
 
     <div class="container py-5">
