@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php include "nav.php"; ?>
-    <div class="container-fluid bg-dark text-white py-3 px-3 ">
+    <div class="container-fluid bg-dark text-white py-3 px-3 "style="margin-top:100px">
         <div class="d-flex justify-content-evenly align-items-center">
             <span>
                 <i class="fa-solid fa-triangle-exclamation fs-5 "></i>
@@ -203,6 +203,6 @@
 
         </div>
        </div>
-       <?php include "footer.php"; ?>
+      
 </body>
 </html>
