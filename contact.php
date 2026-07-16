@@ -92,11 +92,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
 <div class="container-fluid border-top border-5 border-danger py-5">
     <div class="container">
         <div class="row g-4">
@@ -107,21 +102,16 @@
                         style="width:100px;height:100px;">
                         <i class="bi bi-telephone-fill text-success fs-1"></i>
                     </div>
-
                     <h2 class="fw-bold mb-4">Phone Support</h2>
-
                     <p class="text-secondary fs-4">
                         Speak directly with our support team
                     </p>
-
                     <h3 class="fw-bold my-4">
                         +91 12345 67890
                     </h3>
-
                     <p class="text-secondary fs-4">
                         24/7 Available
                     </p>
-
                     <div class="mt-3">
                         <a href="#" class="btn btn-success btn-lg px-4 py-3 fw-semibold">
                             <i class="bi bi-telephone me-2"></i>Call Now
@@ -129,56 +119,42 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6">
                 <div class="card border-0 shadow-sm rounded-4 text-center h-100 p-4">
-
                     <div class="rounded-circle bg-danger d-flex justify-content-center align-items-center mx-auto mb-4"
                         style="width:100px;height:100px;">
                         <i class="bi bi-envelope-fill text-white fs-1"></i>
                     </div>
-
                     <h2 class="fw-bold mb-4">Email Support</h2>
-
                     <p class="text-secondary fs-4">
                         Send us detailed queries
                     </p>
-
                     <h3 class="fw-bold my-4">
                         support@blooddonor.in
                     </h3>
-
                     <p class="text-secondary fs-4">
                         Response in 4 hours
                     </p>
-
                     <div class="mt-3">
                         <a href="#" class="btn btn-danger btn-lg px-4 py-3 fw-semibold">
                             <i class="bi bi-envelope me-2"></i>Send Email
                         </a>
                     </div>
-
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6">
                 <div class="card border-0 shadow-sm rounded-4 text-center h-100 p-4">
-
                     <div class="rounded-circle bg-info bg-opacity-10 d-flex justify-content-center align-items-center mx-auto mb-4"
                         style="width:100px;height:100px;">
                         <i class="bi bi-chat-dots-fill text-info fs-1"></i>
                     </div>
-
                     <h2 class="fw-bold mb-4">Live Chat</h2>
-
                     <p class="text-secondary fs-4">
                         Get instant help from our team
                     </p>
-
                     <h3 class="fw-bold my-4">
                         Available Now
                     </h3>
-
                     <p class="text-secondary fs-4">
                         Average response: 2 min
                     </p>
