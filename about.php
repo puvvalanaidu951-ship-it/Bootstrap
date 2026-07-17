@@ -155,6 +155,15 @@
     .pichh{
         font-size: 16px;
     }
+    .car{
+        transition: all 0.5s;
+    }
+    .car:hover{
+        margin-top: -10px;
+    }
+    a{
+        text-decoration: none;
+    }
 </style>
 
 </head>
@@ -506,7 +515,7 @@
 
 </section>
 
-<div class="bg-light mb-3">
+<div class="bg-light ">
     <div class="d-flex flex-column justify-content-center align-items-center mb-5 pt-5">
 
         <h1><b>Meet Our Team</b></h1>
@@ -515,9 +524,9 @@
 
     </div>
 
-    <div class="container">
+    <div class="d-flex flex-row container gap-3 mt-5 mb-5">
         <div class="row g-4">
-            <div class="card col-lg-3 col-md-6 pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+            <div class="car col-lg-3 col-md-6 pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
                 <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
                 <h5>Dr. Rajesh Kumar</h5>
                 <h6 class="text-success">Founder & CEO</h6>
@@ -531,7 +540,7 @@
                     </a>
                 </div>
             </div>
-            <div class="card col-lg-3 col-md-6 pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+            <div class="car col-lg-3 col-md-6 pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
                 <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
                 <h5>Dr. Rajesh Kumar</h5>
                 <h6 class="text-success">Founder & CEO</h6>
@@ -545,7 +554,7 @@
                     </a>
                 </div>
             </div>
-            <div class="card col-lg-3 col-md-6  pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+            <div class="car col-lg-3 col-md-6  pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
                 <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
                 <h5>Dr. Rajesh Kumar</h5>
                 <h6 class="text-success">Founder & CEO</h6>
@@ -559,7 +568,7 @@
                     </a>
                 </div>
             </div>
-            <div class="card col-lg-3 col-md-6 pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+            <div class="car col-lg-3 col-md-6 pb-3 col-12 d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
                 <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
                 <h5>Dr. Rajesh Kumar</h5>
                 <h6 class="text-success">Founder & CEO</h6>
@@ -577,6 +586,143 @@
     </div>
 </div>
 
+
+
+<div class="container">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1>Our Values</h1>
+        <p>The principles that guide everything we do</p>
+    </div>
+
+    <div class="row row-gap-5 col-gap-3">
+        <div class=" col-4">
+            <div class="car d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+                    <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
+                    <h6 class="text-success">Founder & CEO</h6>
+                    <p class="px-2 ppp text-secondary">Former blood bank director with 15+ years experience in transfusion medicine</p> 
+            </div>
+        </div>
+        <div class=" col-4">
+                <div class="car d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+                    <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
+                    <h6 class="text-success">Founder & CEO</h6>
+                    <p class="px-2 ppp text-secondary">Former blood bank director with 15+ years experience in transfusion medicine</p> 
+                </div>
+        </div>
+        <div class=" col-4">
+            <div class="car d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+                    <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
+                    <h6 class="text-success">Founder & CEO</h6>
+                    <p class="px-2 ppp text-secondary">Former blood bank director with 15+ years experience in transfusion medicine</p> 
+            </div>
+        </div>
+    </div>
+    <div class="row row-gap-5 col-gap-3">
+        <div class=" col-4">
+            <div class="car d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+                    <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
+                    <h6 class="text-success">Founder & CEO</h6>
+                    <p class="px-2 ppp text-secondary">Former blood bank director with 15+ years experience in transfusion medicine</p> 
+            </div> 
+        </div>
+        <div class=" col-4">
+            <div class="car d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+                    <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
+                    <h6 class="text-success">Founder & CEO</h6>
+                    <p class="px-2 ppp text-secondary">Former blood bank director with 15+ years experience in transfusion medicine</p> 
+            </div>
+        </div>
+        <div class=" col-4">
+            <div class="car d-flex flex-column justify-content-between align-items-center px-2 gap-2 mb-4">
+                    <div class="bg-danger p-4 rounded-circle mt-5">hai</div>
+                    <h6 class="text-success">Founder & CEO</h6>
+                    <p class="px-2 ppp text-secondary">Former blood bank director with 15+ years experience in transfusion medicine</p> 
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="bg-light mt-5">
+    <div class="d-flex flex-column justify-content-center align-items-center pt-5">
+        <h1>Recognition & Awards</h1>
+        <p>Honored to be recognized for our impact</p>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row row-gap-3">
+            <div class="col-3">
+                <a href="" class="aa">
+                    <div class="car card  rounded d-flex flex-column align-items-center gap-2 p-4">
+                        <i class="bi bi-award fs-1 text-warning"></i>
+                        <h6>Best Healthcare Innovation</h6>
+                        <p>Digital India Awards 2024</p>
+                    </div> 
+                </a>  
+            </div>
+            <div class="col-3">
+                <a href="" class="aa">
+                    <div class="car card  rounded d-flex flex-column align-items-center gap-2 p-4">
+                        <i class="bi bi-trophy fs-1 text-danger"></i>
+                        <h6>Social Impact Leader</h6>
+                        <p>Tech for Good Awards 2024</p>
+                    </div> 
+                </a>  
+            </div>
+            <div class="col-3">
+                <a href="" class="aa">
+                    <div class="car card  rounded d-flex flex-column align-items-center gap-2 p-4">
+                        <i class="bi bi-gem fs-1 text-secondary"></i>
+                        <h6>Excellence in Healthcare</h6>
+                        <p>National Health Awards 2023</p>
+                    </div> 
+                </a>  
+            </div>
+            <div class="col-3">
+                <a href="" class="aa">
+                    <div class="car card  rounded d-flex flex-column align-items-center gap-2 p-4">
+                        <i class="bi bi-heart-fill fs-1 text-danger"></i>
+                        <h6>Humanitarian Impact</h6>
+                        <p>Life Saver Awards 2023</p>
+                    </div> 
+                </a>  
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-5">
+    <div class="bg-danger d-flex flex-column justify-content-center align-items-center px-5 py-5 gap-3">
+        <h2 class="text-white">Ready to Save Lives?</h2>
+        <p class="text-white">Join our community of heroes and help us create a world where no life is lost due to blood shortage.</p>
+        <div class="d-flex flex-row gap-4">
+            <button class="btn bg-warning p-3 rounded-5">
+                <i class="bi bi-heart me-2"></i>
+                Become a Donor
+            </button>
+            <button class="btn btn-outline-warning p-3 rounded-5">
+                <i class="bi bi-plus-circle me-2"></i>
+                Request Bloood
+            </button>
+            <button class="btn bg-white p-3 rounded-5">
+                <i class="bi bi-megaphone me-2"></i>
+                Join Campaigns
+            </button>
+        </div>
+        <p class="text-white">Questions? We're here to help!</p>
+        <div class="d-flex flex-row gap-2">
+            <a href=""  style="color: white;">
+                <i class="bi bi-envelope me-1"></i>
+                info@blooddonor.in
+            </a>
+            <a href=""  style="color: white;">
+                <i class="bi bi-telephone me-1"></i>
+                +91 85236 52465
+            </a>
+        </div>
+    </div>
+</div>
 <?php include "footer.php"; ?>
 
 
