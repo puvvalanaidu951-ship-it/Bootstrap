@@ -11,6 +11,9 @@
 </head>
 <body>
 <<<<<<< HEAD
+    <div class="container-fluid bg-dark text-white py-3 px-3 ">
+=======
+<<<<<<< HEAD
     <?php include "nav.php"; ?>
     <div class="container-fluid bg-dark text-white py-3 px-3 "style="margin-top:100px">
 =======
@@ -18,6 +21,7 @@
     <div class="py-4"></div>
     <div class="container-fluid bg-danger text-white py-3 px-3 mt-5 ">
 >>>>>>> 4828f90d36364929951060326cde264b37045e99
+>>>>>>> 58ae7d89a033cca03c28a027bf836d9e94329b1e
         <div class="d-flex justify-content-evenly align-items-center">
             <span>
                 <i class="fa-solid fa-triangle-exclamation fs-5 "></i>
@@ -35,13 +39,17 @@
                         <div class="row text-center bg-light text-dark py-5">
                             <div class="col fw-bold fs-4">0%</div>
                             <div class="col fw-bold fs-4">0</div>
+<<<<<<< HEAD
+                            <div class="col fw-bold fs-4">15</div>
+=======
                             <div class="col fw-bold fs-4">15</div>  
+>>>>>>> 58ae7d89a033cca03c28a027bf836d9e94329b1e
                         </div>
                     </div>
                     <div class="col-md-4 text-center"><i class="fa-solid fa-heart-pulse display-1 "></i></div>
             </div>
         </div>
-      
+
        <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-10">
