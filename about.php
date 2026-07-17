@@ -26,6 +26,7 @@
             gap: 120px;
         }
         .box1{
+            
             width: 100px;
             height:120px;
         }
