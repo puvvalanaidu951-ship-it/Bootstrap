@@ -40,7 +40,7 @@
         }
     </style>
 <?php include "nav.php"; ?>
-    <div class="bg-danger lgnn" style="margin-top:100px;">
+<section class="bg-danger lgnn" style="margin-top:100px;">
         <div class="container  ">
             <div class=" row row-gap-3 pt-5 pb-5">
                 <div class=" col-6 bg-danger d-flex flex-column justify-content-center align-items-start gap-3">
@@ -62,15 +62,15 @@
                         <p>Enter your credentials to access your account</p>
                     </div>
                     <div class="ps-4 pe-4">
-                        <form>
+                        <form method="POST" action="userlogin.php" class="need-validation" novalidate id="loginForm">
                             <div class="mb-3 ipl">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp ">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>
                                 <div id="emailHelp" class="form-text">Please Enter your Email Address</div>
                             </div>
                             <div class="mb-3 ipl">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="password" class="form-control" id="exampleInputPassword1" name="password" required>
                             </div>
                             <div class="mb-3 form-check d-flex flex-row justify-content-between">
                                 <div>
@@ -104,7 +104,8 @@
                 </div>
             </div>
         </div>
-    </div>
+</section>
+
     <div class="lgnbtm">
         <div class="d-flex flex-column justify-content-center align-items-center pt-5 pb-3">
                 <h2 class="fw-bold">Emergency? Need Blood Urgently?</h2>
