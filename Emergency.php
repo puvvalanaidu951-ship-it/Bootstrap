@@ -10,48 +10,36 @@
     <title>Emergency Page</title>
 </head>
 <body>
-<<<<<<< HEAD
-    <div class="container-fluid bg-dark text-white py-3 px-3 ">
-=======
-<<<<<<< HEAD
-    <?php include "nav.php"; ?>
-    <div class="container-fluid bg-dark text-white py-3 px-3 "style="margin-top:100px">
-=======
          <?php include "nav.php"; ?>
-    <div class="py-4"></div>
-    <div class="container-fluid bg-danger text-white py-3 px-3 mt-5 ">
->>>>>>> 4828f90d36364929951060326cde264b37045e99
->>>>>>> 58ae7d89a033cca03c28a027bf836d9e94329b1e
-        <div class="d-flex justify-content-evenly align-items-center">
-            <span>
-                <i class="fa-solid fa-triangle-exclamation fs-5 "></i>
-                <b class="ps-3">24/7 Emergency Blood Support</b> 
-                - Immediate response for critical blood needs
-            </span>
-            <button class="btn btn-warning text-dark px-4 py-2 fw-bold">call:+91 1234567890</button>
-        </div>
-    </div>
-        <div class="container-fluid bg-danger mt-1 text-white px-5 py-5">
-            <div class="row align-items-center">
-                    <div class="col-md-8">
-                    <h1 class="display-2 fw-bold">Emergency Blood Request</h1>
-                    <p>Submit urgent blood requirements for immediate attention. Our emergency network will respond within minutes.</p>
-                        <div class="row text-center bg-light text-dark py-5">
-                            <div class="col fw-bold fs-4">0%</div>
-                            <div class="col fw-bold fs-4">0</div>
-<<<<<<< HEAD
-                            <div class="col fw-bold fs-4">15</div>
-=======
-                            <div class="col fw-bold fs-4">15</div>  
->>>>>>> 58ae7d89a033cca03c28a027bf836d9e94329b1e
-                        </div>
+            <div class="py-3"></div>
+                <div class="container-fluid bg-danger text-white py-3 px-3 mt-5 ">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <span>
+                            <i class="fa-solid fa-triangle-exclamation fs-5 "></i>
+                            <b class="ps-3">24/7 Emergency Blood Support</b> 
+                            - Immediate response for critical blood needs
+                        </span>
+                        <button class="btn btn-warning text-dark px-4 py-2 fw-bold">call:+91 1234567890</button>
                     </div>
-                    <div class="col-md-4 text-center"><i class="fa-solid fa-heart-pulse display-1 "></i></div>
-            </div>
-        </div>
+                </div>
+                <div class="container-fluid bg-danger mt-1 text-white px-5 py-5">
+                    <div class="row align-items-center">
+                            <div class="col-md-8">
+                            <h1 class="display-2 fw-bold">Emergency Blood Request</h1>
+                            <p>Submit urgent blood requirements for immediate attention. Our emergency network will respond within minutes.</p>
+                                <div class="row text-center bg-light text-dark py-5">
+                                    <div class="col fw-bold fs-4">0%</div>
+                                    <div class="col fw-bold fs-4">0</div>
+                                    <div class="col fw-bold fs-4">15</div>
+                                    <div class="col fw-bold fs-4">15</div>  
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center"><i class="fa-solid fa-heart-pulse display-1 "></i></div>
+                    </div>
+                </div>
 
-       <div class="container py-5">
-        <div class="row justify-content-center">
+       <section class="container py-5">
+            <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="card shadow-lg form-card">
                     <div class="card-header bg-danger text-white text-center py-4">
@@ -201,11 +189,9 @@
                 </div>
             </div>
 
-        </div>
-       </div>
-<<<<<<< HEAD
+            </div>
+    </section>
       
-=======
        <section class=" container-fluid py-5 mt-5 bg-light">
 
     <div class="container">
@@ -308,7 +294,7 @@
 <section class="py-5 bg-white">
     <div class="container">
         <div class="text-center mb-5">
-            <h1 class="fw-bold">Emergency Blood Request Tips</h1>
+            <h1 class="fw-bold text-black">Emergency Blood Request Tips</h1>
             <p class="text-secondary">Important guidelines for emergency situations</p>
         </div>
         <div class="row g-4">
@@ -374,7 +360,7 @@
         </div>
     </div>
 </section>
-       <?php include "footer.php"; ?>
->>>>>>> 4828f90d36364929951060326cde264b37045e99
 </body>
+       <?php include "footer.php"; ?>
+
 </html>
