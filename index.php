@@ -23,11 +23,9 @@
         }
         body{
             overflow-x: hidden;
-            
-            
+            font-family: 'Roboto Mono', monospace;
         }
     </style>
-
 </head>
 <body class="">
     <?php include "nav.php"; ?>
