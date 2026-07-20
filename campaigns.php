@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blood Donation Campaigns</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
 
 
     <style>
@@ -76,8 +77,8 @@
     </style>
 </head>
 <body>
-
-<section class="hero text-white py-5">
+ <?php include "nav.php"; ?>
+<section class="hero text-white py-5" style="margin-top:100px;" >
     <div class="container">
 
         <div class="row align-items-center">
@@ -221,7 +222,7 @@
     </div>
 </section>
 
-
+ <?php include "footer.php"; ?>
 
 
 </body>

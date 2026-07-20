@@ -22,8 +22,9 @@
   </style>
 </head>
 <body>
+      <?php include "nav.php"; ?>
     
-<div class="container-fluid bg-danger py-5">
+<div class="container-fluid bg-danger py-5 " c>
     <div class="container text-center">
         <h1 class="display-5 fw-bold text-white">Blood Donation Blog</h1>
         <p class="text-white fs-5 my-4">
@@ -456,5 +457,6 @@
 </div>
 
 </div>
+ <?php include "footer.php"; ?>
 </body>
 </html>

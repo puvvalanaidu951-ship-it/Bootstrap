@@ -104,10 +104,11 @@
                         find blood in emergencies, and be the reason someone smiles today.
                     </p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="/register.php?role=donor" class="btn btn-warning btn-lg px-4 py-3 rounded-pill">
+                        <a href="Register.php" class="btn btn-warning btn-lg px-4 py-3 rounded-pill">
                             <i class="bi bi-heart"></i> Become a Donor
+                            
                         </a>
-                        <a href="/search.php" class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill">
+                        <a href="findblood.php" class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill">
                             <i class="bi bi-search"></i> Find Blood
                         </a>
                     </div>

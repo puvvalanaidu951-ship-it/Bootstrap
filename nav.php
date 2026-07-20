@@ -5,9 +5,11 @@
             padding: 0;
         }
         .navbar{
-            background:#c91f1f !important;
+            /* background:#c91f1f !important; */
+            background: linear-gradient(180deg,#b71c1c,#d61f1f);
             height: 100px;
             z-index: 1000;
+            
             
         }
 
@@ -47,9 +49,9 @@
     </style>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top navv">
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top navv">    
         <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="#">
+            <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="index.php">
                 <img src="bloodlogo.png" width="50" class="me-2">
                 BloodDonor<span class="text-warning">.in</span>
             </a>
@@ -74,17 +76,24 @@
                     <li class="nav-item  text-warning p-1 d-flex flex-column">
                         <div>
                             <i class="fa-solid fa-circle-plus"></i>
-                            <a href="" class="text-white text-decoration-none"><span>Request</span></a>
+                            <a href="login.php">
+                            <a href="login.php" class="text-white text-decoration-none"><span>Request</span></a>
                         </div>
-                        <a class="nav-link text-white" href="#">Blood</a>
+                        <a class="nav-link text-white" href="login.php">Blood</a>
                     </li>
+                    </a>
+
                     <li class="nav-item text-warning p-1 d-flex flex-column">
+                      
                         <i class="fa-solid fa-bullhorn ps-md-2"></i>
-                        <a class="nav-link text-white" href="#">Campaigns</a>
+                        <a class="nav-link text-white" href="campaigns.php">Campaigns</a>
+                       
                     </li>
+                     </a>
+                        
                     <li class="nav-item">
                         <i class="fa-regular fa-file-lines ps-md-2 text-warning"></i>
-                        <a class="nav-link text-white" href="#">Blog</a>
+                        <a class="nav-link text-white" href="Blog.php   ">Blog</a>
                     </li>
                     <li class="nav-item">
                         <i class="fa-solid fa-book-open ps-md-2 text-warning"></i>
@@ -99,8 +108,8 @@
                         <li><a class="dropdown-item" href="#">Blood Compatibility</a></li>
                         <li><a class="dropdown-item" href="#">Donation Centers</a></li>
                         <li><a class="dropdown-item" href="#">Browse by State</a></li>
-                        <li><a class="dropdown-item" href="#">Popular Cities</a></li>
-                        <li><a class="dropdown-item" href="#">Help & FAQ</a></li>
+                        <li><a class="dropdown-item" href="popularcities.php">Popular Cities</a></li>
+                        <li><a class="dropdown-item" href="HC&FAQ.php">Help & FAQ</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
                     </ul>
