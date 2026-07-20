@@ -1,3 +1,15 @@
+<?PHP
+
+  session_start();
+  if(isset($_SESSION['user_session_id'])){
+    $user_id = $_SESSION['user_session_id'];
+  }
+  else{
+    $user_id = "User";
+    echo "<script> window.location.href = 'login.php' </script>";
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

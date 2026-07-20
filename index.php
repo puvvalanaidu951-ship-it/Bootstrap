@@ -28,7 +28,9 @@
     </style>
 </head>
 <body class="">
-    <?php include "nav.php"; ?>
+    <?php
+        session_start();
+        include "nav.php"; ?>
     <?php include "hero.php"; ?>
     <?php include "popularcities.php"; ?>
     <?php include "howitworks.php"; ?>

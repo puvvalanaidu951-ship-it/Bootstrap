@@ -62,7 +62,7 @@
                         <p>Enter your credentials to access your account</p>
                     </div>
                     <div class="ps-4 pe-4">
-                        <form method="POST" action="userlogin.php" class="need-validation" novalidate id="loginForm">
+                        <form method="POST" action="login_control.php" class="need-validation" novalidate id="loginForm">
                             <div class="mb-3 ipl">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>

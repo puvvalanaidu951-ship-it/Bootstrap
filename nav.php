@@ -118,6 +118,29 @@
                         <i class="fa-solid fa-triangle-exclamation"></i><br>
                         Emergency
                     </a>
+                    <?PHP
+                        include_once "db_conn.php";
+                        if(isset($_SESSION['user_session_id'])){
+                            $user_session_id = $_SESSION['user_session_id'];
+                            $get_use_name_query = "SELECT fullname FROM users WHERE Id = '$user_session_id'";
+                            $get_user_name = mysqli_query($conn, $get_use_name_query);
+                            if(mysqli_num_rows($get_user_name)==1){
+                                $user_name_data = mysqli_fetch_assoc($get_user_name);
+                                $user_name =  $user_name_data['fullname'];
+                            }else{
+                                $user_name = "Update your profile";
+                            }
+                            ?>
+                            <a href="logout.php" class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
+                        <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
+                        <strong>Welcome</strong>
+                    </a>
+                    <?php
+                        }
+                        else{
+                         
+                        ?>
+                    
                     <li class="nav-item">
                         <a class="nav-link text-white" href="login.php">Login</a>
                     </li>
@@ -127,8 +150,9 @@
                         <span><strong>Join</strong></span><br>
                         <strong>Now</strong>
                     </a>
-                    
-                    
+                    <?php
+                    }
+                    ?>
                 </ul>
             </div>
         </div>
