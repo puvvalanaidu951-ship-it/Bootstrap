@@ -74,7 +74,7 @@
 
 </head>
 <body>
-    <?php include "nav.php"; ?>
+<?php include "nav.php"; ?>
 
 <section class="get-touch text-white mt-5">
     <div class="container">
