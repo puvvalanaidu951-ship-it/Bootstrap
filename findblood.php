@@ -1,15 +1,3 @@
-<?PHP
-
-  session_start();
-  if(isset($_SESSION['user_session_id'])){
-    $user_id = $_SESSION['user_session_id'];
-  }
-  else{
-    $user_id = "User";
-    echo "<script> window.location.href = 'login.php' </script>";
-  }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,7 +99,7 @@ Connect with verified blood donors in your area for emergency blood requirements
     $db_donor_count = mysqli_query($conn, $donor_count_query); 
     $donor_count = mysqli_fetch_row($db_donor_count)[0];
   ?>
-<h3 class="fw-bold text-warning mb-1">x</h3>
+<h3 class="fw-bold text-warning mb-1"><?php echo $donor_count; ?></h3>
 <small class="text-white-75">Donors Found</small>
 </div>
 </div>
@@ -353,7 +341,7 @@ Available Now
       <h2 class="section-title mb-0">
         <i class="bi bi-people-fill me-2 text-danger"></i>
         Search Results
-        <span class="badge bg-danger ms-2">50 donors found</span>
+        <span class="badge bg-danger ms-2"><?php echo $donor_count; ?> donors found</span>
       </h2>
       <div class="d-flex gap-2">
         <a href="/request-blood" class="btn btn-outline-danger">
@@ -369,9 +357,15 @@ Available Now
       <?PHP
         include_once 'db_conn.php';
         function calculateAge($dob) {
+            if (empty($dob)) {
+                return "Age not available";
+            }
             $dobObj = DateTime::createFromFormat('Y-m-d', $dob);
+            if ($dobObj === false) {
+                return "Invalid date format. Use YYYY-MM-DD.";
+            }
             $errors = DateTime::getLastErrors();
-            if ($errors['warning_count'] > 0 || $errors['error_count'] > 0) {
+            if ($errors !== false && ($errors['warning_count'] > 0 || $errors['error_count'] > 0)) {
                 return "Invalid date format. Use YYYY-MM-DD.";
             }
             $today = new DateTime();
