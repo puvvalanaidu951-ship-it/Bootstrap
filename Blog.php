@@ -22,7 +22,7 @@
   </style>
 </head>
 <body>
-      <?php include "nav.php"; ?>
+<?php include "nav.php"; ?>
     
 <div class="container-fluid bg-danger py-5 " c>
     <div class="container text-center">
