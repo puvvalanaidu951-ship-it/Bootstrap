@@ -15,7 +15,7 @@
         }
         .aboutcont {
             background: linear-gradient(135deg, #c91f1f 0%, #b91c1c 100%) !important;
-            margin-top: 100px;
+          
         }
         .abh1 {
             font-size: 3.2rem;

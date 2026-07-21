@@ -11,8 +11,8 @@
 </head>
 <body>
          <?php include "nav.php"; ?>
-            <div class="py-3"></div>
-                <div class="container-fluid bg-danger text-white py-3 px-3 mt-5 ">
+            <div class="py-1"></div>
+                <div class="container-fluid bg-danger text-white py-3 px-3 ">
                     <div class="d-flex justify-content-evenly align-items-center">
                         <span>
                             <i class="fa-solid fa-triangle-exclamation fs-5 "></i>

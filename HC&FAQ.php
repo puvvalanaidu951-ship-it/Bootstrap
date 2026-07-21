@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
+     <?php include "nav.php"; ?>
    <div class="container-fluid bg-danger py-5">
     <div class="container">
         <div class="row align-items-center">
@@ -288,5 +289,6 @@
         </div>
     </div>
 </div>
+<?php include "footer.php"; ?>
 </body>
 </html>

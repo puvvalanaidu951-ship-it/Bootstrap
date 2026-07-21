@@ -1,123 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
+<style>
 
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
+        .bg-gradient-danger {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%) !important;
         }
-        .navbar{
-            /* background:#c91f1f !important; */
-            background: linear-gradient(180deg,#b71c1c,#d61f1f);
-            height: 100px;
-            z-index: 1000;
+
+        .navbar-brand {
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.05);
+        }
+
+        .logo-circle {
+            width: 45px;
+            height: 45px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-brand:hover .logo-circle {
+            transform: rotate(10deg) scale(1.1);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3) !important;
+        }
+
+        .brand-name {
+            letter-spacing: -0.5px;
+        }
+
+        .brand-domain {
+            font-weight: 600;
+        }
+
+        .navbar-nav .nav-link {
+            transition: all 0.3s ease;
+            position: relative;
+            border-radius: 8px;
+            margin: 2px 4px;
+            padding: 8px 12px !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .navbar-nav .nav-link.active {
+            background-color: rgba(255, 255, 255, 0.2);
+            font-weight: 600;
+        }
+
+        .navbar-nav .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 2px;
+            background-color: #fbbf24;
+            border-radius: 2px;
+        }
+
+        .dropdown-menu {
+            border-radius: 12px;
+            border: none;
+            margin-top: 8px;
+            min-width: 220px;
+        }
+
+        .dropdown-menu::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            right: 20px;
+            width: 12px;
+            height: 12px;
+            background: white;
+            border: 1px solid rgba(0,0,0,.1);
+            border-bottom: none;
+            border-right: none;
+            transform: rotate(45deg);
+        }
+
+        .dropdown-item {
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 4px 8px;
+            transition: all 0.3s ease;
+        }
+
+        .dropdown-item:hover {
+            background-color: #f8fafc;
+            transform: translateX(4px);
+        }
+
+        .dropdown-item:active {
+            background-color: #dc2626;
+            color: white;
+        }
+
+        .dropdown-header {
+            padding: 12px 20px 8px;
+            color: #374151;
+            font-weight: 600;
+        }
+
+        .user-avatar {
+            width: 32px;
+            height: 32px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .navbar-spacer {
+            height: 76px; /* Adjust based on navbar height */
+        }
+
+        .navbar-toggler {
+            padding: 6px 8px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-toggler:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.5);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                margin-top: 1rem;
+                padding-top: 1rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
             
+            .navbar-nav .nav-link {
+                padding: 12px 16px !important;
+                margin: 2px 0;
+            }
             
+            .navbar-spacer {
+                height: 70px;
+            }
         }
 
-        .navbar-brand{
-            color:white !important;
-            font-size:24px;
-            font-weight:700;
-        }
-        .menu-item i{
-            font-size:18px;
-            margin-bottom:5px;
+        .navbar-collapse {
+            transition: all 0.3s ease-in-out;
         }
 
-        .menu-item span{
-            font-size:14px;
-            line-height:1;
+        .navbar.scrolled {
+            background: rgba(153, 27, 27, 0.95) !important;
+            backdrop-filter: blur(10px);
         }
 
-        .menu-item .nav-link{
-            color:white !important;
-            padding:0;
-            font-size:14px;
+        @keyframes pulse-brand {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
         }
 
-        .menu-item:hover{
-            color:white;
+        .navbar-brand.loading {
+            animation: pulse-brand 2s infinite;
         }
-        .navbar-nav{
-            gap:18px;
-        }
-        i{
-            cursor: pointer;
-        }
-        .navv{
-            box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);   
-        }
-    </style>
+@media (min-width: 992px) {
+    .navbar .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        animation: fadeIn 0.2s ease;
+    }
+
+    .navbar .dropdown-toggle::after {
+        transition: transform .2s;
+    }
+
+    .navbar .dropdown:hover .dropdown-toggle::after {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+        
+</style>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger p-4 ps-5 fixed-top navv">    
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="index.php">
-                <img src="bloodlogo.png" width="50" class="me-2">
-                BloodDonor<span class="text-warning">.in</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto align-items-center">
-                    <li class="nav-item menu-item active-menu d-flex flex-column text-danger align-items-start">
-                        <a href="index.php" class="nav-link">
-                        <i class="fa-regular fa-house text-white"></i>
-                        <a href="index.php" class="nav-link">Home</a>
-                        </a>
-                    </li>
-                    <li class="nav-item text-warning p-1 rounded-2 d-flex flex-column">
-                        <div>
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <a href="findblood.php" class="text-white text-decoration-none"><span>Find</span></a>
-                        </div>
-                        <a class="nav-link text-white" href="findblood.php" >Donors</a>
-                    </li>
-                    <li class="nav-item  text-warning p-1 d-flex flex-column">
-                        <div>
-                            <i class="fa-solid fa-circle-plus"></i>
-                            <a href="login.php">
-                            <a href="login.php" class="text-white text-decoration-none"><span>Request</span></a>
-                        </div>
-                        <a class="nav-link text-white" href="login.php">Blood</a>
-                    </li>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-danger fixed-top shadow-lg">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.php">
+            <div class="navbar-logo me-3">
+                <div class="logo-circle bg-white text-danger rounded-circle shadow-sm d-flex align-items-center justify-content-center">
+                    <i class="bi bi-heart-pulse-fill fs-4"></i>
+                </div>
+            </div>
+            <div class="brand-text">
+                <span class="brand-name fw-bold fs-4">BloodDonor</span>
+                <span class="brand-domain text-warning">.in</span>
+            </div>
+        </a>
+        
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium " 
+                       href="index.php" >
+                        <i class="bi bi-house me-1"></i>Home
                     </a>
-
-                    <li class="nav-item text-warning p-1 d-flex flex-column">
-                      
-                        <i class="fa-solid fa-bullhorn ps-md-2"></i>
-                        <a class="nav-link text-white" href="campaigns.php">Campaigns</a>
-                       
-                    </li>
-                     </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link fw-medium " 
+                       href="findblood.php">
+                        <i class="bi bi-search me-1"></i>Find Donors
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link fw-medium " 
+                       href="login.php">
+                        <i class="bi bi-plus-circle me-1"></i>Request Blood
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link fw-medium " 
+                       href="campaigns.php">
+                        <i class="bi bi-megaphone me-1"></i>Campaigns
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link fw-medium " 
+                       href="Blog.php">
+                        <i class="bi bi-journal-text me-1"></i>Blog
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link fw-medium " 
+                       href="guids.php">
+                        <i class="bi bi-book me-1"></i>Guides
+                    </a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium" href="#" id="navbarDropdown" 
+                       role="button" data-bs-toggle="dropdown" >
+                        <i class="bi bi-three-dots me-1"></i>More
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0" aria-labelledby="navbarDropdown" >
+                        <li><a class="dropdown-item" href="about.php">
+                            <i class="bi bi-info-circle me-2"></i>About Us
+                        </a></li>
+                        <li><a class="dropdown-item" href="#">
+                            <i class="bi bi-diagram-3 me-2"></i>Blood Compatibility
+                        </a></li>
                         
-                    <li class="nav-item">
-                        <i class="fa-regular fa-file-lines ps-md-2 text-warning"></i>
-                        <a class="nav-link text-white" href="Blog.php   ">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <i class="fa-solid fa-book-open ps-md-2 text-warning"></i>
-                        <a class="nav-link text-white" href="#">Guides</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        More
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="about.php">About us</a></li>
-                        <li><a class="dropdown-item" href="#">Blood Compatibility</a></li>
-                        <li><a class="dropdown-item" href="#">Donation Centers</a></li>
-                        <li><a class="dropdown-item" href="#">Browse by State</a></li>
-                        <li><a class="dropdown-item" href="popularcities.php">Popular Cities</a></li>
-                        <li><a class="dropdown-item" href="HC&FAQ.php">Help & FAQ</a></li>
+                        <li><a class="dropdown-item" href="browsestate.php">
+                            <i class="bi bi-map me-2"></i>Browse by State
+                        </a></li>
+                        <li><a class="dropdown-item" href="#">
+                            <i class="bi bi-building me-2"></i>Popular Cities
+                        </a></li>
+                        <li><a class="dropdown-item" href="HC&FAQ.php">
+                            <i class="bi bi-question-circle me-2"></i>Help & FAQ
+                        </a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
+                        <li><a class="dropdown-item" href="contact.php">
+                            <i class="bi bi-envelope me-2"></i>Contact Us
+                        </a></li>
                     </ul>
-                    </li>
-                    <a href="Emergency.php" class="btn btn-warning rounded-pill px-4 py-3 mx-3">
-                        <i class="fa-solid fa-triangle-exclamation"></i><br>
-                        Emergency
+                </li>
+                
+                <li class="nav-item d-none d-lg-block">
+                    <a class="btn btn-warning btn-sm rounded-pill px-3 ms-2" href="Emergency.php">
+                        <i class="bi bi-exclamation-triangle-fill me-1"></i>Emergency
                     </a>
+                </li>
                     <?PHP
                         include_once "db_conn.php";
                         if(isset($_SESSION['user_session_id'])){
@@ -145,18 +329,53 @@
                         <a class="nav-link text-white" href="login.php">Login</a>
                     </li>
 
-                    <a href="Register.php" class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
-                        <i class="fa-regular fa-heart"></i>
-                        <span><strong>Join</strong></span><br>
+                    <a href="Register.php" class="join-btn bg-white text-danger px-4 py-2 rounded-5 text-decoration-none d-flex align-items-center justify-content-center flex-column">
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <i class="fa-regular fa-heart"></i>
+                            <span><strong>Join</strong></span>
+                        </div>
                         <strong>Now</strong>
                     </a>
                     <?php
                     }
                     ?>
-                </ul>
-            </div>
+                
+                
+                   
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<div class="navbar-spacer"></div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    if (window.innerWidth >= 992) {
+
+        document.querySelectorAll('.navbar .dropdown').forEach(function (dropdown) {
+
+            dropdown.addEventListener('mouseenter', function () {
+                bootstrap.Dropdown.getOrCreateInstance(
+                    dropdown.querySelector('.dropdown-toggle')
+                ).show();
+            });
+
+            dropdown.addEventListener('mouseleave', function () {
+                bootstrap.Dropdown.getOrCreateInstance(
+                    dropdown.querySelector('.dropdown-toggle')
+                ).hide();
+            });
+
+        });
+
+    }
+
+});
+</script>
+
+
+
+</body>
+</html>
