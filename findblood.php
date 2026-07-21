@@ -67,159 +67,19 @@ opacity: 0.3;
    <?php include "nav.php"; ?>
 
 
-<div class="navbar-spacer"></div>
+
 
 <style>
+
 
 .bg-gradient-danger {
 background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%) !important;
 }
 
-.navbar-brand {
-transition: transform 0.3s ease;
-}
-
-.navbar-brand:hover {
-transform: scale(1.05);
-}
-
-.logo-circle {
-width: 45px;
-height: 45px;
-transition: all 0.3s ease;
-}
-
-.navbar-brand:hover .logo-circle {
-transform: rotate(10deg) scale(1.1);
-box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3) !important;
-}
-
-.brand-name {
-letter-spacing: -0.5px;
-}
-
-.brand-domain {
-font-weight: 600;
-}
-
-.navbar-nav .nav-link {
-transition: all 0.3s ease;
-position: relative;
-border-radius: 8px;
-margin: 2px 4px;
-padding: 8px 12px !important;
-}
-
-.navbar-nav .nav-link:hover {
-background-color: rgba(255, 255, 255, 0.1);
-transform: translateY(-1px);
-}
-
-.navbar-nav .nav-link.active {
-background-color: rgba(255, 255, 255, 0.2);
-font-weight: 600;
-}
-
-.navbar-nav .nav-link.active::after {
-content: '';
-position: absolute;
-bottom: -2px;
-left: 50%;
-transform: translateX(-50%);
-width: 20px;
-height: 2px;
-background-color: #fbbf24;
-border-radius: 2px;
-}
-
-.dropdown-menu {
-border-radius: 12px;
-border: none;
-margin-top: 8px;
-min-width: 220px;
-}
-
-.dropdown-menu::before {
-content: '';
-position: absolute;
-top: -6px;
-right: 20px;
-width: 12px;
-height: 12px;
-background: white;
-border: 1px solid rgba(0,0,0,.1);
-border-bottom: none;
-border-right: none;
-transform: rotate(45deg);
-}
-
-.dropdown-item {
-padding: 10px 20px;
-border-radius: 8px;
-margin: 4px 8px;
-transition: all 0.3s ease;
-}
-
-.dropdown-item:hover {
-background-color: #f8fafc;
-transform: translateX(4px);
-}
-
-.dropdown-item:active {
-background-color: #dc2626;
-color: white;
-}
-
-.dropdown-header {
-padding: 12px 20px 8px;
-color: #374151;
-font-weight: 600;
-}
-
-.user-avatar {
-width: 32px;
-height: 32px;
-font-size: 14px;
-font-weight: 600;
-}
-
-.navbar-spacer {
-height: 76px; /* Adjust based on navbar height */
-}
-
-.navbar-toggler {
-padding: 6px 8px;
-transition: all 0.3s ease;
-}
-
-.navbar-toggler:hover {
-background-color: rgba(255, 255, 255, 0.1);
-}
-
-.navbar-toggler:focus {
-box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.5);
-}
-
-
-
-.navbar-collapse {
-transition: all 0.3s ease-in-out;
-}
-
-.navbar.scrolled {
-background: rgba(153, 27, 27, 0.95) !important;
-backdrop-filter: blur(10px);
-}
-
-
-
-.navbar-brand.loading {
-animation: pulse-brand 2s infinite;
-}
 </style>
 
 
-<section class="search-hero py-5 bg-gradient-primary">
+<section class="search-hero py-5 bg-gradient-primary " >
 <div class="container">
 <div class="text-center text-white">
 <h1 class="display-4 fw-bold mb-4">
@@ -263,56 +123,56 @@ Connect with verified blood donors in your area for emergency blood requirements
 
 
 <section class="search-filters py-4 bg-light border-bottom">
-<div class="container">
-<form method="GET" action="/search" class="search-form">
-<div class="row g-3">
-<div class="col-lg-2 col-md-6">
-<label for="blood_group" class="form-label fw-semibold">Blood Group</label>
-<select name="bg" id="blood_group" class="form-select">
-<option value="" 
->
-All Groups                            
-</option>
-<option value="A+" 
->
-A+                            
-</option>
-<option value="A-" 
->
-A-                            
-</option>
-<option value="B+" 
->
-B+                            
-</option>
-<option value="B-" 
->
-B-                            
-</option>
-<option value="AB+" 
->
-AB+                            
-</option>
-<option value="AB-" 
->
-AB-                            
-</option>
-<option value="O+" 
->
-O+                            
-</option>
-<option value="O-" 
->
-O-                           
- </option>
-</select>
-</div>
+          <div class="container">
+          <form method="GET" action="/search" class="search-form">
+          <div class="row g-3">
+          <div class="col-lg-2 col-md-6">
+          <label for="blood_group" class="form-label fw-semibold">Blood Group</label>
+          <select name="bg" id="blood_group" class="form-select">
+          <option value="" 
+          >
+          All Groups                            
+          </option>
+          <option value="A+" 
+          >
+          A+                            
+          </option>
+          <option value="A-" 
+          >
+          A-                            
+          </option>
+          <option value="B+" 
+          >
+          B+                            
+          </option>
+          <option value="B-" 
+          >
+          B-                            
+          </option>
+          <option value="AB+" 
+          >
+          AB+                            
+          </option>
+          <option value="AB-" 
+          >
+          AB-                            
+          </option>
+          <option value="O+" 
+          >
+          O+                            
+          </option>
+          <option value="O-" 
+          >
+          O-                           
+          </option>
+          </select>
+          </div>
 
-<div class="col-lg-2 col-md-6">
-<label for="city" class="form-label fw-semibold">City</label>
-<input type="text" name="c" id="city" class="form-control" 
-placeholder="Enter city" value="">
-</div>
+          <div class="col-lg-2 col-md-6">
+          <label for="city" class="form-label fw-semibold">City</label>
+          <input type="text" name="c" id="city" class="form-control" 
+          placeholder="Enter city" value="">
+          </div>
 
 <div class="col-lg-2 col-md-6">
 <label for="area" class="form-label fw-semibold">Area</label>

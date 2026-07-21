@@ -29,7 +29,7 @@
 </style>
 
      <?php include "nav.php"; ?>
-    <div class="row w-100 " style="margin-top: 80px;background-color: rgb(208, 31, 31);">
+    <div class="row w-100 " style="background-color: rgb(208, 31, 31);">
         <div class="col-sm-2   w-50 text-white" style="padding: 80px; ">
            <div class="row p-1">
                 <h1 class="text-white fw-bold ">Become a Blood Donor</h1>
