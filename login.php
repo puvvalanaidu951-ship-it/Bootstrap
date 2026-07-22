@@ -40,7 +40,7 @@
         }
     </style>
 <?php include "nav.php"; ?>
-<section class="bg-danger lgnn" style="margin-top:100px;">
+<section class="bg-danger lgnn" >
         <div class="container  ">
             <div class=" row row-gap-3 pt-5 pb-5">
                 <div class=" col-6 bg-danger d-flex flex-column justify-content-center align-items-start gap-3">

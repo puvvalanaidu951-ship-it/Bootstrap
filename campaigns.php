@@ -78,7 +78,7 @@
 </head>
 <body>
  <?php include "nav.php"; ?>
-<section class="hero text-white py-5" style="margin-top:100px;" >
+<section class="hero text-white py-5"  >
     <div class="container">
 
         <div class="row align-items-center">

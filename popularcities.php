@@ -19,7 +19,7 @@
             text-decoration:none;
         }
     </style>
-
+ <?php include "nav.php"; ?>
     <div class="d-flex flex-column align-items-center" >
         <h1><b>Popular Cities</b></h1>
         <p>Find blood donors in major cities across India</p>
@@ -159,3 +159,4 @@
             <i class="fa-solid fa-arrow-right-long"></i>
         </button>
     </div>
+    <?php include "footer.php"; ?>
