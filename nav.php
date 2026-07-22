@@ -173,32 +173,32 @@
         .navbar-brand.loading {
             animation: pulse-brand 2s infinite;
         }
-@media (min-width: 992px) {
-    .navbar .dropdown:hover > .dropdown-menu {
-        display: block;
-        margin-top: 0;
-        animation: fadeIn 0.2s ease;
-    }
+        @media (min-width: 992px) {
+            .navbar .dropdown:hover > .dropdown-menu {
+                display: block;
+                margin-top: 0;
+                animation: fadeIn 0.2s ease;
+        }
 
-    .navbar .dropdown-toggle::after {
-        transition: transform .2s;
-    }
+        .navbar .dropdown-toggle::after {
+            transition: transform .2s;
+        }
 
-    .navbar .dropdown:hover .dropdown-toggle::after {
-        transform: rotate(180deg);
-    }
-}
+        .navbar .dropdown:hover .dropdown-toggle::after {
+            transform: rotate(180deg);
+        }
+        }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(8px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+        @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(8px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
         
 </style>
 
@@ -280,8 +280,7 @@
                         <li><a class="dropdown-item" href="#">
                             <i class="bi bi-diagram-3 me-2"></i>Blood Compatibility
                         </a></li>
-                        
-<<<<<<< HEAD
+                    
                     <li class="nav-item">
                         <i class="fa-regular fa-file-lines ps-md-2 text-warning"></i>
                         <a class="nav-link text-white" href="Blog.php   ">Blog</a>
@@ -296,7 +295,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="about.php">About us</a></li>
-                            <li><a class="dropdown-item" href="#">Blood Compatibility</a></li>
+                            <li><a class="dropdown-item" href="dashboard.php">Blood Compatibility</a></li>
                             <li><a class="dropdown-item" href="#">Donation Centers</a></li>
                             <li><a class="dropdown-item" href="#">Browse by State</a></li>
                             <li><a class="dropdown-item" href="popularcities.php">Popular Cities</a></li>
@@ -308,7 +307,6 @@
                     <a href="Emergency.php" class="btn btn-warning rounded-pill px-4 py-3 mx-3">
                         <i class="fa-solid fa-triangle-exclamation"></i><br>
                         Emergency
-=======
                         <li><a class="dropdown-item" href="browsestate.php">
                             <i class="bi bi-map me-2"></i>Browse by State
                         </a></li>
@@ -328,7 +326,6 @@
                 <li class="nav-item d-none d-lg-block">
                     <a class="btn btn-warning btn-sm rounded-pill px-3 ms-2" href="Emergency.php">
                         <i class="bi bi-exclamation-triangle-fill me-1"></i>Emergency
->>>>>>> acb3db0041ccfb0314877631daaaed62418e1a08
                     </a>
                 </li>
                     <?PHP

@@ -39,11 +39,28 @@
     </style>
 </head>
 <body>
-    
+    <?php 
+        session_start();
+        include_once "db_conn.php"; 
+        
+        if(isset($_SESSION['user_session_id'])){
+            $user_session_id = $_SESSION['user_session_id'];
+            $get_use_name_query = "SELECT fullname,blood_group,city FROM users WHERE Id = '$user_session_id'";
+            $get_user_name = mysqli_query($conn, $get_use_name_query);
+            if(mysqli_num_rows($get_user_name)==1){
+                $user_name_data = mysqli_fetch_assoc($get_user_name);
+                $user_name =  $user_name_data['fullname'];
+                $user_blood_group = $user_name_data['blood_group'];
+                $user_location = $user_name_data['city'];
+            }else{
+                $user_name = "Update your profile";
+            }
+        }
+    ?>
     <div class="bg-danger d-flex justify-content-around align-items-center p-4 well">
         <div>
             <h2 class="text-white">Welcome back, <?PHP echo " ".$user_name; ?> 💛</h2>
-            <p class="text-light">Blood Group: B+ <span><i class="bi bi-geo-alt me-1"></i>kerala</span></p>
+            <p class="text-light">Blood Group: <?PHP echo " ".$user_blood_group; ?> <span><i class="bi bi-geo-alt me-1"></i></span><span><?PHP echo " ".$user_location; ?></span></p>
         </div>
         <div class="d-flex gap-3">
             <button class="btn bg-white p-3"><i class="bi bi-person"></i>Edit Profile</button>
