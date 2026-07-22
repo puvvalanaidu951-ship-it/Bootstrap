@@ -173,32 +173,32 @@
         .navbar-brand.loading {
             animation: pulse-brand 2s infinite;
         }
-        @media (min-width: 992px) {
-            .navbar .dropdown:hover > .dropdown-menu {
-                display: block;
-                margin-top: 0;
-                animation: fadeIn 0.2s ease;
-        }
+@media (min-width: 992px) {
+    .navbar .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        animation: fadeIn 0.2s ease;
+    }
 
-        .navbar .dropdown-toggle::after {
-            transition: transform .2s;
-        }
+    .navbar .dropdown-toggle::after {
+        transition: transform .2s;
+    }
 
-        .navbar .dropdown:hover .dropdown-toggle::after {
-            transform: rotate(180deg);
-        }
-        }
+    .navbar .dropdown:hover .dropdown-toggle::after {
+        transform: rotate(180deg);
+    }
+}
 
-        @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(8px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
         
 </style>
 
@@ -280,33 +280,7 @@
                         <li><a class="dropdown-item" href="#">
                             <i class="bi bi-diagram-3 me-2"></i>Blood Compatibility
                         </a></li>
-                    
-                    <li class="nav-item">
-                        <i class="fa-regular fa-file-lines ps-md-2 text-warning"></i>
-                        <a class="nav-link text-white" href="Blog.php   ">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <i class="fa-solid fa-book-open ps-md-2 text-warning"></i>
-                        <a class="nav-link text-white" href="#">Guides</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="about.php">About us</a></li>
-                            <li><a class="dropdown-item" href="dashboard.php">Blood Compatibility</a></li>
-                            <li><a class="dropdown-item" href="#">Donation Centers</a></li>
-                            <li><a class="dropdown-item" href="#">Browse by State</a></li>
-                            <li><a class="dropdown-item" href="popularcities.php">Popular Cities</a></li>
-                            <li><a class="dropdown-item" href="HC&FAQ.php">Help & FAQ</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
-                        </ul>
-                    </li>
-                    <a href="Emergency.php" class="btn btn-warning rounded-pill px-4 py-3 mx-3">
-                        <i class="fa-solid fa-triangle-exclamation"></i><br>
-                        Emergency
+                        
                         <li><a class="dropdown-item" href="browsestate.php">
                             <i class="bi bi-map me-2"></i>Browse by State
                         </a></li>
@@ -341,9 +315,31 @@
                                 $user_name = "Update your profile";
                             }
                             ?>
-                            <a href="logout.php" class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
-                        <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
-                        <strong>Welcome</strong>
+                            <a href="logout.php" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
+                        <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
+                        
+                    </a>
+                    <a href="">
+                       <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium" href="#" id="navbarDropdown" 
+                       role="button" data-bs-toggle="dropdown" >
+                        <i class="bi bi-three-dots me-1"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0" aria-labelledby="navbarDropdown" >
+                        <li><a class="dropdown-item" href="dashboard.php">
+                            <i class="bi bi-info-circle me-2"></i>Dashboard
+                        </a></li>
+                        <li><a class="dropdown-item" href="myprofile.php">
+                            <i class="bi bi-diagram-3 me-2"></i>My Profile
+                        </a></li>
+                        <li class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="logout.php" href="login.php">
+                            <i class="bi bi-map me-2"></i>Logout
+                        </a></li>
+
+                    </ul>
+                </li>
+
                     </a>
                     <?php
                         }
@@ -404,4 +400,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 </body>
-</html>
+</html> 

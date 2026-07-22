@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
     <style>
+        
         .well{
             gap:350px;
         }
@@ -39,10 +40,15 @@
     </style>
 </head>
 <body>
+   
     <?php 
+        
         session_start();
+        
         include_once "db_conn.php"; 
         
+        
+
         if(isset($_SESSION['user_session_id'])){
             $user_session_id = $_SESSION['user_session_id'];
             $get_use_name_query = "SELECT fullname,blood_group,city FROM users WHERE Id = '$user_session_id'";
