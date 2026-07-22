@@ -92,7 +92,7 @@
         </div>
     </div>
 </section>
-<div class="container-fluid border-top border-5 border-danger py-5">
+<div class="container-fluid border-5 border-danger py-5">
     <div class="container">
         <div class="row g-4">
 
@@ -102,11 +102,11 @@
                         style="width:100px;height:100px;">
                         <i class="bi bi-telephone-fill text-success fs-1"></i>
                     </div>
-                    <h2 class="fw-bold mb-4">Phone Support</h2>
+                    <h2 class="fw-bold mb-2">Phone Support</h2>
                     <p class="text-secondary fs-4">Speak directly with our support team</p>
                     <h3 class="fw-bold my-4">+91 12345 67890</h3>
                     <p class="text-secondary fs-4">24/7 Available</p>
-                    <div class="mt-3">
+                    <div class="mt-2">
                         <a href="#" class="btn btn-success btn-lg px-4 py-3 fw-semibold ">
                             <i class="bi bi-telephone me-2"></i>Call Now
                         </a>
@@ -115,16 +115,16 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="card border-0 shadow-sm rounded-4 text-center h-100 p-4">
-                    <div class="rounded-circle bg-danger d-flex justify-content-center align-items-center mx-auto mb-4 
+                    <div class="rounded-circle bg-danger bg-opacity- d-flex justify-content-center align-items-center mx-auto mb-4"
                         style="width:100px;height:100px;">
                         <i class="bi bi-envelope-fill text-white fs-1"></i>
                     </div>
-                    <h2 class="fw-bold mb-4">Email Support</h2>
+                    <h2 class="fw-bold" mb="2">Email Support</h2>
                     <p class="text-secondary fs-4"> Send us detailed queries</p>
-                    <h3 class="fw-bold my-4"> support@blooddonor.in</h3>
+                    <h3 class="fw-bold my-1">support@blooddonor.in</h3>
                     <p class="text-secondary fs-4"> Response in 4 hours</p>
                     <div class="mt-3">
-                        <a href="#" class="btn btn-danger btn-lg px-4 py-3 fw-semibold mb-6">
+                        <a href="#" class="btn btn-danger btn-lg px-4 py-3 fw-semibold" >
                             <i class="bi bi-envelope me-2"></i>Send Email
                         </a>
                     </div>
@@ -138,9 +138,9 @@
                     </div>
                     <h2 class="fw-bold mb-4">Live Chat</h2>
                     <p class="text-secondary fs-4">Get instant help from our team </p>
-                    <h3 class="fw-bold my-4"> Available Now</h3>
-                    <p class="text-secondary fs-4">  Average response: </p>
-                    <div class="mt-3">
+                    <h3 class="fw-bold my-3">Available Now</h3>
+                    <p class="text-secondary fs-4">Average response:2min</p>
+                    <div class="mt-2">
                         <a href="#" class="btn btn-info btn-lg px-4 py-3 fw-semibold text-dark " >
                             <i class="bi bi-chat me-2"></i>Start Chat
                         </a>
@@ -157,10 +157,10 @@
                     </div>
                     <h2 class="fw-bold mb-4">WhatsApp</h2>
                     <p class="text-secondary fs-4"> Quick support via WhatsApp</p>
-                    <h3 class="fw-bold my-4">
+                    <h3 class="fw-bold my-3">
                         +91 98765 43210 </h3>
                     <p class="text-secondary fs-4"> Business hours</p>
-                    <div class="mt-3">
+                    <div class="mt-2">
                         <a href="#" class="btn btn-success btn-lg px-4 py-3 fw-semibold">
                             <i class="bi bi-whatsapp me-2"></i>Message
                         </a>
@@ -177,56 +177,55 @@
      <div class="container-fluid">
         <div class="row g-4">
             <div class="col-lg-8">
-             <div class="card p-5">
+            <div class="card p-5">
                 <h1 class="section-title">
                 <i class="bi bi-send text-danger"></i>Send Us a Message </h1>
                 <p class="fs-3 text-secondary mb-5">Fill out the form below and we'll get back to you promptly</p>
 
-<form>
+    <form method="POST" action="contact_feedback.php">
     <div class="row">
          <div class="col-md-6 mb-4">
              <label class="form-label fs-4">Full Name <span class="text-danger">*</span></label>
-            <input type="text"class="form-control form-control-lg">
+            <input type="text" class="form-control form-control-lg" name="name">
         </div>
     <div class="col-md-6 mb-4">
         <label class="form-label fs-4">Email Address <span class="text-danger">*</span> </label>
-         <input type="email"class="form-control form-control-lg">
+         <input type="email" class="form-control form-control-lg" name="email">
     </div>
 
     <div class="col-md-6 mb-4">
         <label class="form-label fs-4">Phone Number </label>
-        <input type="text" class="form-control form-control-lg">
+        <input type="text" class="form-control form-control-lg" name="phone"> 
     <div class="text-secondary mt-2">
         10-digit phone number (optional)
     </div>
 </div>
 
-<div class="col-md-6 mb-4">
-    <label class="form-label fs-4">Message Type</label>
-    <select class="form-select form-select-lg">
-        <option>General Inquiry</option>
-        <option>Blood Donation</option>
-        <option>Emergency</option>
-        <option>Complaint</option>
-        <option>Suggestion</option>
-    </select>
+    <div class="col-md-6 mb-4">
+        <label class="form-label fs-4">Message Type</label>
+        <select class="form-select form-select-lg" name="msg_type">
+            <option>General Inquiry</option>
+            <option>Blood Donation</option>
+            <option>Emergency</option>
+            <option>Complaint</option> 
+            <option>Suggestion</option>
+        </select>
+    </div>
 </div>
-
-</div>
-<div class="mb-4">
-    <label class="form-label fs-4">  Subject <span class="text-danger">*</span> </label>
-    <input type="text" class="form-control form-control-lg" placeholder="Brief description of your inquiry">
-</div>
+    <div class="mb-4">
+        <label class="form-label fs-4">  Subject <span class="text-danger">*</span> </label>
+        <input type="text" name="subject" class="form-control form-control-lg" placeholder="Brief description of your inquiry" >
+   </div>
 <div class="mb-3">
     <label class="form-label fs-4"> Message <span class="text-danger">*</span></label>
-    <textarea class="form-control form-control-lg" rows="8" placeholder="Please provide detailed information about your inquiry..."></textarea>
+    <textarea name="message" class="form-control form-control-lg" rows="8" placeholder="Please provide detailed information about your inquiry..." ></textarea>
 </div>
 
 <div class="text-secondary fs-5 mb-5">
     0 / 1000 characters
 </div>
 
-    <button class="btn btn-danger btn-lg w-100 py-3 fs-3 fw-bold"><i class="bi bi-send me-2"></i> Send Message</button>
+    <button class="btn btn-danger btn-lg w-100 py-3 fs-3 fw-bold" type="submit"><i class="bi bi-send me-2"></i> Send Message</button>
 
 </form>
 
@@ -249,7 +248,7 @@
 
             <p class="fs-4 mb-0">BloodDonor.in</p>
             <p class="fs-4 mb-0">123 Health Care Complex</p>
-            <p class="fs-4 mb-0">Medical District, New Delhi</p>
+            <p class="fs-4 mb-0">srikakulam District, Andhara pradesh</p>
             <p class="fs-4">India - 110001</p>
 
             <h4 class="text-danger mt-4 mb-3">Business Hours</h4>
@@ -371,6 +370,87 @@
         </div>
     </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const submitSpinner = document.getElementById('submitSpinner');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const messageTextarea = document.getElementById('message');
+    const charCount = document.getElementById('charCount');
+    
+    // Character count
+    messageTextarea.addEventListener('input', function() {
+        const count = this.value.length;
+        charCount.textContent = count;
+        
+        if (count > 1000) {
+            charCount.style.color = '#dc3545';
+            this.value = this.value.substring(0, 1000);
+            charCount.textContent = '1000';
+        } else if (count > 900) {
+            charCount.style.color = '#fd7e14';
+        } else {
+            charCount.style.color = '#6c757d';
+        }
+    });
+    
+    // Phone number formatting
+    const phoneInput = document.getElementById('phone');
+    phoneInput.addEventListener('input', function() {
+        this.value = this.value.replace(/\D/g, '').substring(0, 10);
+    });
+    
+    // Form validation
+    form.addEventListener('submit', function(event) {
+        if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+        } else {
+            // Show loading state
+            submitBtn.disabled = true;
+            btnText.classList.add('d-none');
+            submitSpinner.classList.remove('d-none');
+        }
+        form.classList.add('was-validated');
+    });
+    
+    // Real-time validation
+    const inputs = form.querySelectorAll('input[required], textarea[required]');
+    inputs.forEach(input => {
+        input.addEventListener('blur', function() {
+            if (this.checkValidity()) {
+                this.classList.add('is-valid');
+                this.classList.remove('is-invalid');
+            } else {
+                this.classList.add('is-invalid');
+                this.classList.remove('is-valid');
+            }
+        });
+    });
+});
+
+function openLiveChat() {
+    // In production, integrate with live chat service like Tawk.to, Crisp, etc.
+    BloodDonorApp.showInfo('Live chat will be available soon. Please use phone or email for now.');
+}
+
+// Auto-suggest common subjects based on type
+document.getElementById('type').addEventListener('change', function() {
+    const subjectInput = document.getElementById('subject');
+    const suggestions = {
+        'general': 'General Inquiry',
+        'support': 'Need technical help with',
+        'feedback': 'Feedback about',
+        'partnership': 'Partnership opportunity',
+        'emergency': 'Urgent: Blood needed for'
+    };
+    
+    if (suggestions[this.value] && !subjectInput.value) {
+        subjectInput.placeholder = suggestions[this.value];
+    }
+});
+</script>
 
 <?php include "footer.php"; ?>
 
