@@ -76,7 +76,7 @@
 <body>
 <?php include "nav.php"; ?>
 
-<section class="get-touch text-white mt-5">
+<section class="get-touch text-white ">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-8">
