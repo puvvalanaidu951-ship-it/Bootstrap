@@ -100,19 +100,19 @@
                         <a class="nav-link text-white" href="#">Guides</a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        More
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="about.php">About us</a></li>
-                        <li><a class="dropdown-item" href="#">Blood Compatibility</a></li>
-                        <li><a class="dropdown-item" href="#">Donation Centers</a></li>
-                        <li><a class="dropdown-item" href="#">Browse by State</a></li>
-                        <li><a class="dropdown-item" href="popularcities.php">Popular Cities</a></li>
-                        <li><a class="dropdown-item" href="HC&FAQ.php">Help & FAQ</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
-                    </ul>
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="about.php">About us</a></li>
+                            <li><a class="dropdown-item" href="#">Blood Compatibility</a></li>
+                            <li><a class="dropdown-item" href="#">Donation Centers</a></li>
+                            <li><a class="dropdown-item" href="#">Browse by State</a></li>
+                            <li><a class="dropdown-item" href="popularcities.php">Popular Cities</a></li>
+                            <li><a class="dropdown-item" href="HC&FAQ.php">Help & FAQ</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
+                        </ul>
                     </li>
                     <a href="Emergency.php" class="btn btn-warning rounded-pill px-4 py-3 mx-3">
                         <i class="fa-solid fa-triangle-exclamation"></i><br>

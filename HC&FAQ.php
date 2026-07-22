@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
-   <div class="container-fluid bg-danger py-5">
-    <div class="container">
+    <?php include "nav.php"; ?>
+   <div class="container-fluid bg-danger py-5 mt-5">
+    <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <h6 class="display-5 fw-bold text-white">How Can We Help You?</h6>
@@ -288,5 +289,6 @@
         </div>
     </div>
 </div>
+<?php include "footer.php"; ?>
 </body>
 </html>
