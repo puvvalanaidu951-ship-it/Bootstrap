@@ -315,7 +315,7 @@
                                 $user_name = "Update your profile";
                             }
                             ?>
-                            <a href="logout.php" class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
+                            <a href="logout.php"  class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
                         <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
                         <strong>Welcome</strong>
                     </a>
