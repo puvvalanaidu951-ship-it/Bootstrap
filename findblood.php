@@ -64,7 +64,7 @@ opacity: 0.3;
 </style>
 </head>
 <body>
-   <?php include "nav.php"; ?>
+  <?php include "nav.php"; ?>
 
 
 

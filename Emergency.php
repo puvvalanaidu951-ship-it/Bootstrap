@@ -10,15 +10,10 @@
     <title>Emergency Page</title>
 </head>
 <body>
-<<<<<<< HEAD
-         <?php include "nav.php"; ?>
-            <div class="py-1"></div>
-                <div class="container-fluid bg-danger text-white py-3 px-3 ">
-=======
+        
         <?php include "nav.php"; ?>
             <div class="py-3"></div>
-                <div class="container-fluid bg-danger text-white py-3 px-3 mt-5 ">
->>>>>>> 85e640079103a630607d30383f1a52f788414e60
+                <div class="container-fluid bg-danger text-white py-3 px-3 ">
                     <div class="d-flex justify-content-evenly align-items-center">
                         <span>
                             <i class="fa-solid fa-triangle-exclamation fs-5 "></i>
@@ -44,33 +39,45 @@
                     </div>
                 </div>
 
-       <section class="container py-5">
-            <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="card shadow-lg form-card">
-                    <div class="card-header bg-danger text-white text-center py-4">
-                        <h2 class="mb-2">Emergency Blood Request Form</h2>
-                        <p class="mb-0">fill out the form below to submit your emergency blood request.</p>
-                    </div>
-                    <div class="card-body p-4">
-                       <div class="alert alert-warning">
-                        <i class="fa-solid fa-triangle-exclamation"></i>
-                        <strong>For life-threatening Emergencies:</strong>call our 24/7 helpline at
-                        <a href="#">+91 12345 67890</a>
-                        for immediate phone assistance while while filling this form.
+      <section class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg form-card">
+
+                <div class="card-header bg-danger text-white text-center py-4">
+                    <h2 class="mb-2">Emergency Blood Request Form</h2>
+                    <p class="mb-0">Fill out the form below to submit your emergency blood request.</p>
+                </div>
+
+                <div class="card-body p-4">
+
+                    <form action="request_data.php" method="POST">
+
+                        <div class="alert alert-warning">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <strong>For life-threatening Emergencies:</strong>
+                            call our 24/7 helpline at
+                            <a href="#">+91 12345 67890</a>
+                            for immediate phone assistance while filling this form.
                         </div>
+
                         <h5 class="section-title">
-                            <i class="fa-regular fa-user"></i>Patient Information</h5>
+                            <i class="fa-regular fa-user"></i> Patient Information
+                        </h5>
+
                         <div class="row">
                             <div class="col-md-8 mb-3">
-                                <label class="form-label">Patient Name</label>
-                                <input type="text" class="form-control">
+                                <label class="form-label ">Patient Name</label>
+                                <input type="text" class="form-control" name="pname" required>
                             </div>
+
                             <div class="col-md-4 mb-3">
-                                <label class="form-label">Blood Group
-                                <span class="required">*</span>
+                                <label class="form-label">
+                                    Blood Group
+                                    <span class="required">*</span>
                                 </label>
-                                <select class="form-select">
+
+                                <select class="form-select" name="blood" required>
                                     <option>A+</option>
                                     <option>A-</option>
                                     <option>B+</option>
@@ -82,121 +89,135 @@
                                 </select>
                             </div>
                         </div>
-                        <h5 class="section-title"><i class="fa-solid fa-droplet"></i>Blood Requirement</h5>
+
+                        <h5 class="section-title">
+                            <i class="fa-solid fa-droplet"></i> Blood Requirement
+                        </h5>
+
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label class="form-label">Units Needed
-                                <span class="required">*</span>
+                                <label class="form-label">
+                                    Units Needed
+                                    <span class="required">*</span>
                                 </label>
-                                <select class="form-select">
+
+                                <select class="form-select" name="units" required>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
                                     <option>5</option>
                                 </select>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">
+                                    When Needed
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-select" name="when" required>
+                                    <option>Today</option>
+                                    <option>Tomorrow</option>
+                                    <option>This Week</option>
+                                    <option>This Month</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="col-md-6 mb-3">
+
+                        <h5 class="section-title">
+                            <i class="fa-solid fa-droplet"></i>
+                            Hospital Information
+                        </h5>
+
+                        <div class="mb-3">
                             <label class="form-label">
-                                When Needed
-                                <span class="required">*</span>
-
-                            </label>
-                            <select class="form-select">
-                                <option>Today</option>
-                                <option>Tomorrow</option>
-                                <option>This Week</option>
-                                <option>This Month</option>
-                            </select>
-
-                        </div>
-
-                    </div>
-                    <h5 class="section-title">
-                        <i class="fa-solid fa-droplet"></i>
-                        Hospital Information
-                    </h5>
-                    <div class="mb-3">
-                    <label class="form-label">Hospital Name
-                       <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control">
-
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label">
-                                City
+                                Hospital Name
                                 <span class="required">*</span>
                             </label>
-                            <input type="text" class="form-control">
-
-
-                    </div>
-                    <div class="col-md-6 mb-3">
-                            <label class="form-label">
-                                State
-                                <span class="required">*</span>
-                            </label>
-                            <input type="text" class="form-control">
-
+                            <input type="text" class="form-control" name="hname" required>
                         </div>
-                    </div>
-                    <h5 class="section-title">
-                        <i class="fa-solid fa-phone"></i>
-                        Contact Information
-                    </h5>
-                   <div class="row">
-                    
-                    <div class="col-md-6 mb-3">
-                        <label class="form-label">
-                            Contact Person
-                            <span class="required">*</span>
-                        </label>
-                        <input type="text" class="form-control">
 
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label class="form-label">
-                            Contact Number
-                            <span class="required">*</span>
-                        </label>
-                        <input type="text" class="form-control">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">
+                                    City
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" class="form-control" name="city" required>
+                            </div>
 
-                    </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">
+                                    State
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" class="form-control" name="state" required>
+                            </div>
+                        </div>
 
-                   </div>
-                   <h5 class="section-title">
-                    <i class="fa-solid fa-circle-info"></i>
-                    Additional Information
-                </h5>
-                <div class="mb-3">
-                    <label class="form-label">
-                        Additional Details
-                    </label>
-                    <textarea class="form-control" rows="4" placeholder="Please provide any additional information..."></textarea>
-                </div>
-                <div class="border border-warning rounded p-3 bg-light">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="termsCheck">
-                        <label class="form-check-label">
-                            <strong>Emergency Declaration:</strong>
-                            I hereby declare that the information provided above is accurate and that this request is for a genuine emergency blood requirement. I understand that providing false information may result in legal consequences.
-                            I also acknowledge that this form is for emergency blood requests only and that I will follow up with the hospital or blood bank directly for further assistance.
-                        </label>
-                    </div>
+                        <h5 class="section-title">
+                            <i class="fa-solid fa-phone"></i>
+                            Contact Information
+                        </h5>
 
-                </div>
-                <div class="d-grid mt-4">
-                    <button class="btn btn-danger btn-lg fw-bold" type="submit">
-                        <i class="fa-solid fa-paper-plane"></i>Submit Emergency Request</button>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">
+                                    Contact Person
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" class="form-control" name="contactp" required>
+                            </div>
 
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">
+                                    Contact Number
+                                    <span class="required">*</span>
+                                </label>
+                                <input type="text" class="form-control" name="contactn" required>
+                            </div>
+                        </div>
 
+                        <h5 class="section-title">
+                            <i class="fa-solid fa-circle-info"></i>
+                            Additional Information
+                        </h5>
+
+                        <div class="mb-3">
+                            <label class="form-label">Additional Details</label>
+                            <textarea class="form-control" rows="4"
+                                placeholder="Please provide any additional information..."
+                                name="details"></textarea>
+                        </div>
+
+                        <div class="border border-warning rounded p-3 bg-light">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                    id="termsCheck" name="terms">
+
+                                <label class="form-check-label" for="termsCheck">
+                                    <strong>Emergency Declaration:</strong>
+                                    I hereby declare that the information provided above is accurate and that this request is for a genuine emergency blood requirement.
+                                    I understand that providing false information may result in legal consequences.
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="d-grid mt-4">
+                            <button class="btn btn-danger btn-lg fw-bold" type="submit">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                Submit Emergency Request
+                            </button>
+                        </div>
+
+                    </form>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
 
-            </div>
-    </section>
       
        <section class=" container-fluid py-5 mt-5 bg-light">
 

@@ -315,9 +315,36 @@
                                 $user_name = "Update your profile";
                             }
                             ?>
+<<<<<<< HEAD
                             <a href="logout.php"  class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
                         <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
                         <strong>Welcome</strong>
+=======
+                            <a href="logout.php" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
+                        <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
+                        
+                    </a>
+                    <a href="">
+                       <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium" href="#" id="navbarDropdown" 
+                       role="button" data-bs-toggle="dropdown" >
+                        <i class="bi bi-three-dots me-1"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0" aria-labelledby="navbarDropdown" >
+                        <li><a class="dropdown-item" href="dashboard.php">
+                            <i class="bi bi-info-circle me-2"></i>Dashboard
+                        </a></li>
+                        <li><a class="dropdown-item" href="myprofile.php">
+                            <i class="bi bi-diagram-3 me-2"></i>My Profile
+                        </a></li>
+                        <li class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="logout.php" href="login.php">
+                            <i class="bi bi-map me-2"></i>Logout
+                        </a></li>
+
+                    </ul>
+                </li>
+
                     </a>
                     <?php
                         }
@@ -378,4 +405,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 </body>
-</html>
+</html> 

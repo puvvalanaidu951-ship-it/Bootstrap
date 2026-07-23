@@ -29,7 +29,7 @@
 </head>
 <body class="">
     <?php
-        session_start();
+        session_start();    
         include "nav.php"; ?>
     <?php include "hero.php"; ?>
     <?php include "popularcities.php"; ?>
