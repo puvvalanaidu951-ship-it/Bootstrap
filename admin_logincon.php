@@ -1,4 +1,4 @@
-    <?PHP
+    <!-- <?PHP
         session_start();
         include_once 'db.php';
 
@@ -17,8 +17,37 @@
             echo "<script> window.location.href = 'admin_login.php' </script>";
          
         }   
-    ?>
+    ?> -->
 
     
 
-     
+     <?php
+session_start();
+include_once 'db.php';
+
+$admin = $_POST['username'];
+$admin_password = $_POST['password'];
+
+$stmt = $connec->prepare("SELECT admin_rec FROM admin WHERE username=? AND password=?");
+$stmt->bind_param("ss", $admin, $admin_password);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+if ($result->num_rows == 1) {
+
+    $row = $result->fetch_assoc();
+
+    $_SESSION['admin_session_id'] = $row['admin_rec'];
+
+    header("Location: admin_dashboard.php");
+    exit();
+
+} else {
+
+    echo "<script>
+            alert('Invalid Username or Password');
+            window.location='admin_login.php';
+          </script>";
+}
+?>
