@@ -164,7 +164,7 @@
                         <div class="text-center py-4">
                             <i class="bi bi-clipboard text-muted" style="font-size: 3rem;"></i>
                             <p class="text-muted mt-2">No blood requests yet</p>
-                            <a href="/request-blood.php" class="btn btn-primary">Make a Request</a>
+                            <a href="request_blood.php" class="btn btn-primary">Make a Request</a>
                         </div>
                 </div>
             </div>
