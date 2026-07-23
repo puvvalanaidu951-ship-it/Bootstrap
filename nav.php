@@ -315,11 +315,11 @@
                                 $user_name = "Update your profile";
                             }
                             ?>
-<<<<<<< HEAD
+
                             <a href="logout.php"  class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
                         <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
                         <strong>Welcome</strong>
-=======
+
                             <a href="logout.php" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
                         <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
                         
