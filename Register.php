@@ -69,7 +69,7 @@
 
                         <form method="POST" action="registration.php" class="needs-validation" novalidate id="registerForm">
                             
-                            <!-- Account Type Selection -->
+                            
                             <div class="form-section mb-5">
                                 <h5 class="section-title text-primary mb-4">
                                     <i class="bi bi-person-gear me-2"></i>Account Type
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
 
-                            <!-- Personal Information -->
+                            
                             <div class="form-section mb-4">
                                 <h5 class="section-title text-primary mb-3">
                                     <i class="bi bi-person me-2"></i>Personal Information

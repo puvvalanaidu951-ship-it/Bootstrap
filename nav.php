@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/b2ca557543.js" crossorigin="anonymous"></script>
 <style>
 
@@ -316,11 +317,19 @@
                             }
                             ?>
 
+<<<<<<< HEAD
                             <!-- <a href="logout.php"  class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none"> -->
                         <!-- <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
                         <strong>Welcome</strong> -->
                                          <!-- </a> -->
                             <a href="logout.php" class="join-btn bg-white text-danger px-4 ms-3 py-3 fs-5 rounded-circle text-decoration-none ">
+=======
+                            <a href="logout.php"  class="join-btn bg-white text-center text-danger ms-2 px-4 py-3 rounded-5 text-decoration-none">
+                                <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
+                        
+
+                            <a href="logout.php" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
+>>>>>>> aaf14ebecc693c81e1744955aac643dee0e35bc3
                         <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
                         
                    
