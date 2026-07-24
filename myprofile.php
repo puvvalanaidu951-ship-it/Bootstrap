@@ -58,9 +58,12 @@
 
             $stmt = mysqli_prepare($conn,"UPDATE users SET fullname=?, phone=?, dob=?, gender=?, blood_group=?, state=?, city=?, locality=?,pincode=? WHERE Id=?");
 
+            mysqli_stmt_bind_param($stmt,"ssssssssss",$fullname,$phone,$dob,$gender,$blood_group,$state,$city,$area,$pincode,$user_session_id);
+
 
 
             mysqli_stmt_bind_param($stmt,"ssssssssss",$fullname,$phone,$dob,$gender,$blood_group,$state,$city,$area,$pincode,$user_session_id);
+
 
             if(mysqli_stmt_execute($stmt)){
                 header("Location: myprofile.php");
