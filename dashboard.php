@@ -40,10 +40,10 @@
     </style>
 </head>
 <body>
-   
+         <?php include "nav.php"; ?>
+
     <?php 
         
-        session_start();
         
         include_once "db_conn.php"; 
         

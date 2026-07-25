@@ -1,3 +1,8 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -234,19 +239,23 @@
                     </a>
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link fw-medium " 
-                       href="findblood.php">
-                        <i class="bi bi-search me-1"></i>Find Donors
-                    </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link fw-medium " 
-                       href="login.php">
-                        <i class="bi bi-plus-circle me-1"></i>Request Blood
-                    </a>
-                </li>
+               <li class="nav-item">
+    <?php if (isset($_SESSION['user_session_id'])) { ?>
+        <a class="nav-link fw-medium" href="findblood.php">
+            <i class="bi bi-search me-1"></i>Find Donors
+        </a>
+    <?php } else { ?>
+        <a class="nav-link fw-medium" href="login.php">
+            <i class="bi bi-search me-1"></i>Find Donors
+        </a>
+    <?php } ?>
+</li>
+                            
+                    <li class="nav-item">
+                         <a class="nav-link fw-medium" href="request_blood.php">
+                         <i class="bi bi-plus-circle me-1"></i>Request Blood
+                        </a>
+                    </li>
                 
                 <li class="nav-item">
                     <a class="nav-link fw-medium " 
@@ -278,7 +287,7 @@
                         <li><a class="dropdown-item" href="about.php">
                             <i class="bi bi-info-circle me-2"></i>About Us
                         </a></li>
-                        <li><a class="dropdown-item" href="#">
+                        <li><a class="dropdown-item" href="compatibility.php">
                             <i class="bi bi-diagram-3 me-2"></i>Blood Compatibility
                         </a></li>
                         
@@ -318,11 +327,25 @@
                             }
                             ?>
 
+<<<<<<< HEAD
                           
                            
 
                             <a href="#" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
                             <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
+=======
+                            <!-- <a href="logout.php"  class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
+                        <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
+                        <strong>Welcome</strong>
+                                         </a> -->
+                            <!-- <a href="logout.php" class="join-btn bg-white text-danger px-4 ms-3 py-3 fs-5 rounded-circle text-decoration-none ">
+                            <a href="logout.php"  class="join-btn bg-white text-center text-danger ms-2 px-4 py-3 rounded-5 text-decoration-none">
+                                <span><strong><?PHP echo " ".$user_name; ?></strong></span><br> -->
+                        
+
+                            <a href="logout.php" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
+                        <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
+>>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
                         
                    
                     <a href="">

@@ -591,6 +591,55 @@
     </div>
 </div>
 </section>
+<section class="bg-light py-5">
+     <div class="container">
+        <div class="row align-items-center">
+        <div class="col-6">
+                <h1 class="fw-bold display-5 mb-4">Understanding Rh Factor</h1>
+                <p class="fs-4 text-secondary mb-5">
+                    The Rh factor is a protein found on red blood cells. People are either
+                    Rh-positive (have the protein) or Rh-negative (don't have the protein).
+                </p>
+                <div class="d-flex align-items-start">
+                    <i class="bi bi-plus-circle-fill text-success fs-2 me-3"></i>
+                    <div>
+                        <h4 class="text-success fw-semibold">Rh Positive (+)</h4>
+                        <p class="fs-5">Can receive Rh+ or Rh- blood of the same ABO group</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-5">
+                    <i class="bi bi-dash-circle-fill text-danger fs-2 me-3"></i>
+                    <div>
+                        <h4 class="text-danger fw-semibold">Rh Negative (-)</h4>
+                        <p class="mb-0 fs-5">
+                            Can only receive Rh- blood of compatible ABO groups
+                        </p>
+                    </div>
+                </div>
+                <div class="alert alert-primary px-3">
+                    <h4 class="fw-bold"><i class="bi bi-info-circle me-2"></i>Important Note</h4>
+                    <p class="mb-0 fs-5">About 85% of people are Rh-positive. Rh-negative individuals should only receive Rh-negative blood to prevent antibody formation.</p>
+                </div>
+            </div>
+            <div class="col-6 text-center">
+                    <div class="bg-success rounded-circle d-inline-flex justify-content-center align-items-center"
+                        style="width:120px;height:120px;">
+                        <span class="display-2 text-white fw-bold">+</span>
+                    </div>
+                    <h2 class="text-success fw-bold mt-3">Rh Positive</h2>
+                    <p class="fs-4 text-secondary">Has Rh protein</p>
+                <div>
+                    <div class="bg-danger rounded-circle d-inline-flex justify-content-center align-items-center"
+                        style="width:120px;height:120px;">
+                        <span class="display-2 text-white fw-bold">-</span>
+                    </div>
+                    <h2 class="text-danger fw-bold mt-3">Rh Negative</h2>
+                    <p class="fs-4 text-secondary">No Rh protein</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
        <?php include "footer.php"; ?>
 

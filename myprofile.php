@@ -11,14 +11,9 @@
     
 </head>
 <body>
+         <?php include "nav.php"; ?>
 
-    <?php 
-
-        
-
-        session_start();
-        
-
+    <?php         
         include_once "db_conn.php"; 
 
         if(isset($_SESSION['user_session_id'])){
@@ -60,6 +55,9 @@
 
             mysqli_stmt_bind_param($stmt,"ssssssssss",$fullname,$phone,$dob,$gender,$blood_group,$state,$city,$area,$pincode,$user_session_id);
 
+
+
+            mysqli_stmt_bind_param($stmt,"ssssssssss",$fullname,$phone,$dob,$gender,$blood_group,$state,$city,$area,$pincode,$user_session_id);
 
 
             if(mysqli_stmt_execute($stmt)){

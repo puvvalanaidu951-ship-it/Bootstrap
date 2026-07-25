@@ -1,4 +1,11 @@
+<?php
+session_start();
 
+if (!isset($_SESSION['user_session_id'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +21,10 @@
 <body>
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
 
 <style>
 
@@ -25,7 +35,7 @@
 </style>
  <?php include "nav.php"; ?>
 
-<section class="request-hero py-5 bg-gradient-danger">
+<section class="request-hero py-5 bg-gradient-danger mt-0">
     <div class="container">
         <div class="text-center text-white mb-4">
             <h1 class="display-6 fw-bold mb-3">Request Blood</h1>
