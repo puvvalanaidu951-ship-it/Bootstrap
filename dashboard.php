@@ -45,22 +45,43 @@
     <?php 
         
         
-        include_once "db_conn.php"; 
-        
-        
+        include_once "db_conn.php";
 
         if(isset($_SESSION['user_session_id'])){
+
             $user_session_id = $_SESSION['user_session_id'];
-            $get_use_name_query = "SELECT fullname,blood_group,city FROM users WHERE Id = '$user_session_id'";
-            $get_user_name = mysqli_query($conn, $get_use_name_query);
+
+            $request_query = mysqli_query(
+                $conn,
+                "SELECT COUNT(*) AS total_requests
+                FROM request_blood_users
+                WHERE User_Id='$user_session_id'"
+            );
+
+            $request_data = mysqli_fetch_assoc($request_query);
+            $total_requests = $request_data['total_requests'];
+
+            $get_use_name_query = "SELECT fullname,blood_group,city
+                                FROM users
+                                WHERE Id='$user_session_id'";
+
+            $get_user_name = mysqli_query($conn,$get_use_name_query);
+
             if(mysqli_num_rows($get_user_name)==1){
+
                 $user_name_data = mysqli_fetch_assoc($get_user_name);
-                $user_name =  $user_name_data['fullname'];
+
+                $user_name = $user_name_data['fullname'];
                 $user_blood_group = $user_name_data['blood_group'];
                 $user_location = $user_name_data['city'];
-            }else{
-                $user_name = "Update your profile";
+
             }
+
+        }else{
+
+            header("Location: login.php");
+            exit();
+
         }
     ?>
     <div class="bg-danger d-flex justify-content-around align-items-center p-4 well">
@@ -99,7 +120,7 @@
                             <i class="bi bi-clipboard-pulse fs-3"></i>
                         </div>
                         <div>
-                            <h3 class="stat-number mb-1">0</h3>
+                            <h3 class="stat-number mb-1"><?php echo $total_requests; ?></h3>
                             <p class="stat-label text-muted mb-0">Requests Made</p>
                         </div>
                     </div>

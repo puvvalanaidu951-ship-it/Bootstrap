@@ -33,14 +33,9 @@ if (session_status() === PHP_SESSION_NONE) {
     </style>
 </head>
 <body class="">
-<<<<<<< HEAD
     
-    <?php
-         session_start();   
-        include "nav.php"; ?>
-=======
+    
     <?php include "nav.php"; ?>
->>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
     <?php include "hero.php"; ?>
     <?php include "popularcities.php"; ?>
     <?php include "howitworks.php"; ?>
