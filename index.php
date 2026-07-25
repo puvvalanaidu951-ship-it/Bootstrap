@@ -1,3 +1,8 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,9 +33,7 @@
     </style>
 </head>
 <body class="">
-    <?php
-        session_start();    
-        include "nav.php"; ?>
+    <?php include "nav.php"; ?>
     <?php include "hero.php"; ?>
     <?php include "popularcities.php"; ?>
     <?php include "howitworks.php"; ?>

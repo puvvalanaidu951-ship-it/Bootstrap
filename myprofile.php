@@ -11,14 +11,9 @@
     
 </head>
 <body>
+         <?php include "nav.php"; ?>
 
-    <?php 
-
-        
-
-        session_start();
-        
-
+    <?php         
         include_once "db_conn.php"; 
 
         if(isset($_SESSION['user_session_id'])){

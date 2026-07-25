@@ -25,7 +25,7 @@
 <body>
 <?php include "nav.php"; ?>
     
-<div class="container-fluid bg-danger p-5 mt-5 bb">
+<div class="container-fluid bg-danger p-5 ">
     <div class="container text-center">
         <h1 class="display-5 fw-bold text-white">Blood Donation Blog</h1>
         <p class="text-white fs-5 my-4">
