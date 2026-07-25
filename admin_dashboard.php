@@ -34,7 +34,7 @@ $totalHospitals = 12;
     .sidebar{
         width:250px;
         min-height:100vh;
-        background:#212529;
+        background:linear-gradient(to right, #fd0d0d, #9f2121);
     }
 
     .sidebar a{
@@ -46,7 +46,7 @@ $totalHospitals = 12;
     }
 
     .sidebar a:hover{
-        background:#0d6efd;
+       background:linear-gradient(to right, #c96767, #9f2121);
     }
 
     .content{
@@ -71,12 +71,18 @@ $totalHospitals = 12;
         width:40px;
         height:40px;
         border-radius:50%;
-        background:#0d6efd;
+        background:linear-gradient(to right, #c96767, #9f2121);
         color:white;
         display:flex;
         align-items:center;
         justify-content:center;
         font-weight:bold;
+    }
+    #logout-link{
+        color:linear-gradient(to right, #c96767, #9f2121);
+        width:80%;
+        height:50px;
+        background:linear-gradient(to right, #f7f4f4, #c6a0a0);
     }
 
     </style>
@@ -99,7 +105,10 @@ $totalHospitals = 12;
                 <i class="fa fa-home"></i>
                 Dashboard
             </a>
-
+            <a href="index.php">
+                <i class="fa fa-user"></i>
+               Home
+            </a>
             <a href="#">
                 <i class="fa fa-users"></i>
                 Users
@@ -130,7 +139,7 @@ $totalHospitals = 12;
                 Settings
             </a>
 
-            <a href="admin_logout.php" class="text-danger">
+            <a href="admin_logout.php" class="text-danger" id='logout-link'>
                 <i class="fa fa-right-from-bracket"></i>
                 Logout
             </a>
@@ -171,7 +180,7 @@ $totalHospitals = 12;
 
                 <div class="row g-4">
 
-                    <div class="col-md-3">
+                    <div class="col-md-4">
 
                         <div class="card p-4">
 
@@ -191,7 +200,7 @@ $totalHospitals = 12;
 
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-4">
 
                         <div class="card p-4">
 
@@ -211,7 +220,7 @@ $totalHospitals = 12;
 
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-4">
 
                         <div class="card p-4">
 
@@ -225,19 +234,7 @@ $totalHospitals = 12;
 
                     </div>
 
-                    <div class="col-md-3">
-
-                        <div class="card p-4">
-
-                            <h6>Hospitals</h6>
-
-                            <h2><?php echo $totalHospitals; ?></h2>
-
-                            <i class="fa fa-hospital text-success fs-2"></i>
-
-                        </div>
-
-                    </div>
+                   
 
                 </div>
 
@@ -323,22 +320,22 @@ $totalHospitals = 12;
                             </h5>
 
                             <hr>
-                        <a href="register.php" class="btn btn-primary mb-3">
+                        <a href="register.php" class="btn btn-danger mb-3">
                             <p>
                                 ✅ New donor registered
                             </p>
                         </a>
-                            <p>
-                                🩸 Blood request approved
-                            </p>
+                            <a href="blood_requests.php" class="btn btn-success mb-3">
+                                <p>
+                                    🩸 Blood request approved
+                                </p>
+                            </a>
 
-                            <p>
-                                🏥 Hospital added
-                            </p>
-
-                            <p>
-                                👤 Admin updated profile
-                            </p>
+                           <a href="admin_profile.php" class="btn btn-warning mb-3">
+                                <p>
+                                    👤 Admin updated profile
+                                </p>
+                            </a>
 
                         </div>
 

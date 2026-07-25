@@ -304,6 +304,7 @@
                     </a>
                 </li>
                     <?PHP
+                    
                         include_once "db_conn.php";
                         if(isset($_SESSION['user_session_id'])){
                             $user_session_id = $_SESSION['user_session_id'];
@@ -317,20 +318,11 @@
                             }
                             ?>
 
-<<<<<<< HEAD
-                            <!-- <a href="logout.php"  class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none"> -->
-                        <!-- <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
-                        <strong>Welcome</strong> -->
-                                         <!-- </a> -->
-                            <a href="logout.php" class="join-btn bg-white text-danger px-4 ms-3 py-3 fs-5 rounded-circle text-decoration-none ">
-=======
-                            <a href="logout.php"  class="join-btn bg-white text-center text-danger ms-2 px-4 py-3 rounded-5 text-decoration-none">
-                                <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
-                        
+                          
+                           
 
-                            <a href="logout.php" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
->>>>>>> aaf14ebecc693c81e1744955aac643dee0e35bc3
-                        <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
+                            <a href="#" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
+                            <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
                         
                    
                     <a href="">

@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Document</title>
      <style>
-        /* body{
-            background:#f5f5f5;
-            font-family: 'Segoe UI', sans-serif;
-        } */
+        
         .story-card{
             border-radius:20px;
             padding:20px;
@@ -37,7 +34,7 @@
             font-weight:bold;
         }
         .name{
-            font-size:1.35rem;
+            font-size:1.3rem;
             font-weight:600;
             color:#203864;
             margin-bottom:2px;
@@ -254,7 +251,7 @@
         <div class="row align-items-center">
 
             <div class="col-lg-8">
-                <h1 class="cta-title">Ready to Save Lives?</h1>
+                <h2 class="cta-title">Ready to Save Lives?</h2  >
 
                 <p class="cta-text">
                     Join thousands of donors who are making a difference every day.
@@ -264,14 +261,14 @@
 
             <div class="col-lg-4 text-center text-lg-end mt-4 mt-lg-0">
 
-                <a href="#" class="btn btn-donor mb-3">
+                <a href="register.php" class="btn btn-donor mb-3">
                     <i class="bi bi-heart"></i>
                     Become a Donor
                 </a>
 
                 <br>
 
-                <a href="#" class="btn btn-request">
+                <a href="request.php " class="btn btn-request">
                     <i class="bi bi-plus-circle"></i>
                     Request Blood
                 </a>

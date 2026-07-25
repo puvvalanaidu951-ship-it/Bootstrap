@@ -36,16 +36,17 @@
         <div class="row gy-4">
             <div class="col-lg-4">
                 <h4 class="brand">
-                    <i class="bi bi-droplet-fill"></i> BloodDonor.in </h4>
+                    <a href="index.php"><i class="bi bi-droplet-fill"></i> BloodDonor.in </a>
+                </h4>
                 <p class="fs-5 text-light"> Connecting blood donors with those in need. Together, we save lives.</p>
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Quick Links</h4>
                 <a href="index.php">Home</a>
-                <a href="index.php">Find Donors</a>
-                <a href="index.php">States</a>
-                <a href="index.php">Cities</a>
-                <a href="Register.php">Register</a>
+                <a href="findblood.php">Find Donors</a>
+                <a href="states.php">States</a>
+                <a href="cities.php">Cities</a>
+                <a href="register.php">Register</a>
                 <a href="login.php">Login</a>
             </div>
             <div class="col-6 col-lg-2">
@@ -57,20 +58,20 @@
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Support</h4>
-                <a href="index.php">About Us</a>
-                <a href="index.php">Blog</a>
-                <a href="index.php">Guides</a>
-                <a href="index.php">Contact</a>
-                <a href="index.php">Help</a>
-                <a href="index.php">Privacy</a>
+                <a href="about.php">About Us</a>
+                <a href="blog.php">Blog</a>
+                <a href="guides.php">Guides</a>
+                <a href="contact.php">Contact</a>
+                <a href="HC&FAQ.php">Help</a>
+               
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Connect</h4>
                 <div class="social">
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>

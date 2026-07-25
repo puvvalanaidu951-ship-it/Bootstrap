@@ -386,7 +386,7 @@ Available Now
                   <div class='donor-card card border-0 shadow-sm h-100'>
                     <div class='card-body p-4'>
                         <div class='d-flex align-items-start mb-3'>
-                          <div class='donor-avatar bg-danger text-white rounded-circle me-3'>
+                          <div class='donor-avatar bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center'>
                               ". $row['blood_group']."
                           </div>
                           <div class='flex-grow-1'>
@@ -414,10 +414,10 @@ Available Now
                     </div>
                     <div class='donor-actions'>
                       <div class='d-grid gap-2'>
-                        <a href='' class='btn btn-primary btn-sm'>
-                          <i class='bi bi-lock me-2'></i>Login to View Contact</a>
+                        <a href='' class='btn btn-danger btn-sm'>
+                          <i class='bi bi-telephone me-2'></i>Call Now</a>
                         <a href='' class='btn btn-outline-secondary btn-sm'>
-                          <i class='bi bi-megaphone me-2'></i>Create Request</a>
+                          <i class='bi bi-envelope me-2'></i>Email</a>
                       </div>
                     </div>
                   </div>
@@ -534,10 +534,10 @@ Don't wait! Create a blood request and connect with multiple donors in your area
 </div>
 <div class="col-lg-4 mt-4 mt-lg-0">
 <div class="d-grid gap-2">
-<a href="/emergency" class="btn btn-warning btn-lg">
+<a href="Emergency.php" class="btn btn-warning btn-lg">
 <i class="bi bi-exclamation-triangle me-2"></i>Emergency Request
 </a>
-<a href="/request-blood" class="btn btn-outline-light">
+<a href="request_blood.php" class="btn btn-outline-light">
 <i class="bi bi-plus-circle me-2"></i>Create Request
 </a>
 </div>

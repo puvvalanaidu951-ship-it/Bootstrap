@@ -22,7 +22,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(135deg,#0d6efd,#6610f2);
+    background:linear-gradient(to right, #fd0d0d, #9f2121);
 }
 
 .login-card{
@@ -38,7 +38,7 @@ body{
     height:90px;
     margin:auto;
     border-radius:50%;
-    background:#0d6efd;
+    background:linear-gradient(to right, #fd0d0d, #9f2121);
     color:#fff;
     display:flex;
     justify-content:center;
@@ -60,6 +60,7 @@ body{
     border-radius:10px;
     font-weight:bold;
     font-size:18px;
+    background:linear-gradient(to right, #fd0d0d, #9f2121);
 }
 
 a{
