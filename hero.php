@@ -153,7 +153,7 @@
     </div>
         <h5 class="mt-2 text-primary">A+ Blood Group</h5>
         <h6>22 <span style="font-size: 15px;">Donor Available</span></h6>
-     <button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="findblood.php" class="text-decoration-none text-warning">Find Donor</a></button>
+     <button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="guids.php" class="text-decoration-none text-warning">Find Donor</a></button>
     </div></div>
    <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-danger text-white" style="width: 70px;height: 70px;">
@@ -161,7 +161,7 @@
     </div>
         <h5 class="mt-2 text-primary">B+ Blood Group</h5>
         <h6>18 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="findblood.php" class="text-decoration-none text-danger">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="guids.php" class="text-decoration-none text-danger">Find Donor</a></button>
     </div></div>
    <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-info text-white" style="width: 70px;height: 70px;">
@@ -169,7 +169,7 @@
     </div>
         <h5 class="mt-2 text-primary">O+ Blood Group</h5>
         <h6>25 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="findblood.php" class="text-decoration-none text-info">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="guids.php" class="text-decoration-none text-info">Find Donor</a></button>
     </div></div>
     <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-success text-white" style="width: 70px;height: 70px;">
@@ -177,7 +177,7 @@
     </div>
         <h5 class="mt-2 text-primary">O- Blood Group</h5>
         <h6>20 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="findblood.php" class="text-decoration-none text-success">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="guids.php" class="text-decoration-none text-success">Find Donor</a></button>
     </div></div>
   </div>
    <div class="row p-1">
@@ -187,7 +187,7 @@
     </div>
         <h5 class="mt-2 text-primary">AB+ Blood Group</h5>
         <h6>19 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="findblood.php" class="text-decoration-none text-info">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="guids.php" class="text-decoration-none text-info">Find Donor</a></button>
     </div></div>
      <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-warning text-white" style="width: 70px;height: 70px;">
@@ -195,7 +195,7 @@
     </div>
         <h5 class="mt-2 text-primary">AB- Blood Group</h5>
         <h6>15 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="findblood.php" class="text-decoration-none text-warning">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="guids.php" class="text-decoration-none text-warning">Find Donor</a></button>
     </div></div>
      <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-success text-white" style="width: 70px;height: 70px;">
@@ -203,7 +203,7 @@
     </div>
         <h5 class="mt-2 text-primary">A- Blood Group</h5>
         <h6>20 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="findblood.php" class="text-decoration-none text-success">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="guids.php" class="text-decoration-none text-success">Find Donor</a></button>
     </div></div>
       <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-danger text-white" style="width: 70px;height: 70px;">
@@ -211,13 +211,13 @@
     </div>
         <h5 class="mt-2 text-primary">B- Blood Group</h5>
         <h6>18 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="findblood.php" class="text-decoration-none text-danger">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="guids.php" class="text-decoration-none text-danger">Find Donor</a></button>
     </div></div>
 
     
   </div>
   <div class="d-flex flex-column align-items-center justify-content-center mb-5">
-    <button class="btn w-30 bg-light p-4 mt-5 d-flex flex-column align-items-center justify-content-center border border-primary text-primary rounded-5" style="height: 70px;"><h5>Blood Compataibility Guide</h5></button>
+    <button class="btn btn-outline-primary w-30  p-4 mt-5 d-flex flex-column align-items-center justify-content-center border border-primary rounded-5" style="height: 70px;"><a href="compatibility.php" class="text-decoration-none text-black"><h5>Blood Compataibility Guide</h5></a></button>
   </div>
   
     
