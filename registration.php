@@ -40,10 +40,12 @@
     $execute = mysqli_query($conn, $sql_query);
     
     if($execute){
-        echo "Registration Successfull";
+        echo "Succesfull";
+        header("Location: login.php");
+        exit();
     }
     else{
-        echo "Unsuccesfull";
         echo "Error: " . mysqli_error($conn);
+        header("Location: registration.php");
     }
 ?>

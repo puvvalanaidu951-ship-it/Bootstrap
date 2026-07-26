@@ -21,10 +21,6 @@ if (!isset($_SESSION['user_session_id'])) {
 <body>
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
 
 <style>
 
@@ -72,7 +68,7 @@ if (!isset($_SESSION['user_session_id'])) {
                 <div class="card-body p-4">
                                         
                                         
-                    <form method="POST" class="needs-validation" novalidate id="requestForm">
+                    <form action="request_blood_users.php" method="POST" class="needs-validation" novalidate id="requestForm">
                         <div class="mb-4">
                             <label class="form-label fw-bold">Request Type</label>
                             <div class="row g-3">
@@ -385,6 +381,66 @@ if (!isset($_SESSION['user_session_id'])) {
         </div>
     </div>
 </div>
+<div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg rounded-4">
+
+            <div class="modal-body text-center p-5">
+
+                <div class="mb-4">
+                    <div class="bg-success rounded-circle d-inline-flex align-items-center justify-content-center"
+                         style="width:90px;height:90px;">
+                        <i class="bi bi-check-lg text-white fs-1"></i>
+                    </div>
+                </div>
+
+                <h3 class="fw-bold text-success">
+                    Request Submitted!
+                </h3>
+
+                <p class="text-muted mt-3">
+                    Your blood request has been submitted successfully.
+                    Matching donors will be notified soon.
+                </p>
+
+                <button class="btn btn-danger px-5 mt-3" id="okBtn">
+                    OK
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<?php
+    if(isset($_SESSION['request_success']))
+    {
+        unset($_SESSION['request_success']);
+    ?>
+    <script>
+
+    window.onload=function(){
+
+        let successModal=new bootstrap.Modal(
+            document.getElementById('successModal')
+        );
+
+        successModal.show();
+
+    }
+
+    document.getElementById("okBtn").onclick=function(){
+
+        window.location="dashboard.php";
+
+    }
+
+    </script>
+
+<?php
+}
+?>
 <?php include "footer.php"; ?>
 
 </body>

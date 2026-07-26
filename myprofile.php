@@ -77,9 +77,9 @@
                 <div class="card pb-2">
                     <div class="d-flex flex-column justify-content-center align-items-center gap-2">
                         <div class="text-center pt-3">
-                            <div class="bg-danger px-4 py-3 rounded-circle fs-4 text-white fw-bold ">L</div>
+                            <div class="bg-danger px-4 py-3 rounded-circle fs-4 text-white fw-bold "><?php echo "$user_name[0]" ?> </div>
                         </div>
-                        <h4><?php echo "$user_name" ?> </h4>
+                        <h4 class="text-center"><?php echo "$user_name" ?> </h4>
                         <p><?php echo "$user_role" ?> ❤️</p>
                         <div class="progress" style="height: 6px;">
                                 <div class="progress-bar bg-danger" style="width: 100%;"></div>
