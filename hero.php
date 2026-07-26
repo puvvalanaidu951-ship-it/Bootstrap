@@ -115,29 +115,32 @@
     </div>
     <div class="row ">
     <div class="col-sm-3 text-white p-5">
-        <div class="container bg-light text-danger border  w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
-          
-            <h1>1,250</h1>
-            <span>Registered Donors</span>
+    <div class="container bg-light text-danger border w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
+        <h1 class="counter" data-target="1250">0</h1>
+        <span>Registered Donors</span>
     </div>
 </div>
-    <div class="col-sm-3  text-white p-5">
-        <div class="container bg-light text-danger border w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
-             <h1>380</h1>
-            <span>Lives Saved</span>
+
+<div class="col-sm-3 text-white p-5">
+    <div class="container bg-light text-danger border w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
+        <h1 class="counter" data-target="380">0</h1>
+        <span>Lives Saved</span>
     </div>
 </div>
-    <div class="col-sm-3  text-white p-5">
-        <div class="container bg-light text-danger border w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
-             <h1>450</h1>
-            <span>Blood Requests</span>
+
+<div class="col-sm-3 text-white p-5">
+    <div class="container bg-light text-danger border w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
+        <h1 class="counter" data-target="450">0</h1>
+        <span>Blood Requests</span>
     </div>
 </div>
-    <div class="col-sm-3  text-white p-5">
-        <div class="container bg-light text-danger border w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
-             <h1>64</h1>
-            <span>Cities Covered</span>
+
+<div class="col-sm-3 text-white p-5">
+    <div class="container bg-light text-danger border w-100 p-5 rounded-3 mt-5 d-flex flex-column align-items-center border-danger">
+        <h1 class="counter" data-target="64">0</h1>
+        <span>Cities Covered</span>
     </div>
+</div>
 </div>
     
   </div>
@@ -153,7 +156,7 @@
     </div>
         <h5 class="mt-2 text-primary">A+ Blood Group</h5>
         <h6>22 <span style="font-size: 15px;">Donor Available</span></h6>
-     <button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="guids.php" class="text-decoration-none text-warning">Find Donor</a></button>
+     <button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="guids.php?blood_group=A_positive" class="text-decoration-none text-warning">Find Donor</a></button>
     </div></div>
    <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-danger text-white" style="width: 70px;height: 70px;">
@@ -161,7 +164,7 @@
     </div>
         <h5 class="mt-2 text-primary">B+ Blood Group</h5>
         <h6>18 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="guids.php" class="text-decoration-none text-danger">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="guids.php?blood_group=B_positive" class="text-decoration-none text-danger">Find Donor</a></button>
     </div></div>
    <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-info text-white" style="width: 70px;height: 70px;">
@@ -169,7 +172,7 @@
     </div>
         <h5 class="mt-2 text-primary">O+ Blood Group</h5>
         <h6>25 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="guids.php" class="text-decoration-none text-info">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="guids.php?blood_group=O_positive" class="text-decoration-none text-info">Find Donor</a></button>
     </div></div>
     <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-success text-white" style="width: 70px;height: 70px;">
@@ -177,7 +180,7 @@
     </div>
         <h5 class="mt-2 text-primary">O- Blood Group</h5>
         <h6>20 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="guids.php" class="text-decoration-none text-success">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="guids.php?blood_group=O_negative" class="text-decoration-none text-success">Find Donor</a></button>
     </div></div>
   </div>
    <div class="row p-1">
@@ -187,7 +190,7 @@
     </div>
         <h5 class="mt-2 text-primary">AB+ Blood Group</h5>
         <h6>19 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="guids.php" class="text-decoration-none text-info">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-info border rounded-5 mt-2 text-info"><a href="guids.php?blood_group=AB_positive" class="text-decoration-none text-info">Find Donor</a></button>
     </div></div>
      <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-warning text-white" style="width: 70px;height: 70px;">
@@ -195,7 +198,7 @@
     </div>
         <h5 class="mt-2 text-primary">AB- Blood Group</h5>
         <h6>15 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="guids.php" class="text-decoration-none text-warning">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-warning border rounded-5 mt-2 text-warning"><a href="guids.php?blood_group=AB_negative" class="text-decoration-none text-warning">Find Donor</a></button>
     </div></div>
      <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-success text-white" style="width: 70px;height: 70px;">
@@ -203,7 +206,7 @@
     </div>
         <h5 class="mt-2 text-primary">A- Blood Group</h5>
         <h6>20 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="guids.php" class="text-decoration-none text-success">Find Donor</a></button>
+<button class="btn btn-light w-50 h-20 border-success border rounded-5 mt-2 text-success"><a href="guids.php?blood_group=A_negative" class="text-decoration-none text-success">Find Donor</a></button>
     </div></div>
       <div class="col-sm-3 text-white " ><div class="container bg-light  p-3 rounded-3 mt-5 text-dark d-flex flex-column align-items-center justify-content-center" style="height:300px ; width: 300px;">
         <div class="container  border rounded-circle d-flex flex-column align-items-center justify-content-center bg-danger text-white" style="width: 70px;height: 70px;">
@@ -211,7 +214,7 @@
     </div>
         <h5 class="mt-2 text-primary">B- Blood Group</h5>
         <h6>18 <span style="font-size: 15px;">Donor Available</span></h6>
-<button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="guids.php" class="text-decoration-none text-danger">Find Donor</a></button>
+        <button class="btn btn-light w-50 h-20 border-danger border rounded-5 mt-2 text-danger"><a href="guids.php?blood_group=B_negative" class="text-decoration-none text-danger">Find Donor</a></button>
     </div></div>
 
     
@@ -220,4 +223,33 @@
     <button class="btn btn-outline-primary w-30  p-4 mt-5 d-flex flex-column align-items-center justify-content-center border border-primary rounded-5" style="height: 70px;"><a href="compatibility.php" class="text-decoration-none text-black"><h5>Blood Compataibility Guide</h5></a></button>
   </div>
   
-    
+    <script>
+const counters = document.querySelectorAll(".counter");
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.classList.contains("counted")) {
+            entry.target.classList.add("counted");
+
+            const counter = entry.target;
+            const target = +counter.dataset.target;
+            const increment = Math.ceil(target / 100);
+
+            function update() {
+                const current = +counter.innerText.replace(/,/g, '');
+
+                if (current < target) {
+                    counter.innerText = Math.min(current + increment, target).toLocaleString();
+                    requestAnimationFrame(update);
+                } else {
+                    counter.innerText = target.toLocaleString();
+                }
+            }
+
+            update();
+        }
+    });
+}, { threshold: 0.5 });
+
+counters.forEach(counter => observer.observe(counter));
+</script>

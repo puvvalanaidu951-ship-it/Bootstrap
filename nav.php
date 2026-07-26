@@ -294,7 +294,7 @@ if (session_status() === PHP_SESSION_NONE) {
                         <li><a class="dropdown-item" href="browsestate.php">
                             <i class="bi bi-map me-2"></i>Browse by State
                         </a></li>
-                        <li><a class="dropdown-item" href="#">
+                        <li><a class="dropdown-item" href="pop_cities.php">
                             <i class="bi bi-building me-2"></i>Popular Cities
                         </a></li>
                         <li><a class="dropdown-item" href="HC&FAQ.php">
