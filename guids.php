@@ -81,15 +81,15 @@
 <section class="quick-actions py-4 bg-light border-bottom">
     <div class="container">
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="/search.php?city=Index.php&state=Guides" 
+            <a href="findblood.php"
                class="btn btn-danger btn-lg rounded-pill px-4">
                 <i class="bi bi-search me-2"></i>Find Donors
             </a>
-            <a href="/request-blood.php?city=Index.php&state=Guides" 
+            <a href="request_blood.php" 
                class="btn btn-success btn-lg rounded-pill px-4">
                 <i class="bi bi-plus-circle me-2"></i>Request Blood
             </a>
-            <a href="/register.php?role=donor&city=Index.php&state=Guides" 
+            <a href="register.php" 
                class="btn btn-primary btn-lg rounded-pill px-4">
                 <i class="bi bi-heart me-2"></i>Become Donor
             </a>
@@ -97,7 +97,6 @@
     </div>
 </section>
 
-<!-- Blood Group Distribution -->
 <section class="blood-groups py-5">
     <div class="container">
         <div class="text-center mb-5">

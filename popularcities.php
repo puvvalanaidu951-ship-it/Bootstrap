@@ -150,8 +150,10 @@
 
     <div class="d-flex flex-row justify-content-center align-items-center gap-2 mt-5">
         <button class="btn btn-outline-danger rounded-2 py-2">
+          <a href="browsestate.php"class=" text-dark text-decoration-none">
             <i class="bi bi-map"></i>
             Browse all states
+          </a>
         </button>
         <button class="btn btn-outline-primary  rounded-2 py-2">
             View all cities

@@ -98,6 +98,7 @@ background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%) !important;
 
                             <?php
                             include_once "db_conn.php";
+                           
 
                             $donor_count = 0;
 
@@ -249,219 +250,143 @@ background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%) !important;
     </div>
 </section>
 
-<section class="search-results py-5">
-    <div class="container">
+<div class="row g-4 p-5" >
 
-        <div class="d-flex justify-content-between align-items-center mb-4">
+<?php
 
-            <h2 class="section-title mb-0">
-                <i class="bi bi-people-fill me-2 text-danger"></i>
-                Search Results
-                <span class="badge bg-danger ms-2">
-                    <?php echo $donor_count; ?> donors found
-                </span>
-            </h2>
+function calculateAge($dob)
+{
+    if (empty($dob)) {
+        return "Age not available";
+    }
 
-            <div class="d-flex gap-2">
-                <a href="requestblood.php" class="btn btn-outline-danger">
-                    <i class="bi bi-plus-circle me-2"></i>Request Blood
-                </a>
+    $dobObj = DateTime::createFromFormat('Y-m-d', $dob);
 
-                <a href="Register.php" class="btn btn-success">
-                    <i class="bi bi-heart me-2"></i>Become Donor
-                </a>
+    if (!$dobObj) {
+        return "Age not available";
+    }
+
+    $today = new DateTime();
+
+    if ($dobObj > $today) {
+        return "Age not available";
+    }
+
+    return $today->diff($dobObj)->y . " years";
+}
+
+
+// Get only available donors
+$sql = "SELECT blood_group, fullname, gender, dob, state, district, city, locality
+        FROM users
+        WHERE available = 1";
+
+$result = mysqli_query($conn, $sql);
+
+if ($result && mysqli_num_rows($result) > 0) {
+
+    while ($row = mysqli_fetch_assoc($result)) {
+
+        $age = calculateAge($row['dob']);
+?>
+
+    <div class="col-lg-6 col-xl-4">
+
+        <div class="donor-card card border-0 shadow-sm h-100">
+
+            <div class="card-body p-4">
+
+                <div class="d-flex align-items-start mb-3">
+
+                    <div class="donor-avatar bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center">
+                        <?php echo htmlspecialchars($row['blood_group']); ?>
+                    </div>
+
+                    <div class="flex-grow-1">
+
+                        <h5 class="card-title mb-1">
+                            <?php echo htmlspecialchars($row['fullname']); ?>
+                        </h5>
+
+                        <span class="badge bg-danger">
+                            <?php echo htmlspecialchars($row['blood_group']); ?>
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="donor-details mb-3">
+
+                    <div class="row g-2">
+
+                        <div class="col-6">
+                            <small class="text-muted">Age</small><br>
+                            <strong><?php echo $age; ?></strong>
+                        </div>
+
+                        <div class="col-6">
+                            <small class="text-muted">Gender</small><br>
+                            <strong><?php echo htmlspecialchars($row['gender']); ?></strong>
+                        </div>
+
+                        <div class="col-12">
+
+                            <small class="text-muted">Location</small><br>
+
+                            <strong>
+
+                                <?php
+                                echo htmlspecialchars(
+                                    $row['locality'] . ", " .
+                                    $row['city'] . ", " .
+                                    $row['district'] . ", " .
+                                    $row['state']
+                                );
+                                ?>
+
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="d-grid gap-2">
+
+                    <a href="tel:+919347157313" class="btn btn-danger btn-sm">
+                        <i class="bi bi-telephone me-2"></i>
+                       Call Now
+                    </a>
+
+                    <a href="mailto:donor@example.com" class="btn btn-outline-danger btn-sm">
+                        <i class="bi bi-envelope me-2"></i>
+                     Email
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
 
-        <div class="row g-4">
-
-            <?php
-
-            function calculateAge($dob)
-            {
-                if (empty($dob)) {
-                    return "Age not available";
-                }
-
-                $dobObj = DateTime::createFromFormat('Y-m-d', $dob);
-
-                if (!$dobObj) {
-                    return "Age not available";
-                }
-
-                $today = new DateTime();
-
-                if ($dobObj > $today) {
-                    return "Age not available";
-                }
-
-                return $today->diff($dobObj)->y . " years";
-            }
-<<<<<<< HEAD
-            $dobObj = DateTime::createFromFormat('Y-m-d', $dob);
-            if ($dobObj === false) {
-                return "Invalid date format. Use YYYY-MM-DD.";
-            }
-            $errors = DateTime::getLastErrors();
-            if ($errors !== false && ($errors['warning_count'] > 0 || $errors['error_count'] > 0)) {
-                return "Invalid date format. Use YYYY-MM-DD.";
-            }
-            $today = new DateTime();
-            if ($dobObj > $today) {
-                return "update your Date of birth.";
-            }
-            $age = $today->diff($dobObj);
-            return $age->y . " years";
-        }
-        $sql_get_donor_data_query = "SELECT blood_group,fullname,gender,dob, state, district, city, locality
-                                    FROM users";
-        $donor_db_data = mysqli_query($conn, $sql_get_donor_data_query);
-        if(mysqli_num_rows($donor_db_data) > 0){
-          while($row = mysqli_fetch_assoc($donor_db_data)){
-            $age_of_candidate = calculateAge($row['dob']);
-            echo "
-                <div class='col-lg-6 col-xl-4'>
-                  <div class='donor-card card border-0 shadow-sm h-100'>
-                    <div class='card-body p-4'>
-                        <div class='d-flex align-items-start mb-3'>
-                          <div class='donor-avatar bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center'>
-                              ". $row['blood_group']."
-                          </div>
-                          <div class='flex-grow-1'>
-                          <h5 class='card-title mb-1'>".$row['fullname']."</h5>
-                          <div class='d-flex align-items-center gap-2 mb-2'>
-                            <span class='badge bg-danger'>".$row['blood_group']."</span>
-                          </div>
-=======
-
-            $sql = "SELECT blood_group, fullname, gender, dob, state, district, city, locality
-                    FROM users
-                    WHERE available = 1";
-
-            $result = mysqli_query($conn, $sql);
-
-            if ($result && mysqli_num_rows($result) > 0) {
-
-                while ($row = mysqli_fetch_assoc($result)) {
-
-                    $age = calculateAge($row['dob']);
-            ?>
-
-                    <div class="col-lg-6 col-xl-4">
-
-                        <div class="donor-card card border-0 shadow-sm h-100">
-
-                            <div class="card-body p-4">
-
-                                <div class="d-flex align-items-start mb-3">
-
-                                    <div class="donor-avatar bg-danger text-white rounded-circle me-3">
-                                        <?php echo htmlspecialchars($row['blood_group']); ?>
-                                    </div>
-
-                                    <div class="flex-grow-1">
-
-                                        <h5 class="card-title mb-1">
-                                            <?php echo htmlspecialchars($row['fullname']); ?>
-                                        </h5>
-
-                                        <span class="badge bg-danger">
-                                            <?php echo htmlspecialchars($row['blood_group']); ?>
-                                        </span>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="donor-details mb-3">
-
-                                    <div class="row g-2">
-
-                                        <div class="col-6">
-                                            <small class="text-muted d-block">Age</small>
-                                            <strong><?php echo $age; ?></strong>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <small class="text-muted d-block">Gender</small>
-                                            <strong><?php echo htmlspecialchars($row['gender']); ?></strong>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <small class="text-muted d-block">Location</small>
-
-                                            <strong>
-                                                <?php
-                                                echo htmlspecialchars(
-                                                    $row['locality'] . ", " .
-                                                    $row['city'] . ", " .
-                                                    $row['district'] . ", " .
-                                                    $row['state']
-                                                );
-                                                ?>
-                                            </strong>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="donor-actions">
-
-                                    <div class="d-grid gap-2">
-
-                                        <a href="login.php" class="btn btn-primary btn-sm">
-                                            <i class="bi bi-lock me-2"></i>
-                                            Login to View Contact
-                                        </a>
-
-                                        <a href="requestblood.php" class="btn btn-outline-secondary btn-sm">
-                                            <i class="bi bi-megaphone me-2"></i>
-                                            Create Request
-                                        </a>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
->>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
-                        </div>
-
-                    </div>
-<<<<<<< HEAD
-                    <div class='donor-actions'>
-                      <div class='d-grid gap-2'>
-                        <a href='' class='btn btn-danger btn-sm'>
-                          <i class='bi bi-telephone me-2'></i>Call Now</a>
-                        <a href='' class='btn btn-outline-secondary btn-sm'>
-                          <i class='bi bi-envelope me-2'></i>Email</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ";
-          }
-        }
-      ?>
-=======
-
-            <?php
-                }
-            } else {
-                echo '<div class="col-12 text-center"><h5>No donors found.</h5></div>';
-            }
-            ?>
-
-        </div>
-
->>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
     </div>
-</section>
+
+<?php
+    }
+} else {
+?>
+
+    <div class="col-12 text-center">
+        <h4>No donors found.</h4>
+    </div>
+
+<?php
+}
+?>
+
+</div>
 
 
 
@@ -588,7 +513,6 @@ background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%) !important;
 </section>
 
 <section class="cta-section py-5 bg-gradient-primary">
-<<<<<<< HEAD
 <div class="container">
 <div class="row align-items-center text-white text-center text-lg-start">
 <div class="col-lg-8">
@@ -609,45 +533,9 @@ Don't wait! Create a blood request and connect with multiple donors in your area
 </div>
 </div>
 </div>
-=======
 
-    <div class="container">
+    
 
-        <div class="row align-items-center text-white text-center text-lg-start">
-
-            <div class="col-lg-8">
-
-                <h2 class="mb-3">Need Blood Urgently?</h2>
-
-                <p class="lead mb-0">
-                    Don't wait! Create a blood request and connect with multiple donors in your area.
-                </p>
-
-            </div>
-
-            <div class="col-lg-4 mt-4 mt-lg-0">
-
-                <div class="d-grid gap-2">
-
-                    <a href="Emergency.php" class="btn btn-warning btn-lg">
-                        <i class="bi bi-exclamation-triangle me-2"></i>
-                        Emergency Request
-                    </a>
-
-                    <a href="requestblood.php" class="btn btn-outline-light">
-                        <i class="bi bi-plus-circle me-2"></i>
-                        Create Request
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
->>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
 </section>
 <?php include "footer.php"; ?>
 

@@ -327,25 +327,13 @@ if (session_status() === PHP_SESSION_NONE) {
                             }
                             ?>
 
-<<<<<<< HEAD
                           
                            
 
-                            <a href="#" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
-                            <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
-=======
-                            <!-- <a href="logout.php"  class="join-btn bg-white text-danger px-4 py-3 rounded-5 text-decoration-none">
-                        <span><strong><?PHP echo " ".$user_name; ?></strong></span><br>
-                        <strong>Welcome</strong>
-                                         </a> -->
-                            <!-- <a href="logout.php" class="join-btn bg-white text-danger px-4 ms-3 py-3 fs-5 rounded-circle text-decoration-none ">
-                            <a href="logout.php"  class="join-btn bg-white text-center text-danger ms-2 px-4 py-3 rounded-5 text-decoration-none">
-                                <span><strong><?PHP echo " ".$user_name; ?></strong></span><br> -->
                         
 
-                            <a href="logout.php" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
+                            <a href="#" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
                         <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
->>>>>>> 41bf18b87b1d42fbef974130f3da4751c9e4f16d
                         
                    
                     <a href="">

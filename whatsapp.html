@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.whatsapp-btn{
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:16px;
+    display:inline-block;
+}
+.whatsapp-btn:hover{
+    background:#1DA851;
+}
+</style>
+
+<a class="whatsapp-btn"
+   href="https://wa.me/917569240855?text=Hello%20I%20am%20interested%20in%20your%20services."
+   target="_blank">
+   💬 Chat on WhatsApp
+</a>
+
+<button onclick="sendWhatsApp()">Send WhatsApp</button>
+
+<script>
+function sendWhatsApp() {
+    let phone = "917569240855"; // Country code + phone number
+    let message = "Hello! I am interested in your services.";
+    let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+}
+</script>
+</body>
+</html>

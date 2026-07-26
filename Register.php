@@ -167,7 +167,6 @@
                                 </div>
                             </div>
 
-                            <!-- Location Information -->
                             <div class="form-section mb-4">
                                 <h5 class="section-title text-primary mb-3">
                                     <i class="bi bi-geo-alt me-2"></i>Location Information
@@ -246,7 +245,6 @@
                                 </div>
                             </div>
 
-                            <!-- Security Information -->
                             <div class="form-section mb-4">
                                 <h5 class="section-title text-primary mb-3">
                                     <i class="bi bi-shield-lock me-2"></i>Security Information
@@ -279,21 +277,20 @@
                                 </div>
                             </div>
 
-                            <!-- Terms and Conditions -->
                             <div class="terms-section mb-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="terms_accepted" name="terms_accepted" required>
                                     <label class="form-check-label" for="terms_accepted">
                                         I agree to the
-                                        <a href="/terms.php" target="_blank" class="text-decoration-none">Terms and Conditions</a>
+                                        <a href="terms_conditions.php" target="_blank" class="text-decoration-none">Terms and Conditions</a>
                                         and
-                                        <a href="/privacy.php" target="_blank" class="text-decoration-none">Privacy Policy</a>
+                                        <a href="privacy.php" target="_blank" class="text-decoration-none">Privacy Policy</a>
                                     </label>
                                     <div class="invalid-feedback">You must accept the terms and conditions.</div>
                                 </div>
                             </div>
 
-                            <!-- Submit Button -->
+                       
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
                                     <span class="btn-text">
@@ -308,10 +305,10 @@
                     <div class="card-footer bg-light text-center py-4">
                         <p class="mb-0">
                             Already have an account?
-                            <a href="/login.php" class="text-decoration-none fw-bold">Login here</a>
+                            <a href="login.php" class="text-decoration-none fw-bold">Login here</a>
                         </p>
                         <div class="mt-2">
-                            <a href="/" class="text-muted text-decoration-none">
+                            <a href="index.php" class="text-muted text-decoration-none">
                                 <i class="bi bi-arrow-left me-1"></i>← Back to Homepage
                             </a>
                         </div>

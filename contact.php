@@ -104,10 +104,10 @@
                     </div>
                     <h2 class="fw-bold mb-2">Phone Support</h2>
                     <p class="text-secondary fs-4">Speak directly with our support team</p>
-                    <h3 class="fw-bold my-4">+91 12345 67890</h3>
+                    <h3 class="fw-bold my-4">+91 9347157313</h3>
                     <p class="text-secondary fs-4">24/7 Available</p>
                     <div class="mt-2">
-                        <a href="#" class="btn btn-success btn-lg px-4 py-3 fw-semibold ">
+                        <a href="tel:+919347157313" class="btn btn-success btn-lg px-4 py-3 fw-semibold ">
                             <i class="bi bi-telephone me-2"></i>Call Now
                         </a>
                     </div>
@@ -124,7 +124,7 @@
                     <h3 class="fw-bold my-1">support@blooddonor.in</h3>
                     <p class="text-secondary fs-4"> Response in 4 hours</p>
                     <div class="mt-3">
-                        <a href="#" class="btn btn-danger btn-lg px-4 py-3 fw-semibold" >
+                        <a href="mailto:support@blooddonor.in" class="btn btn-danger btn-lg px-4 py-3 fw-semibold" >
                             <i class="bi bi-envelope me-2"></i>Send Email
                         </a>
                     </div>
@@ -158,10 +158,10 @@
                     <h2 class="fw-bold mb-4">WhatsApp</h2>
                     <p class="text-secondary fs-4"> Quick support via WhatsApp</p>
                     <h3 class="fw-bold my-3">
-                        +91 98765 43210 </h3>
+                        +91 9347157313 </h3>
                     <p class="text-secondary fs-4"> Business hours</p>
                     <div class="mt-2">
-                        <a href="#" class="btn btn-success btn-lg px-4 py-3 fw-semibold">
+                        <a href="https://wa.me/919347157313" class="btn btn-success btn-lg px-4 py-3 fw-semibold" target="_blank    ">
                             <i class="bi bi-whatsapp me-2"></i>Message
                         </a>
                     </div>
@@ -272,10 +272,10 @@
         </div>
 
         <div class="card-body">
-            <button class="btn btn-outline-info w-100 py-3 mb-3 fs-4">
+           <a href="HC&FAQ.php" ><button class="btn btn-outline-info w-100 py-3 mb-3 fs-4">
                 <i class="bi bi-question-square"></i>
                 FAQ
-            </button>
+            </button></a>
 
             <button class="btn btn-outline-info w-100 py-3 mb-3 fs-4">
                 <i class="bi bi-life-preserver"></i>
@@ -288,8 +288,10 @@
             </button>
 
             <button class="btn btn-outline-danger w-100 py-3 fs-4">
-                <i class="bi bi-exclamation-triangle"></i>
-                Emergency Help
+               <a href="tel:+919347157313" class="text-decoration-none text-dark" target="_blank">
+                    <i class="bi bi-exclamation-triangle"></i>
+                    Emergency Help
+                </a>
             </button>
         </div>
     </div>
@@ -306,19 +308,19 @@
             </p>
 
             <div class="d-flex justify-content-around mt-4">
-                <a href="#" class="social-btn border border-primary text-primary">
+                <a href="https://www.facebook.com/blooddonor" class="social-btn border border-primary text-primary" target="_blank">
                     <i class="bi bi-facebook"></i>
                 </a>
 
-                <a href="#" class="social-btn border border-info text-info">
+                <a href="https://twitter.com/blooddonor" class="social-btn border border-info text-info" target="_blank">
                     <i class="bi bi-twitter"></i>
                 </a>
 
-                <a href="#" class="social-btn border border-danger text-danger">
+                <a href="https://www.instagram.com/blooddonor" class="social-btn border border-danger text-danger" target="_blank">
                     <i class="bi bi-instagram"></i>
                 </a>
 
-                <a href="#" class="social-btn border border-primary text-primary">
+                <a href="https://www.linkedin.com/company/blooddonor" class="social-btn border border-primary text-primary" target="_blank">
                     <i class="bi bi-linkedin"></i>
                 </a>
             </div>
@@ -357,13 +359,13 @@
 
                 <p class="fs-4 text-secondary mb-4">To enable map, add Google Maps API key in contact.php </p>
 
-                <a href="#" class="btn btn-danger btn-lg px-5 py-3 fw-bold rounded-3">
+                <a href="https://www.google.com/maps/place/BloodDonor.in" class="btn btn-danger btn-lg px-5 py-3 fw-bold rounded-3" target="_blank">
                 <i class="bi bi-map me-2"></i>View on Google Maps </a>
 
                 <div class="mt-5 pt-5">
                     <p class="fs-3 text-secondary">  Our location on the map</p>
 
-                    <a href="#" class="btn btn-danger btn-lg px-5 py-3 fw-bold rounded-3">
+                    <a href="https://www.google.com/maps/place/BloodDonor.in" class="btn btn-danger btn-lg px-5 py-3 fw-bold rounded-3" target="_blank">
                          <i class="bi bi-map me-2"></i> Open in Google Maps </a>
                 </div>
             </div>
