@@ -26,7 +26,7 @@
     <div class="container mt-5 mb-5">
         <div class="row row-gap-3">
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Delhi" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Delhi</strong>
@@ -36,7 +36,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Bengalur" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Bengaluru</strong>
@@ -46,7 +46,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Hyderabad" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Hyderabad</strong>
@@ -56,7 +56,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Coimbatore" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Coimbatore</strong>
@@ -66,7 +66,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Chennai" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Chennai</strong>
@@ -76,7 +76,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in New Delhi" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>New Delhi</strong>
@@ -86,7 +86,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Villupuram" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Villupuram</strong>
@@ -96,7 +96,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Lucknow" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Lucknow</strong>
@@ -106,7 +106,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Malur" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Malur</strong>
@@ -116,7 +116,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Attili" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>ATTILI</strong>
@@ -126,7 +126,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Assam" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Hshs</strong>
@@ -136,7 +136,7 @@
                 </a>  
             </div>
             <div class="col-2">
-                <a href="" class="aa">
+                <a href="guids.php?blood_group=in Dausa" class="aa">
                     <div class="card  rounded d-flex flex-column align-items-center gap-2 p-3">
                         <i class="bi bi-building fs-2"></i>
                         <strong>Dausa</strong>
@@ -149,15 +149,18 @@
     </div>
 
     <div class="d-flex flex-row justify-content-center align-items-center gap-2 mt-5">
-        <button class="btn btn-outline-danger rounded-2 py-2">
-          <a href="browsestate.php"class=" text-dark text-decoration-none">
-            <i class="bi bi-map"></i>
-            Browse all states
-          </a>
-        </button>
-        <button class="btn btn-outline-primary  rounded-2 py-2">
-            View all cities
-            <i class="fa-solid fa-arrow-right-long"></i>
-        </button>
+        <a href="browsestate.php">
+            <button class="btn btn-outline-danger rounded-2 py-2">
+                <i class="bi bi-map"></i>
+                Browse all states
+            
+            </button>
+        </a>
+        <a href="pop_cities.php">
+            <button class="btn btn-outline-primary  rounded-2 py-2">
+                View all cities
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+        </a>    
     </div>
     

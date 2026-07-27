@@ -1,6 +1,13 @@
 
 
+<?php
+$blood_group = "";
 
+if(isset($_GET['blood_group']))
+{
+    $blood_group = $_GET['blood_group'];
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +43,14 @@
                     </nav>
                     
                     <h1 class="display-4 fw-bold mb-4">
-                        Blood Donors                     </h1>
+                        Blood Donors
+                        <?php
+                        if($blood_group != "")
+                        {
+                            echo " - " . htmlspecialchars($blood_group);
+                        }
+                        ?>
+                    </h1>
                     <p class="lead mb-4">
                         Find verified blood donors in Index.php, Guides. 
                         Connect with 150+ local donors 
