@@ -304,8 +304,8 @@ if (!isset($_SESSION['user_session_id'])) {
                                 <input class="form-check-input" type="checkbox" id="terms_accept" required>
                                 <label class="form-check-label" for="terms_accept">
                                     I confirm that the information provided is accurate and I agree to the 
-                                    <a href="/terms" target="_blank">Terms and Conditions</a> and 
-                                    <a href="/privacy" target="_blank">Privacy Policy</a>.
+                                    <a href="terms_conditions.php" target="_blank">Terms and Conditions</a> and 
+                                    <a href="privacy.php" target="_blank">Privacy Policy</a>.
                                 </label>
                                 <div class="invalid-feedback">Please accept the terms and conditions.</div>
                             </div>
@@ -313,7 +313,9 @@ if (!isset($_SESSION['user_session_id'])) {
                         
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button type="button" class="btn btn-outline-secondary btn-lg" onclick="window.history.back()">
-                                <i class="bi bi-arrow-left"></i> Cancel
+                               <a href="index.php" class="text-decoration-none text-dark">
+                                    <i class="bi bi-arrow-left"></i> Cancel
+                                </a>
                             </button>
                             <button type="submit" class="btn btn-danger btn-lg" id="submitBtn">
                                 <i class="bi bi-send"></i> Submit Request
@@ -369,7 +371,7 @@ if (!isset($_SESSION['user_session_id'])) {
             <div class="card border-0 shadow-sm bg-danger text-white mb-4">
                 <div class="card-body text-center">
                     <i class="bi bi-telephone-fill fs-1 mb-3"></i>
-                    <h6>Emergency Helpline</h6>
+                    <h6>Emergency Helpline</h6> 
                     <h4 class="mb-3">+91 12345 67890</h4>
                     <p class="small mb-3">24/7 assistance for critical blood requirements</p>
                     <a href="tel:+911234567890" class="btn btn-light btn-sm">

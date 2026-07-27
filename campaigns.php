@@ -210,7 +210,7 @@
                     </p>
 
                     <button class="btn btn-danger btn-lg btn-view">
-                        View All Campaigns
+                       <a href="campaigns.php" class="text-decoration-none text-white">View All Campaigns</a>
                     </button>
 
                 </div>

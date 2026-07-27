@@ -331,7 +331,7 @@ $totalHospitals = 12;
                                 </p>
                             </a>
 
-                           <a href="admin_profile.php" class="btn btn-warning mb-3">
+                           <a href="adminprofile_update.php" class="btn btn-warning mb-3">
                                 <p>
                                     👤 Admin updated profile
                                 </p>

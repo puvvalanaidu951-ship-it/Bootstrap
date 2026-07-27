@@ -369,8 +369,8 @@ if (session_status() === PHP_SESSION_NONE) {
                         <h6 class="text-success">Founder & CEO</h6>
                         <p class="px-2 ppp text-secondary">Former blood bank director with 15+ years experience in transfusion medicine.</p>
                         <div class="d-flex flex-row gap-4">
-                            <a href="#" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/checkpoint/lg/sign-in-another-account?trk=guest_homepage-basic_nav-header-signin" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
                         </div>
                     </div>
                 </div>
@@ -381,8 +381,8 @@ if (session_status() === PHP_SESSION_NONE) {
                         <h6 class="text-success">Medical Advisor</h6>
                         <p class="px-2 ppp text-secondary">Specialist in transfusion medicine and emergency care.</p>
                         <div class="d-flex flex-row gap-4">
-                            <a href="#" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/checkpoint/lg/sign-in-another-account?trk=guest_homepage-basic_nav-header-signin" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
                         </div>
                     </div>
                 </div>
@@ -393,8 +393,8 @@ if (session_status() === PHP_SESSION_NONE) {
                         <h6 class="text-success">Product Lead</h6>
                         <p class="px-2 ppp text-secondary">Builds technology that helps donors and patients connect faster.</p>
                         <div class="d-flex flex-row gap-4">
-                            <a href="#" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/checkpoint/lg/sign-in-another-account?trk=guest_homepage-basic_nav-header-signin" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
                         </div>
                     </div>
                 </div>
@@ -405,8 +405,8 @@ if (session_status() === PHP_SESSION_NONE) {
                         <h6 class="text-success">Community Manager</h6>
                         <p class="px-2 ppp text-secondary">Coordinates outreach and volunteer programs nationwide.</p>
                         <div class="d-flex flex-row gap-4">
-                            <a href="#" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/checkpoint/lg/sign-in-another-account?trk=guest_homepage-basic_nav-header-signin" class="btn btn-outline-primary px-4 py-2"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com" class="btn btn-outline-info px-4 py-2"><i class="bi bi-twitter"></i></a>
                         </div>
                     </div>
                 </div>
@@ -423,7 +423,7 @@ if (session_status() === PHP_SESSION_NONE) {
         <div class="container mt-5 mb-5">
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
-                    <a href="#" class="aa">
+                    <a href="#" class="aa text-decoration-none">
                         <div class="car card rounded d-flex flex-column align-items-center gap-2 p-4 h-100">
                             <i class="bi bi-award fs-1 text-warning"></i>
                             <h6>Best Healthcare Innovation</h6>
@@ -432,7 +432,7 @@ if (session_status() === PHP_SESSION_NONE) {
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="#" class="aa">
+                    <a href="#" class="aa text-decoration-none">
                         <div class="car card rounded d-flex flex-column align-items-center gap-2 p-4 h-100">
                             <i class="bi bi-trophy fs-1 text-danger"></i>
                             <h6>Social Impact Leader</h6>
@@ -441,7 +441,7 @@ if (session_status() === PHP_SESSION_NONE) {
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="#" class="aa">
+                    <a href="#" class="aa text-decoration-none">
                         <div class="car card rounded d-flex flex-column align-items-center gap-2 p-4 h-100">
                             <i class="bi bi-gem fs-1 text-secondary"></i>
                             <h6>Excellence in Healthcare</h6>
@@ -450,7 +450,7 @@ if (session_status() === PHP_SESSION_NONE) {
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="#" class="aa">
+                    <a href="#" class="aa text-decoration-none">
                         <div class="car card rounded d-flex flex-column align-items-center gap-2 p-4 h-100">
                             <i class="bi bi-heart-fill fs-1 text-danger"></i>
                             <h6>Humanitarian Impact</h6>
@@ -468,16 +468,22 @@ if (session_status() === PHP_SESSION_NONE) {
             <p class="text-white">Join our community of heroes and help us create a world where no life is lost due to blood shortage.</p>
             <div class="d-flex flex-wrap justify-content-center gap-4">
                 <button class="btn bg-warning p-3 rounded-5">
-                    <i class="bi bi-heart me-2"></i>
-                    Become a Donor
+                    <a href="register.php" class="text-white text-decoration-none">
+                        <i class="bi bi-heart me-2"></i>
+                        Become a Donor
+                    </a>
                 </button>
                 <button class="btn btn-outline-warning p-3 rounded-5 text-white">
-                    <i class="bi bi-plus-circle me-2"></i>
-                    Request Blood
+                    <a href="request_blood.php" class="text-white text-decoration-none">
+                        <i class="bi bi-plus-circle me-2"></i>
+                        Request Blood
+                    </a>
                 </button>
                 <button class="btn bg-white p-3 rounded-5">
-                    <i class="bi bi-megaphone me-2"></i>
-                    Join Campaigns
+                    <a href="campaigns.php" class="text-dark text-decoration-none">
+                        <i class="bi bi-megaphone me-2"></i>
+                        Join Campaigns
+                    </a>
                 </button>
             </div>
             <p class="text-white mb-0">Questions? We're here to help!</p>

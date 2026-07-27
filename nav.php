@@ -326,7 +326,7 @@ if (session_status() === PHP_SESSION_NONE) {
                                 $user_name = "Update your profile";
                             }
                             ?>
-                            <a href="#" class="join-btn bg-white text-danger px-3 ms-3 py-3 rounded-circle text-decoration-none ">
+                            <a href="#" class="join-btn bg-white text-danger px-3 ms-2 py-2 rounded-circle text-decoration-none ">
                         <span ><strong class="fs-5"><?PHP echo " ".$user_name[0]; ?></strong></span><br>
                                        
                     <a href="">

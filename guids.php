@@ -113,7 +113,7 @@
                             </div>
                             <h4 class="fw-bold text-primary">45</h4>
                             <p class="text-muted mb-3">Donors Available</p>
-                            <a href="/search.php?blood_group=A%2B&city=Index.php&state=Guides" 
+                            <a href="findblood.php" 
                                class="btn btn-outline-danger btn-sm">
                                 <i class="bi bi-search"></i> Find A+ Donors
                             </a>
@@ -128,7 +128,7 @@
                             </div>
                             <h4 class="fw-bold text-primary">38</h4>
                             <p class="text-muted mb-3">Donors Available</p>
-                            <a href="/search.php?blood_group=B%2B&city=Index.php&state=Guides" 
+                            <a href="findblood.php" 
                                class="btn btn-outline-danger btn-sm">
                                 <i class="bi bi-search"></i> Find B+ Donors
                             </a>
@@ -143,7 +143,7 @@
                             </div>
                             <h4 class="fw-bold text-primary">42</h4>
                             <p class="text-muted mb-3">Donors Available</p>
-                            <a href="/search.php?blood_group=O%2B&city=Index.php&state=Guides" 
+                            <a href="findblood.php" 
                                class="btn btn-outline-danger btn-sm">
                                 <i class="bi bi-search"></i> Find O+ Donors
                             </a>
@@ -158,7 +158,7 @@
                             </div>
                             <h4 class="fw-bold text-primary">25</h4>
                             <p class="text-muted mb-3">Donors Available</p>
-                            <a href="/search.php?blood_group=AB%2B&city=Index.php&state=Guides" 
+                            <a href="findblood.php" 
                                class="btn btn-outline-danger btn-sm">
                                 <i class="bi bi-search"></i> Find AB+ Donors
                             </a>
@@ -181,11 +181,11 @@
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
                 <div class="d-grid gap-2">
-                    <a href="/register.php?role=donor&city=Index.php&state=Guides" 
+                    <a href="register.php" 
                        class="btn btn-warning btn-lg">
                         <i class="bi bi-heart"></i> Become a Donor
                     </a>
-                    <a href="/emergency.php" class="btn btn-outline-light">
+                    <a href="Emergency.php" class="btn btn-outline-light">
                         <i class="bi bi-exclamation-triangle"></i> Emergency Request
                     </a>
                 </div>

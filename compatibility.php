@@ -125,7 +125,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>
@@ -177,7 +177,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>
@@ -228,7 +228,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>
@@ -279,7 +279,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>
@@ -342,7 +342,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>
@@ -394,7 +394,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>
@@ -445,7 +445,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>
@@ -496,7 +496,7 @@
                     </div>
 
                     <div class="card-footer bg-white">
-                        <a href="#" class="btn btn-outline-primary w-100">
+                        <a href="guids.php" class="btn btn-outline-primary w-100">
                             <i class="bi bi-info-circle"></i>
                             View Details
                         </a>

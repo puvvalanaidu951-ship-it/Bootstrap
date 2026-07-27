@@ -109,7 +109,7 @@
         </form>
        
 </div>
- <button class="btn btn-light mt-5 btn-outline-light text-white bg-danger" style="padding-left: 50px; padding-right: 50px;">Location</button>
+ <button class="btn btn-light mt-5 btn-outline-light text-white bg-danger" style="padding-left: 50px; padding-right: 50px;"><a href="https://www.google.com/maps/place/BloodDonor.in" class="text-decoration-none text-white">Location </a></button>
 
 
     </div>

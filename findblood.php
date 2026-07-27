@@ -497,7 +497,7 @@ if ($result && mysqli_num_rows($result) > 0) {
                     </ul>
 
                     <div class="mt-4">
-                        <a href="bloodcompatibility.php" class="btn btn-outline-primary">
+                        <a href="compatibility.php" class="btn btn-outline-primary">
                             <i class="bi bi-info-circle me-2"></i>
                             Learn More
                         </a>

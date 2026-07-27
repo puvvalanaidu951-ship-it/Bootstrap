@@ -134,7 +134,7 @@
                         <span class="badge bg-secondary">donation rates</span>
                         <span class="badge bg-secondary">india blood shortage</span>
                     </div>
-                    <button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button>
+                    <a href="readmore.php" class="text-decoration-none text-primary"><button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@
                         <span class="badge bg-secondary">donation rates</span>
                         <span class="badge bg-secondary">india blood shortage</span>
                     </div>
-                    <button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button>
+                    <a href="readmore.php" class="text-decoration-none text-primary"><button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -206,7 +206,7 @@
                         <span class="badge bg-secondary">donation rates</span>
                         <span class="badge bg-secondary">india blood shortage</span>
                     </div>
-                    <button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button>
+                    <a href="readmore.php" class="text-decoration-none text-primary"><button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -233,7 +233,7 @@
                         <span class="badge bg-secondary">donation rates</span>
                         <span class="badge bg-secondary">india blood shortage</span>
                     </div>
-                    <button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button>
+                    <a href="readmore.php" class="text-decoration-none text-primary"><button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -297,7 +297,7 @@
                         <span class="badge bg-secondary">donation rates</span>
                         <span class="badge bg-secondary">india blood shortage</span>
                     </div>
-                    <button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button>
+                    <a href="readmore.php" class="text-decoration-none text-primary"><button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -324,7 +324,7 @@
                         <span class="badge bg-secondary">donation rates</span>
                         <span class="badge bg-secondary">india blood shortage</span>
                     </div>
-                    <button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button>
+                    <a href="readmore.php" class="text-decoration-none "><button class="btn btn-outline-primary btn-lg">Read More<i class="bi bi-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>

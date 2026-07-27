@@ -64,7 +64,7 @@ body{
 
     <div class="profile-header">
 
-        <img src="https://via.placeholder.com/130"
+        <img src="https://wallpapers.com/images/hd/cool-profile-picture-ld8f4n1qemczkrig.jpg"
         class="profile-img mb-3">
 
         <h3>Admin Profile</h3>
