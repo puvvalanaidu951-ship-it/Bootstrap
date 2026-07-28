@@ -51,10 +51,10 @@
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Blood Groups</h4>
-                <a href="index.php">A+</a>
-                <a href="index.php">B+</a>
-                <a href="index.php">O+</a>
-                <a href="index.php">AB+</a>
+                <a href="guids.php?blood_group=in A Positive">A+</a>
+                <a href="guids.php?blood_group=in B Positive">B+</a>
+                <a href="guids.php?blood_group=in O Positive">O+</a>
+                <a href="guids.php?blood_group=in AB Positive">AB+</a>
             </div>
             <div class="col-6 col-lg-2">
                 <h4>Support</h4>
