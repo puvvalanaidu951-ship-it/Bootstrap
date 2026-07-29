@@ -44,8 +44,8 @@
                 <h4>Quick Links</h4>
                 <a href="index.php">Home</a>
                 <a href="findblood.php">Find Donors</a>
-                <a href="states.php">States</a>
-                <a href="cities.php">Cities</a>
+                <a href="browsestate.php">States</a>
+                <a href="pop_cities.php">Cities</a>
                 <a href="register.php">Register</a>
                 <a href="login.php">Login</a>
             </div>
@@ -60,11 +60,11 @@
                 <h4>Support</h4>
                 <a href="about.php">About Us</a>
                 <a href="blog.php">Blog</a>
-                <a href="guides.php">Guides</a>
+                <a href="guids.php">Guides</a>
                 <a href="contact.php">Contact</a>
                 <a href="HC&FAQ.php">Help</a>
                
-            </div>
+            </div>  
             <div class="col-6 col-lg-2">
                 <h4>Connect</h4>
                 <div class="social">
