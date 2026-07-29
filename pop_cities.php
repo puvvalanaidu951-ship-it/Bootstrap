@@ -394,7 +394,7 @@
                                 </div>
                             </div>
                                                         
-                            <a href="/delhi/delhi" 
+                            <a href="guids.php?blood_group=in Delhi" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -426,7 +426,7 @@
                                 </div>
                             </div>
                                                         
-                            <a href="/karnataka/bengaluru" 
+                            <a href="guids.php?blood_group=in Bengalur" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -459,7 +459,7 @@
                                 </div>
                             </div>
                                                         
-                            <a href="/tamil-nadu/coimbatore" 
+                            <a href="guids.php?blood_group=in Coimbatore" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -492,7 +492,7 @@
                                 </div>
                             </div>
                                                         
-                            <a href="/telangana/hyderabad" 
+                            <a href="guids.php?blood_group=in Hyderabad" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -523,7 +523,7 @@
                                 </div>
                             </div>
                                                         
-                            <a href="/tamil-nadu/chennai" 
+                            <a href="guids.php?blood_group=in Chennai" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -554,7 +554,7 @@
                                 </div>
                             </div>
                                                         
-                            <a href="/delhi/new-delhi" 
+                            <a href="guids.php?blood_group=in new-delhi" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -585,7 +585,7 @@
                                 </div>
                             </div>
                                                         
-                            <a href="/uttar-pradesh/lucknow" 
+                            <a href="guids.php?blood_group=in lucknow" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -616,7 +616,7 @@
                                     </div>
                             </div>
                                                         
-                            <a href="/andhra-pradesh/srikakulam" 
+                            <a href="guids.php?blood_group=in Srikakulam" 
                                class="btn btn-danger">
                                 <i class="bi bi-geo-alt"></i> View Donors
                             </a>
@@ -649,7 +649,7 @@
                                             <h6 class="mb-0">Delhi</h6>
                                             <small class="text-muted">6 donors</small>
                                         </div>
-                                        <a href="/delhi/delhi" 
+                                        <a href="guids.php?blood_group=in Delhi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -659,7 +659,7 @@
                                             <h6 class="mb-0">New Delhi</h6>
                                             <small class="text-muted">3 donors</small>
                                         </div>
-                                        <a href="/delhi/new-delhi" 
+                                        <a href="guids.php?blood_group=in new Delhi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -669,7 +669,7 @@
                                             <h6 class="mb-0">Ansari Nagar, New Delhi</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/delhi/ansari-nagar,-new-delhi" 
+                                        <a href="guids.php?blood_group=in Ansari Nagar,new-delhi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -679,7 +679,7 @@
                                             <h6 class="mb-0">Badarpur</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/delhi/badarpur" 
+                                        <a href="guids.php?blood_group=in Badarpur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -689,7 +689,7 @@
                                             <h6 class="mb-0">Dwarka</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/delhi/dwarka" 
+                                        <a href="guids.php?blood_group=in Dwarka" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -699,7 +699,7 @@
                                             <h6 class="mb-0">NORTH DELHI</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/delhi/north-delhi" 
+                                        <a href="guids.php?blood_group=in North-Delhi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -709,7 +709,7 @@
                                             <h6 class="mb-0">Uttam Nagar</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/delhi/uttam-nagar" 
+                                        <a href="guids.php?blood_group=in Uttam Nagar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -732,7 +732,7 @@
                                             <h6 class="mb-0">Bengaluru</h6>
                                             <small class="text-muted">5 donors</small>
                                         </div>
-                                        <a href="/karnataka/bengaluru" 
+                                        <a href="guids.php?blood_group=in Bengaluru" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -742,7 +742,7 @@
                                             <h6 class="mb-0">Bangalore</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/karnataka/bangalore" 
+                                        <a href="guids.php?blood_group=in Bangalore" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -752,7 +752,7 @@
                                             <h6 class="mb-0">Malur</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/karnataka/malur" 
+                                        <a href="guids.php?blood_group=in Malur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -762,7 +762,7 @@
                                             <h6 class="mb-0">Periyapattanna</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/karnataka/periyapattanna" 
+                                        <a href="guids.php?blood_group=in Periyapattanna" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -772,7 +772,7 @@
                                             <h6 class="mb-0">Shikaripura</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/karnataka/shikaripura" 
+                                        <a href="guids.php?blood_group=in Shikaripura" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -782,7 +782,7 @@
                                             <h6 class="mb-0">Belagavi</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/karnataka/belagavi" 
+                                        <a href="guids.php?blood_group=in Belagavi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -792,7 +792,7 @@
                                             <h6 class="mb-0">Hubli</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/karnataka/hubli" 
+                                        <a href="guids.php?blood_group=in Hubli" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -802,7 +802,7 @@
                                             <h6 class="mb-0">Mangaluru</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/karnataka/mangaluru" 
+                                        <a href="guids.php?blood_group=in Mangaluru" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -812,7 +812,7 @@
                                             <h6 class="mb-0">Mysuru</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/karnataka/mysuru" 
+                                        <a href="guids.php?blood_group=in Mysuru" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -835,7 +835,7 @@
                                             <h6 class="mb-0">Coimbatore</h6>
                                             <small class="text-muted">5 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/coimbatore" 
+                                        <a href="guids.php?blood_group=in Coimbatore" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -845,7 +845,7 @@
                                             <h6 class="mb-0">Chennai</h6>
                                             <small class="text-muted">4 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/chennai" 
+                                        <a href="guids.php?blood_group=in Chennai" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -855,7 +855,7 @@
                                             <h6 class="mb-0">Villupuram</h6>
                                             <small class="text-muted">2 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/villupuram" 
+                                        <a href="guids.php?blood_group=in Villupuram" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -865,7 +865,7 @@
                                             <h6 class="mb-0">Coimbatore City</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/coimbatore-city" 
+                                        <a href="guids.php?blood_group=in Coimbatore city" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -875,7 +875,7 @@
                                             <h6 class="mb-0">Madurai</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/madurai" 
+                                        <a href="guids.php?blood_group=in Madurai" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -885,7 +885,7 @@
                                             <h6 class="mb-0">Puducherry</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/puducherry" 
+                                        <a href="guids.php?blood_group=in Puducherry" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -895,7 +895,7 @@
                                             <h6 class="mb-0">Tuticorin</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/tuticorin" 
+                                        <a href="guids.php?blood_group=in Tuticorin" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -905,7 +905,7 @@
                                             <h6 class="mb-0">kadayanallur</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/kadayanallur" 
+                                        <a href="guids.php?blood_group=in Kadayanallur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -915,7 +915,7 @@
                                             <h6 class="mb-0">perambur</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/perambur" 
+                                        <a href="guids.php?blood_group=in Perambur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -925,7 +925,7 @@
                                             <h6 class="mb-0">ulundurpet</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/ulundurpet" 
+                                        <a href="guids.php?blood_group=in Ulundurpet" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -935,7 +935,7 @@
                                             <h6 class="mb-0">Salem</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/salem" 
+                                        <a href="Salem" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -945,7 +945,7 @@
                                             <h6 class="mb-0">Tiruchirappalli</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/tamil-nadu/tiruchirappalli" 
+                                        <a href="guids.php?blood_group=in Tiruchirappalli" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -968,7 +968,7 @@
                                             <h6 class="mb-0">Hyderabad</h6>
                                             <small class="text-muted">5 donors</small>
                                         </div>
-                                        <a href="/telangana/hyderabad" 
+                                        <a href="guids.php?blood_group=in Hyderabad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -978,7 +978,7 @@
                                             <h6 class="mb-0">Nizamabad</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/telangana/nizamabad" 
+                                        <a href="guids.php?blood_group=in Nizamabad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -988,7 +988,7 @@
                                             <h6 class="mb-0">Secunderabad</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/telangana/secunderabad" 
+                                        <a href="guids.php?blood_group=in Secunderabad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -998,7 +998,7 @@
                                             <h6 class="mb-0">Warangal</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/telangana/warangal" 
+                                        <a href="guids.php?blood_group=in Warangal" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1021,7 +1021,7 @@
                                             <h6 class="mb-0">Lucknow</h6>
                                             <small class="text-muted">2 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/lucknow" 
+                                        <a href="guids.php?blood_group=in Lucknow" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1031,7 +1031,7 @@
                                             <h6 class="mb-0">Amroha</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/amroha" 
+                                        <a href="guids.php?blood_group=in Amroha" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1041,7 +1041,7 @@
                                             <h6 class="mb-0">Balrampur</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/balrampur" 
+                                        <a href="guids.php?blood_group=in Balrampur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1051,7 +1051,7 @@
                                             <h6 class="mb-0">Ghaziabad</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/ghaziabad" 
+                                        <a href="guids.php?blood_group=in Ghaziabad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1061,7 +1061,7 @@
                                             <h6 class="mb-0">Gonda</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/gonda" 
+                                        <a href="guids.php?blood_group=in Gonda" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1071,7 +1071,7 @@
                                             <h6 class="mb-0">Agra</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/agra" 
+                                        <a href="guids.php?blood_group=in Agra" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1081,7 +1081,7 @@
                                             <h6 class="mb-0">Kanpur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/kanpur" 
+                                        <a href="guids.php?blood_group=in Kanpur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1091,7 +1091,7 @@
                                             <h6 class="mb-0">Meerut</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/meerut" 
+                                        <a href="guids.php?blood_group=in Meerut" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1101,7 +1101,7 @@
                                             <h6 class="mb-0">Noida</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/noida" 
+                                        <a href="guids.php?blood_group=in Noida" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1111,7 +1111,7 @@
                                             <h6 class="mb-0">Prayagraj</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/prayagraj" 
+                                        <a href="guids.php?blood_group=in Prayagraj" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1121,7 +1121,7 @@
                                             <h6 class="mb-0">Varanasi</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttar-pradesh/varanasi" 
+                                        <a href="guids.php?blood_group=in Varanasi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1144,7 +1144,7 @@
                                             <h6 class="mb-0">Srikakulam</h6>
                                             <small class="text-muted">2 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/srikakulam" 
+                                        <a href="guids.php?blood_group=in Srikakulam" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1154,7 +1154,7 @@
                                             <h6 class="mb-0">ATTILI</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/attili" 
+                                        <a href="guids.php?blood_group=in ATTILI" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1164,7 +1164,7 @@
                                             <h6 class="mb-0">Chodavaram</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/chodavaram" 
+                                        <a href="guids.php?blood_group=in Chodavaram" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1174,7 +1174,7 @@
                                             <h6 class="mb-0">Dr.YSR District</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/dr.ysr-district" 
+                                        <a href="guids.php?blood_group=in Dr.YSR District" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1184,7 +1184,7 @@
                                             <h6 class="mb-0">Guntur</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/guntur" 
+                                        <a href="guids.php?blood_group=in Guntur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1194,7 +1194,7 @@
                                             <h6 class="mb-0">Kadapa</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/kadapa" 
+                                        <a href="guids.php?blood_group=in Kadapa" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1204,7 +1204,7 @@
                                             <h6 class="mb-0">Narsipatanam</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/narsipatanam" 
+                                        <a href="guids.php?blood_group=in Narsipatanam" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1214,7 +1214,7 @@
                                             <h6 class="mb-0">Proddatur</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/proddatur" 
+                                        <a href="guids.php?blood_group=in Proddatur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1224,7 +1224,7 @@
                                             <h6 class="mb-0">TEKKALI</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/tekkali" 
+                                        <a href="guids.php?blood_group=in TEKKALI" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1234,7 +1234,7 @@
                                             <h6 class="mb-0">Visakhapatnam</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/visakhapatnam" 
+                                        <a href="guids.php?blood_group=in Visakhapatnam" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1244,7 +1244,7 @@
                                             <h6 class="mb-0">anakapalli</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/anakapalli" 
+                                        <a href="guids.php?blood_group=in Anakapalli" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1254,7 +1254,7 @@
                                             <h6 class="mb-0">kurnool</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/kurnool" 
+                                        <a href="guids.php?blood_group=in Kurnool" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1264,7 +1264,7 @@
                                             <h6 class="mb-0">Tirupati</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/tirupati" 
+                                        <a href="guids.php?blood_group=in Tirupati" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1274,7 +1274,7 @@
                                             <h6 class="mb-0">Vijayawada</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/andhra-pradesh/vijayawada" 
+                                        <a href="guids.php?blood_group=in Vijayawada" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1297,7 +1297,7 @@
                                             <h6 class="mb-0">Adoor</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/kerala/adoor" 
+                                        <a href="guids.php?blood_group=in Adoor" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1307,7 +1307,7 @@
                                             <h6 class="mb-0">Kozhikode</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/kerala/kozhikode" 
+                                        <a href="guids.php?blood_group=in Kozhikode" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1317,7 +1317,7 @@
                                             <h6 class="mb-0">Sasthamcotta</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/kerala/sasthamcotta" 
+                                        <a href="guids.php?blood_group=in Sasthamcotta" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1327,7 +1327,7 @@
                                             <h6 class="mb-0">kerala</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/kerala/kerala" 
+                                        <a href="guids.php?blood_group=in Kerala" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1337,7 +1337,7 @@
                                             <h6 class="mb-0">kwarhti</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/kerala/kwarhti" 
+                                        <a href="guids.php?blood_group=in Kwarhti" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1347,7 +1347,7 @@
                                             <h6 class="mb-0">Kochi</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/kerala/kochi" 
+                                        <a href="guids.php?blood_group=in Kochi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1357,7 +1357,7 @@
                                             <h6 class="mb-0">Thiruvananthapuram</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/kerala/thiruvananthapuram" 
+                                        <a href="guids.php?blood_group=in Thiruvananthapuram" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1367,7 +1367,7 @@
                                             <h6 class="mb-0">Thrissur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/kerala/thrissur" 
+                                        <a href="guids.php?blood_group=in Thrissur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1390,7 +1390,7 @@
                                             <h6 class="mb-0">Aganas</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/goa/aganas" 
+                                        <a href="guids.php?blood_group=in Aganas" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1400,7 +1400,7 @@
                                             <h6 class="mb-0">Margao</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/goa/margao" 
+                                        <a href="guids.php?blood_group=in Margao" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1410,7 +1410,7 @@
                                             <h6 class="mb-0">Panaji</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/goa/panaji" 
+                                        <a href="guids.php?blood_group=in Panaji" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1433,7 +1433,7 @@
                                             <h6 class="mb-0">BHUBANESWAR</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/odisha/bhubaneswar" 
+                                        <a href="guids.php?blood_group=in Bhubaneswar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1443,7 +1443,7 @@
                                             <h6 class="mb-0">Bhadrak</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/odisha/bhadrak" 
+                                        <a href="guids.php?blood_group=in Bhadrak" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1453,7 +1453,7 @@
                                             <h6 class="mb-0">Dhenkanal</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/odisha/dhenkanal" 
+                                        <a href="guids.php?blood_group=in Dhenkanal" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1463,7 +1463,7 @@
                                             <h6 class="mb-0">Ghatikia, Bhubaneshwar</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/odisha/ghatikia,-bhubaneshwar" 
+                                        <a href="guids.php?blood_group=in Ghatikia, Bhubaneshwar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1473,7 +1473,7 @@
                                             <h6 class="mb-0">Rourkela</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/odisha/rourkela" 
+                                        <a href="guids.php?blood_group=in Rourkela" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1483,7 +1483,7 @@
                                             <h6 class="mb-0">Cuttack</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/odisha/cuttack" 
+                                        <a href="guids.php?blood_group=in Cuttack" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1506,7 +1506,7 @@
                                             <h6 class="mb-0">CHANDIGARH</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/punjab/chandigarh" 
+                                        <a href="guids.php?blood_group=in CHANDIGARH" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1516,7 +1516,7 @@
                                             <h6 class="mb-0">Amritsar</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/punjab/amritsar" 
+                                        <a href="guids.php?blood_group=in Amritsar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1526,7 +1526,7 @@
                                             <h6 class="mb-0">Jalandhar</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/punjab/jalandhar" 
+                                        <a href="guids.php?blood_group=in Jalandhar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1536,7 +1536,7 @@
                                             <h6 class="mb-0">Ludhiana</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/punjab/ludhiana" 
+                                        <a href="guids.php?blood_group=in Ludhiana" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1559,7 +1559,7 @@
                                             <h6 class="mb-0">Dabra</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/madhya-pradesh/dabra" 
+                                        <a href="guids.php?blood_group=in Dabra" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1569,7 +1569,7 @@
                                             <h6 class="mb-0">Gwalior</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/madhya-pradesh/gwalior" 
+                                        <a href="guids.php?blood_group=in Gwalior" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1579,7 +1579,7 @@
                                             <h6 class="mb-0">INDORE</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/madhya-pradesh/indore" 
+                                        <a href="guids.php?blood_group=in INDORE" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1589,7 +1589,7 @@
                                             <h6 class="mb-0">ujjain</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/madhya-pradesh/ujjain" 
+                                        <a href="guids.php?blood_group=in Ujjain" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1599,7 +1599,7 @@
                                             <h6 class="mb-0">Bhopal</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/madhya-pradesh/bhopal" 
+                                        <a href="guids.php?blood_group=in Bhopal" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1609,7 +1609,7 @@
                                             <h6 class="mb-0">Jabalpur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/madhya-pradesh/jabalpur" 
+                                        <a href="guids.php?blood_group=in Jabalpur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1632,7 +1632,7 @@
                                             <h6 class="mb-0">Dausa</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/rajasthan/dausa" 
+                                        <a href="guids.php?blood_group=in Dausa" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1642,7 +1642,7 @@
                                             <h6 class="mb-0">Ajmer</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/rajasthan/ajmer" 
+                                        <a href="guids.php?blood_group=in Ajmer" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1652,7 +1652,7 @@
                                             <h6 class="mb-0">Jaipur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/rajasthan/jaipur" 
+                                        <a href="guids.php?blood_group=in Jaipur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1662,7 +1662,7 @@
                                             <h6 class="mb-0">Jodhpur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/rajasthan/jodhpur" 
+                                        <a href="guids.php?blood_group=in Jodhpur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1672,7 +1672,7 @@
                                             <h6 class="mb-0">Kota</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/rajasthan/kota" 
+                                        <a href="guids.php?blood_group=in Kota" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1682,7 +1682,7 @@
                                             <h6 class="mb-0">Udaipur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/rajasthan/udaipur" 
+                                        <a href="guids.php?blood_group=in Udaipur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1705,7 +1705,7 @@
                                             <h6 class="mb-0">GANGARAMPUR</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/west-bengal/gangarampur" 
+                                        <a href="guids.php?blood_group=in GANGARAMPUR" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1715,7 +1715,7 @@
                                             <h6 class="mb-0">KOLKATA</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/west-bengal/kolkata" 
+                                        <a href="guids.php?blood_group=in KOLKATA" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1725,7 +1725,7 @@
                                             <h6 class="mb-0">Malda Town</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/west-bengal/malda-town" 
+                                        <a href="guids.php?blood_group=in Malda Town" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1735,7 +1735,7 @@
                                             <h6 class="mb-0">Durgapur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/west-bengal/durgapur" 
+                                        <a href="guids.php?blood_group=in Durgapur " 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1745,7 +1745,7 @@
                                             <h6 class="mb-0">Howrah</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/west-bengal/howrah" 
+                                        <a href="guids.php?blood_group=in Howrah" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1755,7 +1755,7 @@
                                             <h6 class="mb-0">Siliguri</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/west-bengal/siliguri" 
+                                        <a href="guids.php?blood_group=in Siliguri" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1778,7 +1778,7 @@
                                             <h6 class="mb-0">Gurugram</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/haryana/gurugram" 
+                                        <a href="guids.php?blood_group=in Gurugram" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1788,7 +1788,7 @@
                                             <h6 class="mb-0">Faridabad</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/haryana/faridabad" 
+                                        <a href="guids.php?blood_group=in Faridabad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1798,7 +1798,7 @@
                                             <h6 class="mb-0">Gurgaon</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/haryana/gurgaon" 
+                                        <a href="guids.php?blood_group=in Gurgaon" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1808,7 +1808,7 @@
                                             <h6 class="mb-0">Panipat</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/haryana/panipat" 
+                                        <a href="guids.php?blood_group=in Panipat" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1818,7 +1818,7 @@
                                             <h6 class="mb-0">Rohtak</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/haryana/rohtak" 
+                                        <a href="guids.php?blood_group=in Rohtak" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1841,7 +1841,7 @@
                                             <h6 class="mb-0">Guwahati</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/assam/guwahati" 
+                                        <a href="guids.php?blood_group=in Guwahati" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1851,7 +1851,7 @@
                                             <h6 class="mb-0">Hshs</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/assam/hshs" 
+                                        <a href="guids.php?blood_group=in Hshs" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1861,7 +1861,7 @@
                                             <h6 class="mb-0">Dibrugarh</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/assam/dibrugarh" 
+                                        <a href="guids.php?blood_group=in Dibrugarh" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1871,7 +1871,7 @@
                                             <h6 class="mb-0">Silchar</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/assam/silchar" 
+                                        <a href="guids.php?blood_group=in Silchar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1894,7 +1894,7 @@
                                             <h6 class="mb-0">Imphal</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/manipur/imphal" 
+                                        <a href="guids.php?blood_group=in Imphal" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1917,7 +1917,7 @@
                                             <h6 class="mb-0">JAMSHEDPUR</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/jharkhand/jamshedpur" 
+                                        <a href="guids.php?blood_group=in JAMSHEDPUR" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1927,7 +1927,7 @@
                                             <h6 class="mb-0">NA</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/jharkhand/na" 
+                                        <a href="guids.php?blood_group=in NA" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1937,7 +1937,7 @@
                                             <h6 class="mb-0">Dhanbad</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/jharkhand/dhanbad" 
+                                        <a href="guids.php?blood_group=in Dhanbad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1947,7 +1947,7 @@
                                             <h6 class="mb-0">Ranchi</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/jharkhand/ranchi" 
+                                        <a href="guids.php?blood_group=in Ranchi" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1970,7 +1970,7 @@
                                             <h6 class="mb-0">Mumbai</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/maharashtra/mumbai" 
+                                        <a href="guids.php?blood_group=in Mumbai" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1980,7 +1980,7 @@
                                             <h6 class="mb-0">Navi Mumbai</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/maharashtra/navi-mumbai" 
+                                        <a href="guids.php?blood_group=in Navi Mumbai" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -1990,7 +1990,7 @@
                                             <h6 class="mb-0">Panvel</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/maharashtra/panvel" 
+                                        <a href="guids.php?blood_group=in Panvel" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2000,7 +2000,7 @@
                                             <h6 class="mb-0">Aurangabad</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/maharashtra/aurangabad" 
+                                        <a href="guids.php?blood_group=in Aurangabad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2010,7 +2010,7 @@
                                             <h6 class="mb-0">Nagpur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/maharashtra/nagpur" 
+                                        <a href="guids.php?blood_group=in Nagpur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2020,7 +2020,7 @@
                                             <h6 class="mb-0">Nashik</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/maharashtra/nashik" 
+                                        <a href="guids.php?blood_group=in Nashik" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2030,7 +2030,7 @@
                                             <h6 class="mb-0">Pune</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/maharashtra/pune" 
+                                        <a href="guids.php?blood_group=in Pune" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2040,7 +2040,7 @@
                                             <h6 class="mb-0">Thane</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/maharashtra/thane" 
+                                        <a href="guids.php?blood_group=in Thane" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2063,7 +2063,7 @@
                                             <h6 class="mb-0">PALAMPUR</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/himachal-pradesh/palampur" 
+                                        <a href="guids.php?blood_group=in PALAMPUR" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2073,7 +2073,7 @@
                                             <h6 class="mb-0">Dharamshala</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/himachal-pradesh/dharamshala" 
+                                        <a href="guids.php?blood_group=in Dharamshala" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2083,7 +2083,7 @@
                                             <h6 class="mb-0">Shimla</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/himachal-pradesh/shimla" 
+                                        <a href="guids.php?blood_group=in Shimla" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2106,7 +2106,7 @@
                                             <h6 class="mb-0">Surat</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/gujarat/surat" 
+                                        <a href="guids.php?blood_group=in Surat" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2116,7 +2116,7 @@
                                             <h6 class="mb-0">Ahmedabad</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/gujarat/ahmedabad" 
+                                        <a href="guids.php?blood_group=in Ahmedabad" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2126,7 +2126,7 @@
                                             <h6 class="mb-0">Bhavnagar</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/gujarat/bhavnagar" 
+                                        <a href="guids.php?blood_group=in Bhavnagar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2136,7 +2136,7 @@
                                             <h6 class="mb-0">Rajkot</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/gujarat/rajkot" 
+                                        <a href="guids.php?blood_group=in Rajkot" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2146,7 +2146,7 @@
                                             <h6 class="mb-0">Vadodara</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/gujarat/vadodara" 
+                                        <a href="guids.php?blood_group=in Vadodara" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2169,7 +2169,7 @@
                                             <h6 class="mb-0">bhilai</h6>
                                             <small class="text-muted">1 donors</small>
                                         </div>
-                                        <a href="/chhattisgarh/bhilai" 
+                                        <a href="guids.php?blood_group=in Bhilai" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2179,7 +2179,7 @@
                                             <h6 class="mb-0">Bilaspur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/chhattisgarh/bilaspur" 
+                                        <a href="guids.php?blood_group=in Bilaspur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2189,7 +2189,7 @@
                                             <h6 class="mb-0">Raipur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/chhattisgarh/raipur" 
+                                        <a href="guids.php?blood_group=in Raipur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2212,7 +2212,7 @@
                                             <h6 class="mb-0">Agartala</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/tripura/agartala" 
+                                        <a href="guids.php?blood_group=in Agartala" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2235,7 +2235,7 @@
                                             <h6 class="mb-0">Aizawl</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/mizoram/aizawl" 
+                                        <a href="guids.php?blood_group=in Aizawl" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2258,7 +2258,7 @@
                                             <h6 class="mb-0">Dehradun</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttarakhand/dehradun" 
+                                        <a href="guids.php?blood_group=in Dehradun" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2268,7 +2268,7 @@
                                             <h6 class="mb-0">Haridwar</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/uttarakhand/haridwar" 
+                                        <a href="guids.php?blood_group=in Haridwar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2291,7 +2291,7 @@
                                             <h6 class="mb-0">Gangtok</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/sikkim/gangtok" 
+                                        <a href="guids.php?blood_group=in Gangtok" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2314,7 +2314,7 @@
                                             <h6 class="mb-0">Gaya</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/bihar/gaya" 
+                                        <a href="guids.php?blood_group=in Gaya" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2324,7 +2324,7 @@
                                             <h6 class="mb-0">Muzaffarpur</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/bihar/muzaffarpur" 
+                                        <a href="guids.php?blood_group=in Muzaffarpur" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2334,7 +2334,7 @@
                                             <h6 class="mb-0">Patna</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/bihar/patna" 
+                                        <a href="guids.php?blood_group=in Patna" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2357,7 +2357,7 @@
                                             <h6 class="mb-0">Itanagar</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/arunachal-pradesh/itanagar" 
+                                        <a href="guids.php?blood_group=in Itanagar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2380,7 +2380,7 @@
                                             <h6 class="mb-0">Jammu</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/jammu-and-kashmir/jammu" 
+                                        <a href="guids.php?blood_group=in Jammu" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2390,7 +2390,7 @@
                                             <h6 class="mb-0">Srinagar</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/jammu-and-kashmir/srinagar" 
+                                        <a href="guids.php?blood_group=in Srinagar" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2413,7 +2413,7 @@
                                             <h6 class="mb-0">Kohima</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/nagaland/kohima" 
+                                        <a href="guids.php?blood_group=in Kohima" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2436,7 +2436,7 @@
                                             <h6 class="mb-0">Leh</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/ladakh/leh" 
+                                        <a href="guids.php?blood_group=in Leh" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2459,7 +2459,7 @@
                                             <h6 class="mb-0">Shillong</h6>
                                             <small class="text-muted">0 donors</small>
                                         </div>
-                                        <a href="/meghalaya/shillong" 
+                                        <a href="guids.php?blood_group=in Shillong" 
                                            class="btn btn-outline-primary btn-sm">
                                             View
                                         </a>
@@ -2472,7 +2472,6 @@
     </div>
 </section>
 
-<!-- Call to Action -->
 <section class="cta-section py-5 bg-gradient-primary">
     <div class="container">
         <div class="row align-items-center text-white text-center text-lg-start">
@@ -2485,10 +2484,10 @@
             </div>
             <div class="col-lg-4 mt-4 mt-lg-0">
                 <div class="d-grid gap-2">
-                    <a href="/register.php?role=donor" class="btn btn-warning btn-lg">
+                    <a href="register.php" class="btn btn-warning btn-lg">
                         <i class="bi bi-heart"></i> Become a Donor
                     </a>
-                    <a href="/contact.php" class="btn btn-outline-light">
+                    <a href="contact.php" class="btn btn-outline-light">
                         <i class="bi bi-envelope"></i> Contact Us
                     </a>
                 </div>
